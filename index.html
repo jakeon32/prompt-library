@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Prompt Library — x.com 트렌드 프롬프트 × Krea2 재현</title>
+<style>
+  :root{
+    --bg:#0a0b0f; --bg2:#111319; --card:#16181f; --card2:#1d2029;
+    --line:#262a35; --line2:#333845;
+    --tx:#e8eaf0; --tx2:#9aa0b0; --tx3:#646b7e;
+    --acc:#7c83ff; --acc2:#22d3ee; --ok:#34d399; --warn:#fbbf24;
+    --r:16px; --rs:10px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--bg); color:var(--tx);
+    font-family:'Pretendard',system-ui,-apple-system,'Malgun Gothic',sans-serif;
+    line-height:1.6; word-break:keep-all; overflow-wrap:anywhere;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit; text-decoration:none}
+  .wrap{max-width:1320px; margin:0 auto; padding:0 24px}
+
+  /* Header */
+  header{
+    padding:56px 0 0; border-bottom:1px solid var(--line);
+    background:radial-gradient(1200px 400px at 50% -120px, rgba(124,131,255,.18), transparent 70%);
+  }
+  .kicker{font-size:13px; letter-spacing:.14em; text-transform:uppercase; color:var(--acc2); font-weight:700}
+  h1{font-size:clamp(28px,4vw,42px); font-weight:800; letter-spacing:-.02em; margin:8px 0 0; text-wrap:balance}
+  .lede{color:var(--tx2); font-size:15px; margin-top:12px; max-width:640px}
+  .stats{display:flex; gap:28px; margin:28px 0 24px; flex-wrap:wrap}
+  .stat .n{font-size:24px; font-weight:800; color:var(--tx)}
+  .stat .l{font-size:12px; color:var(--tx3); letter-spacing:.04em}
+
+  /* Toolbar */
+  .toolbar{
+    position:sticky; top:0; z-index:30; background:rgba(10,11,15,.82);
+    backdrop-filter:blur(12px); border-bottom:1px solid var(--line);
+    padding:14px 0;
+  }
+  .tb{display:flex; gap:12px; align-items:center; flex-wrap:wrap}
+  .search{
+    flex:1; min-width:200px; display:flex; align-items:center; gap:8px;
+    background:var(--card); border:1px solid var(--line2); border-radius:999px; padding:9px 16px;
+  }
+  .search input{flex:1; background:none; border:none; color:var(--tx); font-size:14px; outline:none; font-family:inherit}
+  .search svg{flex-shrink:0; opacity:.5}
+  .chips{display:flex; gap:8px; flex-wrap:wrap}
+  .chip{
+    padding:8px 15px; border-radius:999px; border:1px solid var(--line2); background:var(--card);
+    color:var(--tx2); font-size:13px; font-weight:600; cursor:pointer; transition:.15s; white-space:nowrap;
+  }
+  .chip:hover{border-color:var(--acc); color:var(--tx)}
+  .chip.on{background:var(--acc); border-color:var(--acc); color:#fff}
+
+  /* Grid */
+  .grid{
+    display:grid; gap:22px; padding:32px 0 80px;
+    grid-template-columns:repeat(auto-fill,minmax(340px,1fr));
+  }
+  .card{
+    background:var(--card); border:1px solid var(--line); border-radius:var(--r);
+    overflow:hidden; display:flex; flex-direction:column; transition:.2s;
+  }
+  .card:hover{border-color:var(--line2); transform:translateY(-3px)}
+
+  /* Image area with compare tabs */
+  .imgwrap{position:relative; background:#000; aspect-ratio:4/5; overflow:hidden}
+  .imgwrap img{width:100%; height:100%; object-fit:contain; display:block; cursor:zoom-in}
+  .imgwrap img.hide{display:none}
+  .imgtabs{position:absolute; top:10px; left:10px; display:flex; gap:6px; z-index:2}
+  .imgtab{
+    padding:5px 11px; border-radius:999px; font-size:11px; font-weight:700; cursor:pointer;
+    background:rgba(0,0,0,.62); color:#cfd3e0; border:1px solid rgba(255,255,255,.14); backdrop-filter:blur(4px);
+  }
+  .imgtab.on{background:var(--acc); color:#fff; border-color:var(--acc)}
+  .imgtab.ref.on{background:var(--acc2); color:#03252b}
+  .badge-missing{position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    color:var(--tx3); font-size:13px; text-align:center; padding:20px}
+
+  /* Body */
+  .body{padding:16px 16px 18px; display:flex; flex-direction:column; gap:12px; flex:1}
+  .meta{display:flex; gap:6px; flex-wrap:wrap; align-items:center}
+  .tag{font-size:11px; font-weight:700; padding:3px 9px; border-radius:6px; letter-spacing:.02em}
+  .tag.cat{background:rgba(124,131,255,.16); color:#aeb3ff}
+  .tag.model{background:rgba(34,211,238,.14); color:#7fe7f5}
+  .tag.lang{background:var(--card2); color:var(--tx2)}
+  .ttl{font-size:16px; font-weight:700; letter-spacing:-.01em; line-height:1.4; text-wrap:balance}
+  .langtabs{display:flex; gap:5px; margin-bottom:-6px}
+  .ltab{font-size:11px; font-weight:700; padding:4px 11px; border-radius:7px 7px 0 0; cursor:pointer; color:var(--tx3); background:var(--card2); transition:.15s}
+  .ltab:hover{color:var(--tx2)}
+  .ltab.on{color:var(--tx); background:var(--bg2)}
+  .prompt{
+    position:relative; font-size:12.5px; line-height:1.65; color:var(--tx2);
+    background:var(--bg2); border:1px solid var(--line); border-radius:var(--rs);
+    padding:12px 13px; max-height:96px; overflow:hidden; white-space:pre-wrap;
+    font-family:'SF Mono',ui-monospace,Menlo,Consolas,monospace; transition:max-height .25s;
+  }
+  .prompt.open{max-height:1400px}
+  .prompt::after{
+    content:""; position:absolute; left:0; right:0; bottom:0; height:42px;
+    background:linear-gradient(transparent,var(--bg2)); pointer-events:none; transition:.2s;
+  }
+  .prompt.open::after{opacity:0}
+  .pactions{display:flex; gap:8px}
+  .btn{
+    flex:1; padding:9px; border-radius:var(--rs); border:1px solid var(--line2); background:var(--card2);
+    color:var(--tx); font-size:12.5px; font-weight:600; cursor:pointer; transition:.15s; font-family:inherit;
+    display:flex; align-items:center; justify-content:center; gap:6px;
+  }
+  .btn:hover{border-color:var(--acc); background:#222533}
+  .btn.copied{border-color:var(--ok); color:var(--ok)}
+  .foot{display:flex; justify-content:space-between; align-items:center; font-size:11.5px; color:var(--tx3); margin-top:auto; padding-top:4px}
+  .foot a:hover{color:var(--acc2)}
+  .foot .seed{font-family:ui-monospace,monospace}
+
+  .empty{text-align:center; color:var(--tx3); padding:80px 20px; grid-column:1/-1}
+
+  /* Lightbox */
+  .lb{position:fixed; inset:0; z-index:100; background:rgba(0,0,0,.92); display:none;
+    align-items:center; justify-content:center; padding:32px; cursor:zoom-out}
+  .lb.on{display:flex}
+  .lb img{max-width:100%; max-height:100%; object-fit:contain; border-radius:8px}
+  .lb .cap{position:absolute; bottom:20px; left:0; right:0; text-align:center; color:var(--tx2); font-size:13px}
+
+  footer{border-top:1px solid var(--line); padding:28px 0 48px; color:var(--tx3); font-size:13px}
+  code{background:var(--card2); padding:2px 6px; border-radius:5px; font-size:.92em; color:var(--acc2)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="kicker">x.com trend prompts × Krea2</div>
+    <h1>Prompt Library</h1>
+    <p class="lede">x.com에서 화제가 된 GPT-image2 프롬프트를 추적·수집하고, 우리 Krea2 Turbo로 재현 테스트한 결과를 한곳에 모았습니다. 원본과 재현본을 나란히 비교하고, 프롬프트를 바로 복사해 쓰세요.</p>
+    <div class="stats">
+      <div class="stat"><div class="n" id="s-count">0</div><div class="l">PROMPTS</div></div>
+      <div class="stat"><div class="n" id="s-src">0</div><div class="l">SOURCES</div></div>
+      <div class="stat"><div class="n" id="s-cat">0</div><div class="l">CATEGORIES</div></div>
+      <div class="stat"><div class="n" id="s-upd">—</div><div class="l">UPDATED</div></div>
+    </div>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="wrap tb">
+    <label class="search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="q" type="text" placeholder="제목·프롬프트·작성자 검색…">
+    </label>
+    <div class="chips" id="cats"></div>
+  </div>
+</div>
+
+<main class="wrap"><div class="grid" id="grid"></div></main>
+
+<footer><div class="wrap">
+  📌 본 라이브러리의 프롬프트는 각 원작자가 <strong>x.com 공개 게시물</strong>에 게시한 것으로, 작성자·원본 링크를 모두 표기합니다. 이미지는 <strong>Krea2 재현 테스트</strong> 결과이며 내부 참고용입니다. 권리자 요청 시 해당 항목을 즉시 내립니다. · 데이터: <span id="f-upd"></span>
+</div></footer>
+
+<div class="lb" id="lb"><img id="lb-img" src=""><div class="cap" id="lb-cap"></div></div>
+
+<script src="data.js"></script>
+<script>
+const D = (window.PROMPT_DATA||{prompts:[]});
+const P = D.prompts||[];
+let activeCat = "전체";
+let query = "";
+
+// stats
+document.getElementById('s-count').textContent = P.length;
+document.getElementById('s-src').textContent = new Set(P.map(p=>p.source)).size;
+const cats = [...new Set(P.map(p=>p.category))];
+document.getElementById('s-cat').textContent = cats.length;
+document.getElementById('s-upd').textContent = (D.updated||'—').slice(5);
+document.getElementById('f-upd').textContent = D.updated||'';
+
+// category chips
+const catBox = document.getElementById('cats');
+["전체",...cats].forEach(c=>{
+  const b=document.createElement('button');
+  b.className='chip'+(c==="전체"?' on':''); b.textContent=c;
+  b.onclick=()=>{activeCat=c; document.querySelectorAll('#cats .chip').forEach(x=>x.classList.toggle('on',x.textContent===c)); render();};
+  catBox.appendChild(b);
+});
+
+document.getElementById('q').addEventListener('input',e=>{query=e.target.value.toLowerCase().trim(); render();});
+
+const esc = s => (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function card(p){
+  const hasRef = !!p.ref_image, hasRes = !!p.result;
+  const el = document.createElement('div'); el.className='card';
+  el.innerHTML = `
+    <div class="imgwrap">
+      <div class="imgtabs">
+        <span class="imgtab res on" data-k="res">Krea2 재현</span>
+        ${hasRef?'<span class="imgtab ref" data-k="ref">원본 GPT-image2</span>':''}
+      </div>
+      ${hasRes?`<img class="i-res" src="${esc(p.result)}" alt="Krea2">`:'<div class="badge-missing">Krea2 결과 없음</div>'}
+      ${hasRef?`<img class="i-ref hide" src="${esc(p.ref_image)}" alt="원본" referrerpolicy="no-referrer">`:''}
+    </div>
+    <div class="body">
+      <div class="meta">
+        <span class="tag cat">${esc(p.category)}</span>
+        <span class="tag model">${esc(p.target_model)}</span>
+        <span class="tag lang">${esc((p.lang||'').toUpperCase())}</span>
+      </div>
+      <div class="ttl">${esc(p.title)}</div>
+      <div class="langtabs">
+        <span class="ltab on" data-l="ko">한글</span>
+        <span class="ltab" data-l="orig">원문</span>
+      </div>
+      <div class="prompt" id="pr-${p.id}">${esc(p.prompt_ko||p.prompt)}</div>
+      <div class="pactions">
+        <button class="btn b-toggle">전체보기</button>
+        <button class="btn b-copy">원문 복사</button>
+      </div>
+      <div class="foot">
+        <a href="${esc(p.source)}" target="_blank" rel="noopener">${esc(p.author)} ↗</a>
+        <span class="seed">${p.seed?('seed '+p.seed):''}</span>
+      </div>
+    </div>`;
+  // image compare
+  const tabs=el.querySelectorAll('.imgtab'), iRes=el.querySelector('.i-res'), iRef=el.querySelector('.i-ref');
+  tabs.forEach(t=>t.onclick=()=>{
+    tabs.forEach(x=>x.classList.remove('on')); t.classList.add('on');
+    const k=t.dataset.k;
+    if(iRes) iRes.classList.toggle('hide', k!=='res');
+    if(iRef) iRef.classList.toggle('hide', k!=='ref');
+  });
+  // lightbox
+  el.querySelectorAll('.imgwrap img').forEach(im=>im.onclick=()=>{
+    const lb=document.getElementById('lb'); document.getElementById('lb-img').src=im.src;
+    document.getElementById('lb-cap').textContent=p.title; lb.classList.add('on');
+  });
+  // lang tabs + toggle
+  const pr=el.querySelector('.prompt'), tg=el.querySelector('.b-toggle');
+  el.querySelectorAll('.ltab').forEach(t=>t.onclick=()=>{
+    el.querySelectorAll('.ltab').forEach(x=>x.classList.remove('on')); t.classList.add('on');
+    pr.textContent = t.dataset.l==='ko' ? (p.prompt_ko||p.prompt) : p.prompt;
+  });
+  tg.onclick=()=>{pr.classList.toggle('open'); tg.textContent=pr.classList.contains('open')?'접기':'전체보기';};
+  // copy
+  const cp=el.querySelector('.b-copy');
+  cp.onclick=async()=>{try{await navigator.clipboard.writeText(p.prompt); cp.textContent='✓ 복사됨'; cp.classList.add('copied'); setTimeout(()=>{cp.textContent='원문 복사'; cp.classList.remove('copied');},1500);}catch(e){cp.textContent='복사 실패';}};
+  return el;
+}
+
+function render(){
+  const g=document.getElementById('grid'); g.innerHTML='';
+  const list=P.filter(p=>{
+    const okCat=activeCat==="전체"||p.category===activeCat;
+    const okQ=!query||((p.title+p.prompt+(p.prompt_ko||'')+p.author).toLowerCase().includes(query));
+    return okCat&&okQ;
+  });
+  if(!list.length){g.innerHTML='<div class="empty">조건에 맞는 프롬프트가 없습니다.</div>'; return;}
+  list.forEach(p=>g.appendChild(card(p)));
+}
+document.getElementById('lb').onclick=()=>document.getElementById('lb').classList.remove('on');
+render();
+</script>
+</body>
+</html>
