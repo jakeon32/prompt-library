@@ -911,6 +911,22 @@ window.PROMPT_DATA={
       "ref_image": null,
       "result": "results/hustlexr-mixedmedia.png",
       "seed": 718477450
+    },
+    {
+      "id": "gdgtify-showdown",
+      "source": "https://x.com/Gdgtify/status/2071981082892001630",
+      "author": "@Gdgtify",
+      "date": "2026-06-30",
+      "lang": "en",
+      "target_model": "GPT image 2",
+      "category": "스타일 변환",
+      "title": "시네마틱 대결 추출 (2x2, 함수형 배틀 템플릿)",
+      "prompt": "2x2 grid, do this for 4 ai created characters, 16:9 input: protagonist = [any subject] opposing_force = [any threat / group / system] environment = [any location] action_beat = [any action or mood] run cinematic_showdown_extraction: protagonist_dna := infer age category, personality, silhouette, outfit, emotional tone, style language opposing_force_dna := infer number, formation, costume, scale, threat level, behavior environment_dna := infer location, destruction level, atmosphere, lighting, debris, terrain contrast_system := infer contrast between protagonist and opposing force action_state := infer whether scene is before impact, during action, or after impact camera_language := infer wide shot, close-up, dolly angle, handheld energy, or anime cinematic framing threat_geometry := infer circle, semicircle, corridor, ambush, chase line, firing line, swarm, or duel lighting := infer dust beams, muzzle flashes, backlight, sunset, neon, smoke, haze, or natural light style_blend := infer animation, photorealism, hybrid, comic, game cutscene, cinematic anime, or live-action vfx render: a dramatic confrontation scene where all elements are inferred from the inputs. forbidden: fixed anime schoolgirl, fixed agents, fixed firearms, fixed ruined building, random enemies, cluttered action, unclear protagonist.",
+      "gen_prompt": "A cinematic 2x2 grid, 16:9, of four dramatic AI-character showdown scenes, each a distinct confrontation: (1) a lone armored knight braced against a swarm of shadow wolves in a snow-blasted mountain pass at dusk, dust beams and backlight; (2) a cyberpunk street samurai facing a firing line of riot drones in a neon rain-soaked alley, muzzle flashes and smoke; (3) a young mage standing before a towering molten rock golem amid a crumbling desert temple, embers and haze; (4) a battle-worn space marine in a corridor ambush against an insectoid alien swarm, sparks and dramatic side light. For each panel: clear protagonist silhouette and emotional tone, an opposing force with readable formation and scale, an environment with atmosphere and debris, strong protagonist-vs-threat contrast, dynamic action state (before/during/after impact), cinematic camera framing (wide, close-up, dolly), distinct threat geometry (swarm, firing line, duel), dramatic lighting. Cinematic anime / photoreal hybrid VFX style, dramatic and clear composition, not cluttered, distinct protagonist in each panel.",
+      "prompt_ko": "2x2 그리드(16:9)로 'AI 생성 캐릭터 4명'의 대결 장면을 만드는 함수형 템플릿. 입력=protagonist(주인공)/opposing_force(적·집단·시스템)/environment(장소)/action_beat(액션·무드). cinematic_showdown_extraction 실행 → 주인공 DNA(나이·성격·실루엣·의상·감정톤·스타일), 적 DNA(수·대형·코스튬·스케일·위협수준·행동), 환경 DNA(장소·파괴도·분위기·조명·잔해·지형), 대비 시스템, 액션 상태(임팩트 전/중/후), 카메라 언어(와이드·클로즈업·달리·핸드헬드·애니 시네마틱), 위협 기하(원·반원·복도·매복·추격선·사격선·스웜·결투), 조명(먼지빔·총구화염·백라이트·석양·네온·연기·헤이즈·자연광), 스타일 블렌드(애니·실사·하이브리드·코믹·게임컷신·시네마틱애니·실사VFX)를 입력에서 추론. 결과=극적인 대결 장면. 금지=고정 애니 여학생·고정 요원·고정 총기·고정 폐건물·랜덤 적·산만한 액션·불명확한 주인공.",
+      "ref_image": null,
+      "result": "results/gdgtify-showdown.png",
+      "seed": 777419355
     }
   ]
 };
