@@ -815,6 +815,22 @@ window.PROMPT_DATA={
       "ref_image": null,
       "result": "results/qianxun-9grid.png",
       "seed": 118659081
+    },
+    {
+      "id": "nas-naruto-poster",
+      "source": "https://x.com/Nas_tech_AI/status/2071908816883683349",
+      "author": "@Nas_tech_AI",
+      "date": "2026-06-30",
+      "lang": "en",
+      "target_model": "GPT image 2",
+      "category": "아트 포스터",
+      "title": "나루토 프로파간다 포스터 (JSON 구조)",
+      "prompt": "{\n  \"type\": \"image_prompt\",\n  \"title\": \"Naruto Propaganda Poster\",\n  \"subject\": { \"character\": \"Naruto\", \"source\": \"Naruto anime\", \"focus\": \"iconic propaganda-style artistic reinterpretation\" },\n  \"composition\": {\n    \"structure\": {\n      \"top_section\": { \"description\": \"Large iconic visual of Naruto's head, facial features, mask-like framing or half-body silhouette\", \"purpose\": \"dominant symbolic focal point\" },\n      \"middle_to_bottom_section\": { \"description\": \"Full-body Naruto in stable stance or light dynamic motion\", \"purpose\": \"secondary narrative subject and central grounding element\" }\n    },\n    \"layout\": { \"style\": \"hierarchical visual composition\", \"balance\": \"center-weighted with left-right narrative tension\", \"format\": \"A4 vertical poster\" }\n  },\n  \"visual_style\": {\n    \"techniques\": [\"double exposure\", \"narrative collage\", \"layered visual storytelling\"],\n    \"elements\": {\n      \"background_layers\": [\"cloud textures\", \"ink wash effects\", \"white negative space fields\", \"environmental backgrounds\"],\n      \"collage_elements\": [\"secondary character fragments\", \"action micro-scenes\", \"symbolic objects\", \"environment overlays\"]\n    },\n    \"aesthetic\": { \"tone\": \"poetic Eastern aesthetic\", \"finish\": [\"ink diffusion edges\", \"soft blur transitions\", \"visual fragmentation effects\"], \"color_style\": \"pop, vibrant, striking contrast colors\", \"quality\": \"premium, cinematic, refined\" }\n  },\n  \"composition_flow\": { \"guiding_line\": \"vertical flowing visual path connecting top silhouette, collage layers, and full character\", \"visual_continuity\": true },\n  \"design_principles\": [\"high negative space usage\", \"strong visual hierarchy\", \"narrative depth through layering\", \"poster-series visual language\", \"strong focal impact\"]\n}",
+      "gen_prompt": "A Naruto propaganda-style poster, vertical A4. Top: a large iconic symbolic visual of Naruto's head and facial features with mask-like framing as the dominant focal point. Middle-to-bottom: a full-body Naruto in a stable stance with light dynamic motion as the central grounding element. Hierarchical, center-weighted composition with left-right narrative tension. Visual style: double exposure, narrative collage, layered visual storytelling - background layers of cloud textures, ink-wash effects, white negative-space fields and environmental backgrounds; collage elements of secondary character fragments, action micro-scenes, symbolic objects and environment overlays. Poetic Eastern aesthetic with ink-diffusion edges, soft blur transitions and visual fragmentation; pop vibrant striking contrast colors; premium cinematic refined finish. A vertical flowing guiding line connects the top silhouette, collage layers and full character. High negative space, strong visual hierarchy, strong focal impact.",
+      "prompt_ko": "나루토 프로파간다 스타일 포스터(세로 A4). 상단=마스크 프레이밍의 나루토 얼굴 상징 비주얼(지배적 초점), 중하단=안정된 자세의 전신 나루토(중심 그라운딩). 위계적·중앙가중 구도+좌우 내러티브 긴장. 이중노출·내러티브 콜라주·레이어드 스토리텔링, 배경=구름/먹번짐/흰 여백/환경, 콜라주=보조캐릭터 파편·액션 미니씬·상징 오브제. 시적 동양 미학, 먹 확산 엣지·소프트 블러·시각적 파편화, 팝하고 강렬한 대비색, 프리미엄 시네마틱. 상단 실루엣~콜라주~전신을 잇는 세로 흐름선. 넓은 여백·강한 위계·강한 초점.",
+      "ref_image": null,
+      "result": "results/nas-naruto-poster.png",
+      "seed": 1649697766
     }
   ]
 };
