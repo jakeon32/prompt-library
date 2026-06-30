@@ -927,6 +927,22 @@ window.PROMPT_DATA={
       "ref_image": null,
       "result": "results/gdgtify-showdown.png",
       "seed": 777419355
+    },
+    {
+      "id": "promptsref-bluedream",
+      "source": "https://x.com/promptsref/status/2071987155191157232",
+      "author": "@promptsref",
+      "date": "2026-06-30",
+      "lang": "en",
+      "target_model": "Midjourney (sref)",
+      "category": "드림코어",
+      "title": "블루 드림 초현실 일러스트 (MJ sref 스타일)",
+      "prompt": "Midjourney SREF — \"blue dream surreal illustration\" style:\n--sref 1724276393 3524378362 --v 8.1 --sv 6\n\nPublic example style prompts (apply with the sref):\n- melancholic fantasy poster, indigo color grading, cinematic illustration\n- dark whimsical fairytale, blue moonlight, symbolic visual storytelling\n- surreal children book style for adults, muted blue tones, gentle eerie mood\n- vintage fantasy book cover, textured paper grain, dreamy blue composition\n- poetic concept art, deep blue atmosphere, quiet magical realism\n\nStyle notes: cool blue moonlight + deep-sea filter + vintage book-illustration texture; surrealism fused with dark fairytale and picture-book/fantasy concept art; monochromatic blue unifying light, shadow, emotion and space; fine grain, hand-drawn brushwork, aged printed feeling; quiet, lonely, melancholic but not frightening; strong narrative tension.",
+      "gen_prompt": "Blue dream surreal illustration, dark whimsical fairytale for adults: a small lone figure on a cliff edge gazing at a colossal low moon over a moonlit sea, a great whale and drifting jellyfish floating through the indigo night sky among soft constellations, distant lantern-lit spires half-submerged in mist. Entirely bathed in cool blue moonlight with a deep-sea filter; monochromatic indigo palette unifying light, shadow, emotion and space, as if wrapped in water, night and memory. Vintage book-illustration texture: fine grain, soft hand-drawn brushwork, aged printed paper feeling, sedimented by time. Quiet, lonely, mysterious, gently melancholic but not frightening; symbolic, poetic, magical realism with strong narrative tension, a key story moment frozen in time. Cinematic illustration, dreamy composition, vertical.",
+      "prompt_ko": "Midjourney SREF 'blue dream surreal illustration' 스타일(`--sref 1724276393 3524378362 --v 8.1 --sv 6`). sref 숫자는 Krea2에 못 쓰므로 스타일을 자연어로 적응. 핵심=차가운 푸른 달빛+심해 필터+빈티지 책 일러스트 질감, 초현실주의+다크 동화+그림책/판타지 컨셉아트 융합, 단색 블루가 빛·그림자·감정·공간을 통합(물/밤/기억에 감싸인 느낌), 고운 그레인·손그림 붓터치·세월의 인쇄 질감, 조용하고 외롭고 멜랑콜리하지만 무섭지 않은, 어른을 위한 우화. 공개 예시콤보=멜랑콜릭 판타지 포스터(인디고 그레이딩)/다크 위미컬 페어리테일(달빛·상징 서사)/어른용 초현실 그림책(뮤트 블루·은은한 으스스함)/빈티지 판타지 책표지(종이결)/시적 컨셉아트(딥블루·매직 리얼리즘). 생성=절벽 위 작은 인물이 거대한 달과 달빛 바다를 바라보고, 인디고 밤하늘에 고래·해파리·별자리가 떠다니는 몽환 장면.",
+      "ref_image": null,
+      "result": "results/promptsref-bluedream.png",
+      "seed": 47535798
     }
   ]
 };
