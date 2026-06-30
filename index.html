@@ -129,6 +129,25 @@
 
   footer{border-top:1px solid var(--line); padding:28px 0 48px; color:var(--tx3); font-size:13px}
   code{background:var(--card2); padding:2px 6px; border-radius:5px; font-size:.92em; color:var(--acc2)}
+
+  /* 모바일: 칩을 2행 고정 + 가로 스크롤 */
+  @media (max-width:640px){
+    .chips{
+      display:grid;
+      grid-auto-flow:column;
+      grid-template-rows:repeat(2,auto);
+      grid-auto-columns:max-content;
+      gap:8px;
+      overflow-x:auto;
+      -webkit-overflow-scrolling:touch;
+      padding-bottom:6px;
+      scroll-snap-type:x proximity;
+    }
+    .chips .chip{scroll-snap-align:start}
+    .chips::-webkit-scrollbar{height:4px}
+    .chips::-webkit-scrollbar-thumb{background:var(--line2); border-radius:2px}
+    .chips::-webkit-scrollbar-track{background:transparent}
+  }
 </style>
 </head>
 <body>
