@@ -831,6 +831,54 @@ window.PROMPT_DATA={
       "ref_image": null,
       "result": "results/nas-naruto-poster.png",
       "seed": 1649697766
+    },
+    {
+      "id": "yang-collage",
+      "source": "https://x.com/YangOnchain/status/2071876417680547847",
+      "author": "@YangOnchain",
+      "date": "2026-06-30",
+      "lang": "zh",
+      "target_model": "GPT image 2",
+      "category": "아트 포스터",
+      "title": "중문 인물 拼贴(콜라주) 개념 海报",
+      "prompt": "提示词：\n生成一张竖版 3:4 的中文人物拼贴概念海报，必须是一张已经完成中文排版的成品海报。\n\n整体风格为：高级人物海报、纸张拼贴、情绪重组、编辑设计、中文排版、艺术海报、柔和真实人像、材料拼贴、安静但有视觉张力。\n\n画面主体是一位年轻女性半身肖像，人物五官清晰，眼神有情绪，不要普通写真感，不要网红感。人物肖像需要被重新解构和拼贴：脸部、头发、肩颈或身体局部被不同材质的碎片覆盖、错位、遮挡、重叠，再重新组合成一个完整但略带破碎感的人像。\n\n拼贴材质可以是：\n撕裂纸片、旧照片、胶片底片、透明玻璃片、手写便签、信纸、邮票、花瓣标本、植物压花、破碎镜面、蓝图纸、数据故障块、风中纸页、旧报纸、胶带、夹子、针钉。\n\n画面不是杂乱拼贴，而是有明确设计秩序：\n主体人物居中或偏中；\n中文主标题清晰醒目；\n辅助文字克制分布；\n纸片与文字自然融入人物结构；\n背景简洁，有留白；\n整体像一本高级杂志封面或艺术展览海报。\n\n中文排版要求：\n主标题写「【主标题】」\n副标题写「【副标题】」\n加入 2-4 句短小中文文案，可以像手写便签、边角注释、竖排小字或海报说明。\n文字必须清晰，不能乱码，不能错字。\n如果涉及日期，使用「当日」或「【当日日期】」，不要写旧年份。\n\n画面气质：\n破碎、重组、安静、情绪、记忆、时间、告别、自我修复、柔软但有力量。\n\n不要：\n不要廉价拼贴模板，不要电商海报，不要过度赛博，不要夸张特效，不要水印，不要真实品牌 Logo，不要乱码，不要旧日期。",
+      "gen_prompt": "A vertical 3:4 finished Chinese-typography concept poster: a young woman's half-body portrait, clear emotive features (not influencer-style), artistically deconstructed and re-collaged — her face, hair, neck and body partially covered, displaced, overlapped by fragments of different materials: torn paper, old photographs, film negatives, transparent glass shards, handwritten notes, letter paper, stamps, pressed flower petals, broken mirror pieces, blueprint paper, data-glitch blocks, drifting paper pages, tape, clips, pins. Reassembled into a complete yet slightly broken portrait with clear design order: subject centered, a bold clear Chinese main title, restrained auxiliary text, paper fragments and text woven naturally into the figure, clean background with negative space. Looks like a premium magazine cover or art-exhibition poster. Mood: broken, recomposed, quiet, emotional, memory, time, self-repair, soft yet powerful. Editorial design, paper collage, soft realistic portrait, high-end art poster. No cheap collage templates, no e-commerce look, no excessive cyber/glitch, no watermark, no real brand logos.",
+      "prompt_ko": "세로 3:4 중문 타이포가 완성된 인물 콜라주 컨셉 海报. 젊은 여성 반신 초상(또렷한 이목구비·감정 어린 눈빛, 인플루언서 느낌 금지)을 해체·재조합 — 얼굴·머리·목·신체 일부를 찢긴 종이·옛 사진·필름 네거티브·유리 조각·손글씨 메모·편지지·우표·압화 꽃잎·깨진 거울·청사진지·데이터 글리치·바람에 날리는 종이·테이프·클립·핀 등 다른 재질 파편으로 덮고 어긋내고 겹쳐 '완전하지만 약간 부서진' 인물로 재구성. 명확한 디자인 질서(중앙 인물·굵은 중문 메인타이틀·절제된 보조문구·여백). 고급 잡지 표지/전시 포스터 느낌. 정서=부서짐·재조합·고요·기억·시간·자기치유. 저급 콜라주 템플릿·이커머스·과한 사이버·워터마크·실제 로고 금지.",
+      "ref_image": null,
+      "result": "results/yang-collage.png",
+      "seed": 1362081597
+    },
+    {
+      "id": "larus-package-board",
+      "source": "https://x.com/MrLarus/status/2071855339222253944",
+      "author": "@MrLarus",
+      "date": "2026-06-30",
+      "lang": "zh",
+      "target_model": "GPT image 2",
+      "category": "제품 광고",
+      "title": "브랜드 외대 패키지 디자인 제안 보드 (4:3)",
+      "prompt": "提示词：\n\n生成一张横版 4:3 高清写实品牌包装设计提案板，主题是【产品品类】外带包装系统。\n\n品牌名：【品牌名】\nslogan：【品牌口号】\n系统标题：【TAKEAWAY PACKAGING SYSTEM】\n风格：【风格关键词】\n主色调：【主色调】\n产品物料：【纸袋、杯子、盒子、贴纸、小卡、包装纸、餐巾纸、真实产品点缀】\n\n画面要像一张高级品牌包装提案板，而不是单一产品摄影图。需要同时展示：\n平面设计稿、包装结构图、真实实物样机、应用场景小图、材质色卡、logo/icon 系统、纸张纹理、局部功能细节和手写标记。\n\n横版 4:3 构图，左上是大标题和品牌信息，左侧是平面设计稿与结构展开图，右上是大面积真实包装样机主视觉，中部是应用场景小图，右下是 DETAILS & MATERIALS，底部是 CONSTRUCTION & FUNCTION 局部细节。\n\n整体要有设计感、提案感、手作感和真实商业落地感。加入手绘箭头、手写备注、圈注、下划线、纸张拼贴感、柔和阴影和自然留白。实物样机必须立体真实，有纸张厚度、盒体折痕、透明材质、印刷质感和自然光影。\n\n避免普通广告图、白底电商图、硬拼贴、粗线条网格、文字乱码、低清晰度、包装变形、画面太平、廉价感。",
+      "gen_prompt": "A horizontal 4:3 high-resolution photorealistic brand packaging design proposal board for a specialty-coffee TAKEAWAY PACKAGING SYSTEM. Brand name 'DAYBEAN', slogan 'Slow morning, good bean', system title 'TAKEAWAY PACKAGING SYSTEM', warm minimal kraft-and-cream style, main color warm beige + deep espresso brown. Show like a premium brand proposal board, not a single product photo: flat design drafts, packaging structure/dieline diagrams, realistic 3D physical mockups (paper bags, cups, boxes, stickers, mini cards, wrapping paper, napkins, real product accents), application scene thumbnails, material/color swatches, a logo/icon system, paper texture, and close-up functional details. Layout: top-left big title + brand info, left side flat drafts and unfolded structures, top-right large hero packaging mockup, middle application scenes, bottom-right DETAILS & MATERIALS, bottom CONSTRUCTION & FUNCTION close-ups. Add hand-drawn arrows, handwritten notes, circled annotations, underlines, paper-collage feel, soft shadows, natural negative space. Mockups must be dimensional and real with paper thickness, fold creases, print texture and natural light. Avoid plain ad photo, white e-commerce background, hard collage, garbled text, low resolution.",
+      "prompt_ko": "가로 4:3 고해상도 실사 브랜드 외대(테이크아웃) 패키지 디자인 제안 보드. 브랜드 'DAYBEAN'(스페셜티 커피), 슬로건·시스템타이틀 'TAKEAWAY PACKAGING SYSTEM', 따뜻한 크래프트/크림 미니멀, 주색 베이지+에스프레소 브라운. 단일 제품컷이 아니라 제안 보드처럼 평면 시안·구조 전개도·실물 목업(종이백·컵·박스·스티커·미니카드·포장지·냅킨)·적용 씬·색/소재 스와치·로고 시스템·종이 질감·기능 디테일을 한 보드에. 레이아웃=좌상단 타이틀+브랜드정보/좌측 평면시안·구조/우상단 대형 히어로 목업/중앙 적용씬/우하단 DETAILS & MATERIALS/하단 CONSTRUCTION & FUNCTION. 손그림 화살표·손글씨 메모·동그라미·밑줄·종이 콜라주감·부드러운 그림자. 목업은 입체·실사(종이 두께·접힘·인쇄질감·자연광). 평범한 광고컷·흰 배경 이커머스·문자 깨짐·저해상 금지.",
+      "ref_image": null,
+      "result": "results/larus-package-board.png",
+      "seed": 1589155340
+    },
+    {
+      "id": "larus-food-kv",
+      "source": "https://x.com/MrLarus/status/2071902539012837694",
+      "author": "@MrLarus",
+      "date": "2026-06-30",
+      "lang": "zh",
+      "target_model": "GPT image 2",
+      "category": "제품 광고",
+      "title": "요식 폭발형 KV 海报 (9:16, 식재료 분해 부유)",
+      "prompt": "《餐饮主打爆炸海报》提示词：\n\n【菜品信息】\n菜品名称：{填写菜品名称，例如：爆汁芝士双层牛肉汉堡 / 浓汤叉烧拉面 / 厚乳黑糖珍珠奶茶 / 鲜切三文鱼寿司卷}\n菜品类型：{填写品类，例如：汉堡 / 拉面 / 奶茶 / 寿司 / 炸鸡 / 甜品 / 咖啡}\n核心食材：{填写主要食材，例如：牛肉饼、芝士、生菜、洋葱圈、秘制酱、布里欧修面包}\n口感卖点：{填写 3-5 个卖点，例如：爆汁肉感、芝士拉丝、烟熏酱香、脆爽层次}\n视觉氛围：{填写风格，例如：热烈焦糖色、日式暖木色、奶油浅咖色、清爽日料风}\n\n【文字设计】\n顶部或侧边加入具有设计感的主标题：\n主标题：{菜品名称}\n副标题：{一句简短卖点，例如：双层厚肉 · 芝士浓香 · 层层爆汁}\n底部可以加入 3-4 个简短卖点词\n\n文字需要像真正的餐饮品牌海报排版，具有设计感、作品感和商业广告感，而不是说明书式排版。字体可以根据菜品风格选择：汉堡可用粗犷有冲击力的标题字，拉面可用日式书法感，奶茶可用温暖柔和的品牌字，寿司可用精致留白的高级餐饮字体。\n\n【画面要求】\n生成一张高级商业餐饮海报，整体不是普通菜单图，也不是食材说明图，而是具有强视觉冲击力的餐饮新品主视觉海报。\n\n画面采用 9:16 竖版构图，主体食物居中放大，占据画面主要视觉区域。食材需要以“爆炸式悬浮”的方式展开，沿着菜品本身的层次结构自然分离，形成明显的空间纵深、动态感和食欲冲击力。\n\n食材不要排列得过于死板，也不要像工程拆解图。需要有自然高低错位、前后景层次、轻微透视变化和悬浮感，像食物刚刚在空中被拉开、拆开、爆开的一瞬间。\n\n【食物质感要求】\n重点表现真实、诱人的食物质感。根据菜品类型加入合适的动态元素，例如：酱汁飞溅、芝士拉丝、热气蒸汽、汤汁翻涌、冰块、水滴、珍珠悬浮、芝麻颗粒、香料碎屑、食材飞散等。动态元素要增强食欲，不能杂乱。\n\n【背景与氛围】\n背景要服务食物风味。背景可以有轻微环境氛围，如木桌、暖光、浅景深、蒸汽、冰雾、光斑，但不能抢主体。整体要高级、干净、有商业主视觉感。\n\n【整体风格】\n高级商业美食摄影、餐饮新品主KV、竖版门店海报、短视频封面、外卖主图、真实摄影质感、强食欲冲击、动态悬浮食材、精致文字排版、柔和阴影、电影级光影。\n\n最终效果要像一张可以直接用于餐饮新品发布、门店海报、社媒宣传、外卖平台主图的高冲击美食主视觉海报。",
+      "gen_prompt": "A vertical 9:16 high-impact commercial food KV poster for a restaurant new-product main visual (not a menu image, not an ingredient diagram). Dish: a juicy cheese double-beef burger (brioche bun, melting cheese, beef patties, lettuce, onion rings, smoky special sauce). The dish is centered and enlarged, dominating the frame. Ingredients explode and float apart along the dish's natural layering, creating clear spatial depth, dynamism and appetite impact — natural high-low offset, foreground/background layers, slight perspective, suspended like the food was just pulled apart in mid-air. Strong appetizing food texture with dynamic elements: cheese pull, splashing sauce, rising steam, scattered sesame and spice crumbs. Designed title typography: main title 'CHEESE BEEF BURGER', subtitle 'Double patty · Molten cheese · Layered juicy bite', plus a few short selling-point words at the bottom, like a real high-end food brand poster. Warm caramel tones, subtle environment (wood table, warm light, shallow depth of field, steam, light specks) without stealing focus. Premium commercial food photography, cinematic lighting, soft shadows, realistic texture. Avoid plain menu image, ingredient-spec look, garbled text.",
+      "prompt_ko": "세로 9:16 강임팩트 상업 요식 KV 海报(메뉴판·식재료 설명도 아님, 신제품 메인비주얼). 메뉴=육즙 치즈 더블 비프버거(브리오슈 번·녹는 치즈·패티·상추·양파링·스모키 소스). 음식은 중앙 확대로 화면 지배. 식재료가 메뉴 층위를 따라 '폭발식 부유'로 분해되어 공간 깊이·동세·식욕 임팩트(자연스런 고저 어긋남·전후 레이어·약간의 원근·공중에서 막 뜯긴 듯). 강한 식욕 질감+동적 요소(치즈 늘어짐·소스 튐·김·깨/향신료 비산). 디자인 타이틀=메인 'CHEESE BEEF BURGER'/서브 'Double patty · Molten cheese · Layered juicy bite'+하단 짧은 셀링포인트. 따뜻한 캐러멜 톤, 은은한 환경(우드 테이블·따뜻한 빛·얕은 심도·김·광점)은 주체 안 가림. 프리미엄 상업 푸드 포토·시네마틱 조명·실사 질감. 평범 메뉴컷·식재료 설명도·문자 깨짐 금지.",
+      "ref_image": null,
+      "result": "results/larus-food-kv.png",
+      "seed": 424090994
     }
   ]
 };
