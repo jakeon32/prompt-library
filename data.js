@@ -991,6 +991,22 @@ window.PROMPT_DATA={
       "ref_image": null,
       "result": "results/gdgtify-pastel-studio.png",
       "seed": 1171962760
+    },
+    {
+      "id": "gdgtify-concentric-rings",
+      "source": "https://x.com/Gdgtify/status/2072036950757040393",
+      "author": "@Gdgtify",
+      "date": "2026-06-30",
+      "lang": "en",
+      "target_model": "GPT image 2",
+      "category": "스케일 인포",
+      "title": "동심원 나이테 타임라인 (THEME/SHAPE 템플릿)",
+      "prompt": "A top-down concentric arrangement where [THEME] objects radiate outward in rings from a single core, the origin/oldest at the dead center and the newest/outermost at the edge, the full radial growth forming the silhouette of [SHAPE] ::5  Ring Logic: AI_INFER 30-40 themed objects ordered from source to latest, laid into concentric rings like tree-growth bands - each ring one stage outward, the progression reading clearly from center to rim ::5 Composition: Concentric radial rings, even ring spacing, clean silhouette edge, generous margin ::3 Material Physics: Real themed objects, era-accurate materials and wear per ring, consistent matte finish, soft shadows ::2 Illumination: Flat overhead softbox, no glare ::2 Typography: Tiny ring labels along one radius ::2 Render Stack: Concentric-ring flat-lay, tree-ring timeline, radial-growth collection, 8k ::1 Negative: [scrambled rings, broken center, broken silhouette, overlap, tilt, 3d perspective, hands] ::-1",
+      "gen_prompt": "A top-down concentric flat-lay where iconic consumer-technology objects from the 1950s to the 2020s radiate outward in rings from a single core - the oldest device at the dead center and the newest at the outer edge - the full radial growth forming a clean circular silhouette. About 30-40 themed objects (vintage tube radios, CRT TVs, rotary phones, cassette and CD players, film and digital cameras, game consoles, early computers, laptops, smartphones, smartwatches, wireless earbuds) ordered oldest-to-newest, laid into concentric rings like tree-growth bands; each ring one stage outward, progression reading clearly from center to rim. Concentric radial rings, even ring spacing, clean silhouette edge, generous margin. Real objects, era-accurate materials and wear per ring, consistent matte finish, soft shadows. Flat overhead softbox lighting, no glare. Tiny ring labels along one radius. Concentric-ring flat-lay, tree-ring timeline, radial-growth collection, 8k. Avoid scrambled rings, broken center, broken silhouette, overlap, tilt, 3d perspective, hands.",
+      "prompt_ko": "탑다운(위에서 본) 동심원 배열 템플릿. [THEME] 오브제들이 하나의 중심핵에서 링으로 방사 — 가장 오래된 것이 정중앙, 최신이 바깥 가장자리, 전체가 [SHAPE] 실루엣을 이룸. 링 로직=30~40개 테마 오브제를 출발→최신 순으로 나이테처럼 동심원에. 균등 링 간격·깔끔한 실루엣 엣지·넉넉한 여백. 실제 오브제·시대 정확한 재질/마모·일관된 무광·부드러운 그림자. 평평한 상단 소프트박스 조명·반사 없음. 한 반경을 따라 작은 링 라벨. 동심원 플랫레이·나이테 타임라인·8k. 금지=흐트러진 링·깨진 중심/실루엣·겹침·기울기·3D 원근·손. (생성=1950s~2020s 가전/테크 제품을 원형으로)",
+      "ref_image": null,
+      "result": "results/gdgtify-concentric-rings.png",
+      "seed": 2131227161
     }
   ]
 };
