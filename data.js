@@ -895,6 +895,22 @@ window.PROMPT_DATA={
       "ref_image": null,
       "result": "results/gdgtify-confusing-days.png",
       "seed": 2099953073
+    },
+    {
+      "id": "hustlexr-mixedmedia",
+      "source": "https://x.com/hustlexr/status/2071980750799602034",
+      "author": "@HustleXR",
+      "date": "2026-06-30",
+      "lang": "en",
+      "target_model": "Gemini (Nano Banana)",
+      "category": "스타일 변환",
+      "title": "혼합매체 컨셉아트 (건축 잉크스케치 + 수채)",
+      "prompt": "Expressive mixed-media concept art, blending semi-realistic digital painting with architectural ink sketch aesthetics on warm ivory textured paper. Loose yet confident graphite and pen linework, visible construction lines, geometric drafting marks, technical diagrams, measurement circles, handwritten notes, cross-hatching, and spontaneous gestural strokes seamlessly layered into the composition. Soft watercolor blooms in muted earth tones, warm sepia, raw umber, Payne's gray, olive gray, and subtle burnt sienna accents, with controlled pigment bleeding into the paper grain. Painterly rendering with smooth tonal transitions, refined edge control, and selective sharp details contrasted by unfinished sketch areas. Dynamic dry-brush textures, translucent ink washes, abstract paint splashes, fractured geometric overlays, and expressive brush marks create depth without overwhelming the subject. Lower portions naturally dissolve into transparent watercolor diffusion, fading sketch lines, and fragmented brush strokes that merge seamlessly with the paper background. Abundant negative space, handcrafted editorial illustration, premium concept-art quality, sophisticated balance between realism, industrial drafting, and abstract fine-art sketching, authentic traditional-media appearance with subtle digital refinement, elegant museum-quality mixed-media illustration, vertical composition --ar 9:16.",
+      "gen_prompt": "Expressive mixed-media concept art, blending semi-realistic digital painting with architectural ink sketch aesthetics on warm ivory textured paper. Loose yet confident graphite and pen linework, visible construction lines, geometric drafting marks, technical diagrams, measurement circles, handwritten notes, cross-hatching, and spontaneous gestural strokes seamlessly layered into the composition. Soft watercolor blooms in muted earth tones, warm sepia, raw umber, Payne's gray, olive gray, and subtle burnt sienna accents, with controlled pigment bleeding into the paper grain. Painterly rendering with smooth tonal transitions, refined edge control, and selective sharp details contrasted by unfinished sketch areas. Dynamic dry-brush textures, translucent ink washes, abstract paint splashes, fractured geometric overlays, and expressive brush marks create depth without overwhelming the subject. Lower portions naturally dissolve into transparent watercolor diffusion, fading sketch lines, and fragmented brush strokes that merge seamlessly with the paper background. Abundant negative space, handcrafted editorial illustration, premium concept-art quality, sophisticated balance between realism, industrial drafting, and abstract fine-art sketching, authentic traditional-media appearance with subtle digital refinement, elegant museum-quality mixed-media illustration, vertical composition, on warm ivory textured paper, vertical 9:16.",
+      "prompt_ko": "표현적 혼합매체 컨셉아트 — 반실사 디지털 페인팅 + 건축 잉크 스케치를 따뜻한 아이보리 질감 종이 위에. 자신감 있는 흑연/펜 선, 보이는 작도선·기하 제도 마크·기술 다이어그램·측정 원·손글씨 메모·해칭·즉흥 제스처 선이 자연스럽게 레이어. 뮤트 어스톤 수채 번짐(세피아·로우엄버·페인즈그레이·올리브그레이·번트시에나)이 종이결로 번짐. 부드러운 톤 전환·정교한 엣지·선택적 샤프 디테일 vs 미완성 스케치 영역. 드라이브러시·반투명 잉크워시·추상 페인트 스플래시·균열 기하 오버레이. 하단은 투명 수채 확산·사라지는 선으로 종이 배경에 녹아듦. 넓은 여백, 수공예 에디토리얼, 프리미엄 컨셉아트 퀄, 사실주의+산업 제도+추상 파인아트의 정교한 균형, 미술관급 혼합매체 일러스트. 세로 9:16.",
+      "ref_image": null,
+      "result": "results/hustlexr-mixedmedia.png",
+      "seed": 718477450
     }
   ]
 };
