@@ -959,6 +959,22 @@ window.PROMPT_DATA={
       "ref_image": null,
       "result": "results/taaruk-lostin.png",
       "seed": 1569902063
+    },
+    {
+      "id": "larus-eastern-music",
+      "source": "https://x.com/MrLarus/status/2071973321839677513",
+      "author": "@MrLarus",
+      "date": "2026-06-30",
+      "lang": "zh",
+      "target_model": "GPT image 2",
+      "category": "아트 포스터",
+      "title": "墨线霓裳·乐舞成线 — 동양 악기 음악 비주얼 海报 (9:16)",
+      "prompt": "《墨线霓裳 · 乐舞成线》简版通用提示词：\n\n请生成一张 9:16 竖版、原创高级东方音乐视觉海报。\n\n主题乐器：[古琴 / 琵琶 / 竹笛 / 箜篌 / 古筝 / 编钟 / 二胡]\n主题方向：[古琴水纹 / 琵琶金音 / 笛音青岚 / 箜篌星音]\n主色调：[月白、墨青、淡金 / 朱砂红、暖金、米白 / 青绿、玉白、雾灰 / 月白、淡紫、冷金]\n声音视觉化元素：[水纹 / 金色音轨 / 青色风线 / 星轨弦光 / 回响圆环 / 墨色音波]\n\n整体风格为东方水墨时装插画，结合东方乐器、新中式幻想高定、宣纸质感、水墨留白、半透明纱层、细金线描绘与现代东方审美。\n\n画面主体是一位修长优雅的东方女性，气质高级、空灵、安静或灵动。人物姿态必须服务于乐器演奏，例如坐姿抚琴、抱琵琶拨弦、侧身吹笛、静坐拂箜篌弦。\n\n乐器必须清晰可见，是画面的视觉锚点。请强化乐器器形、弦线、木质感、装饰细节和东方美感。\n\n把声音画出来：让音波变成书法线条、水墨气流、金色音轨、水纹涟漪、青色风线或星轨弦光，并与人物衣袖、发丝、披帛和裙摆自然融合。\n\n服装为原创东方幻想高定礼服，带半透明纱层、柔和垂坠、水墨晕染、细腻褶皱和局部细金线。背景白而不空，带轻宣纸纹理、浅雾层和淡水墨气层。\n\n整体画面要高级、干净、空灵、东方、音乐感强，有品牌海报感。\n\n不要文字、不要书法字、不要标题、不要签名、不要 logo、不要水印、不要拼图。每次只生成一张独立图片。",
+      "gen_prompt": "An original premium Eastern-music visual poster, vertical 9:16. Featured instrument: GUQIN (seven-string zither); theme = guqin water-ripple sound. Color palette: moon-white, ink-blue and dark green, pale gold. Sound visualized as water ripples and ink sound-waves. Style: Eastern ink-wash (shuimo) fashion illustration fused with New-Chinese fantasy haute couture — rice-paper texture, ink-wash negative space, translucent gauze layers, fine gold-line drawing, modern Eastern aesthetic. The subject is a slender, elegant Eastern woman, refined, ethereal, quiet yet graceful, seated playing the guqin. The instrument is clearly visible as the visual anchor — emphasize its body, strings, wood texture and decorative details. Visualize the sound: turn sound waves into calligraphic lines, ink-wash air currents, golden sound-tracks and water ripples that naturally blend with her sleeves, hair, draped shawl and skirt. Costume: original Eastern fantasy couture gown with translucent gauze layers, soft drape, ink-wash bleed, delicate pleats and partial fine gold lines. Background white but not empty, with light rice-paper texture, faint mist and pale ink-wash air. Refined, clean, ethereal, Eastern, strongly musical, brand-poster feel. No text, no calligraphy, no title, no signature, no logo, no watermark, no collage. One single standalone image.",
+      "prompt_ko": "《墨线霓裳·乐舞成线》 동양 음악 비주얼 포스터(세로 9:16). 악기=[고금/비파/죽적/공후/고쟁/편종/얼후], 방향=[고금 물결/비파 금음/적음 청람/공후 별음], 주색=[월백·묵청·담금 등], 소리시각화=[물결/금색 음트랙/청색 풍선/별궤 현광/메아리 원/먹색 음파]. 동양 수묵 패션 일러스트+신중식 판타지 오트쿠튀르, 선지 질감·수묵 여백·반투명 사층·세밀 금선. 주체=수려하고 공령한 동양 여성이 악기를 연주(앉아 고금을 타는 등), 악기가 시각적 앵커로 또렷. 소리를 그림으로: 음파를 서예선·수묵 기류·금색 음트랙·물결·청색 풍선·별궤 현광으로 만들어 소매·머리카락·피백·치마와 자연스럽게 융합. 의상=반투명 사층·부드러운 드레이프·수묵 번짐·세밀 주름·부분 금선의 동양 판타지 쿠튀르. 배경은 희되 비지 않게(선지 결·옅은 안개·담묵 기층). 고급·깔끔·공령·동양·강한 음악감·브랜드 포스터감. 글자·서예·타이틀·서명·로고·워터마크·콜라주 금지. 매번 1장.",
+      "ref_image": null,
+      "result": "results/larus-eastern-music.png",
+      "seed": 678308566
     }
   ]
 };
