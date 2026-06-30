@@ -14,7 +14,7 @@
     --r:16px; --rs:10px;
   }
   *{box-sizing:border-box; margin:0; padding:0}
-  html{scroll-behavior:smooth}
+  html{scroll-behavior:smooth; overflow-x:hidden}
   body{
     background:var(--bg); color:var(--tx);
     font-family:'Pretendard',system-ui,-apple-system,'Malgun Gothic',sans-serif;
@@ -130,9 +130,14 @@
   footer{border-top:1px solid var(--line); padding:28px 0 48px; color:var(--tx3); font-size:13px}
   code{background:var(--card2); padding:2px 6px; border-radius:5px; font-size:.92em; color:var(--acc2)}
 
-  /* 모바일: 칩을 2행 고정 + 가로 스크롤 */
+  /* 모바일: 가로 오버플로우 방지 + 칩 2행 가로스크롤 */
   @media (max-width:640px){
+    .wrap{padding:0 16px}
+    .tb{flex-wrap:wrap}
+    .search{flex:1 1 100%}
     .chips{
+      flex:1 1 100%;
+      width:100%; min-width:0; max-width:100%;   /* flex 자식 축소 허용 → 내부 가로스크롤 동작(좌우 흔들림 원인 제거) */
       display:grid;
       grid-auto-flow:column;
       grid-template-rows:repeat(2,auto);
@@ -147,6 +152,7 @@
     .chips::-webkit-scrollbar{height:4px}
     .chips::-webkit-scrollbar-thumb{background:var(--line2); border-radius:2px}
     .chips::-webkit-scrollbar-track{background:transparent}
+    .grid{grid-template-columns:1fr; gap:18px}   /* 단일 컬럼 → minmax(340px) 오버플로우 방지 */
   }
 </style>
 </head>
