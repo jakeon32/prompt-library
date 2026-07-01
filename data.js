@@ -1007,6 +1007,66 @@ window.PROMPT_DATA={
       "ref_image": null,
       "result": "results/gdgtify-concentric-rings.png",
       "seed": 2131227161
+    },
+    {
+      "id": "noor-papercraft-kr",
+      "source": "https://x.com/noorwithwifi/status/2071859095251100049",
+      "author": "@noorwithwifi",
+      "date": "2026-07-01",
+      "lang": "en",
+      "target_model": "범용 (여행 일러스트 템플릿)",
+      "category": "여행 일러스트",
+      "title": "레이어드 페이퍼크래프트 3D 여행 일러스트 — 한국",
+      "prompt": "Create a highly detailed layered papercraft-style 3D travel illustration of South Korea, featuring its most iconic historical, cultural, natural, and modern landmarks in one cohesive composition. Use realistic paper-cut layers with soft shadows for depth, a warm location-inspired color palette, hand-drawn labels with arrows, whimsical travel doodles (birds, routes, stars, local wildlife), and a balanced top-to-bottom layout showcasing skyline, landscapes, waterways, transportation, local life, architecture, and famous monuments against a clean pastel sky. The artwork should feel like an elegant handcrafted travel poster with intricate details, realistic textures, and premium editorial quality.",
+      "prompt_ko": "한국의 가장 상징적인 역사·문화·자연·현대 랜드마크를 하나의 통일된 구성으로 담은, 고도로 디테일한 레이어드 페이퍼크래프트 스타일 3D 여행 일러스트. 깊이감을 위한 부드러운 그림자의 실제 페이퍼컷 레이어, 장소에서 영감받은 따뜻한 색 팔레트, 화살표가 달린 손그림 라벨, 기발한 여행 두들(새·경로·별·현지 야생동물), 스카이라인·풍경·수로·교통·현지 생활·건축·유명 기념물을 보여주는 위아래 균형 레이아웃을 깨끗한 파스텔 하늘 배경에 배치. 정교한 디테일·사실적 질감·프리미엄 에디토리얼 퀄리티의 우아한 수제 여행 포스터 느낌.",
+      "ref_image": null,
+      "result": "results/noor-papercraft-kr.png",
+      "seed": 781411293
+    },
+    {
+      "id": "noor-papercraft-it",
+      "source": "https://x.com/noorwithwifi/status/2071859095251100049",
+      "author": "@noorwithwifi",
+      "date": "2026-07-01",
+      "lang": "en",
+      "target_model": "범용 (여행 일러스트 템플릿)",
+      "category": "여행 일러스트",
+      "title": "레이어드 페이퍼크래프트 3D 여행 일러스트 — 이탈리아",
+      "prompt": "Create a highly detailed layered papercraft-style 3D travel illustration of Italy, featuring its most iconic historical, cultural, natural, and modern landmarks in one cohesive composition. Use realistic paper-cut layers with soft shadows for depth, a warm location-inspired color palette, hand-drawn labels with arrows, whimsical travel doodles (birds, routes, stars, local wildlife), and a balanced top-to-bottom layout showcasing skyline, landscapes, waterways, transportation, local life, architecture, and famous monuments against a clean pastel sky. The artwork should feel like an elegant handcrafted travel poster with intricate details, realistic textures, and premium editorial quality.",
+      "prompt_ko": "이탈리아의 가장 상징적인 역사·문화·자연·현대 랜드마크를 하나의 통일된 구성으로 담은, 고도로 디테일한 레이어드 페이퍼크래프트 스타일 3D 여행 일러스트. 깊이감을 위한 부드러운 그림자의 실제 페이퍼컷 레이어, 장소에서 영감받은 따뜻한 색 팔레트, 화살표가 달린 손그림 라벨, 기발한 여행 두들(새·경로·별·현지 야생동물), 스카이라인·풍경·수로·교통·현지 생활·건축·유명 기념물을 보여주는 위아래 균형 레이아웃을 깨끗한 파스텔 하늘 배경에 배치. 정교한 디테일·사실적 질감·프리미엄 에디토리얼 퀄리티의 우아한 수제 여행 포스터 느낌.",
+      "ref_image": null,
+      "result": "results/noor-papercraft-it.png",
+      "seed": 529325099
+    },
+    {
+      "id": "noor-papercraft-fr",
+      "source": "https://x.com/noorwithwifi/status/2071859095251100049",
+      "author": "@noorwithwifi",
+      "date": "2026-07-01",
+      "lang": "en",
+      "target_model": "범용 (여행 일러스트 템플릿)",
+      "category": "여행 일러스트",
+      "title": "레이어드 페이퍼크래프트 3D 여행 일러스트 — 프랑스",
+      "prompt": "Create a highly detailed layered papercraft-style 3D travel illustration of France, featuring its most iconic historical, cultural, natural, and modern landmarks in one cohesive composition. Use realistic paper-cut layers with soft shadows for depth, a warm location-inspired color palette, hand-drawn labels with arrows, whimsical travel doodles (birds, routes, stars, local wildlife), and a balanced top-to-bottom layout showcasing skyline, landscapes, waterways, transportation, local life, architecture, and famous monuments against a clean pastel sky. The artwork should feel like an elegant handcrafted travel poster with intricate details, realistic textures, and premium editorial quality.",
+      "prompt_ko": "프랑스의 가장 상징적인 역사·문화·자연·현대 랜드마크를 하나의 통일된 구성으로 담은, 고도로 디테일한 레이어드 페이퍼크래프트 스타일 3D 여행 일러스트. 깊이감을 위한 부드러운 그림자의 실제 페이퍼컷 레이어, 장소에서 영감받은 따뜻한 색 팔레트, 화살표가 달린 손그림 라벨, 기발한 여행 두들(새·경로·별·현지 야생동물), 스카이라인·풍경·수로·교통·현지 생활·건축·유명 기념물을 보여주는 위아래 균형 레이아웃을 깨끗한 파스텔 하늘 배경에 배치. 정교한 디테일·사실적 질감·프리미엄 에디토리얼 퀄리티의 우아한 수제 여행 포스터 느낌.",
+      "ref_image": null,
+      "result": "results/noor-papercraft-fr.png",
+      "seed": 1143113201
+    },
+    {
+      "id": "noor-papercraft-cz",
+      "source": "https://x.com/noorwithwifi/status/2071859095251100049",
+      "author": "@noorwithwifi",
+      "date": "2026-07-01",
+      "lang": "en",
+      "target_model": "범용 (여행 일러스트 템플릿)",
+      "category": "여행 일러스트",
+      "title": "레이어드 페이퍼크래프트 3D 여행 일러스트 — 체코",
+      "prompt": "Create a highly detailed layered papercraft-style 3D travel illustration of Czech Republic, featuring its most iconic historical, cultural, natural, and modern landmarks in one cohesive composition. Use realistic paper-cut layers with soft shadows for depth, a warm location-inspired color palette, hand-drawn labels with arrows, whimsical travel doodles (birds, routes, stars, local wildlife), and a balanced top-to-bottom layout showcasing skyline, landscapes, waterways, transportation, local life, architecture, and famous monuments against a clean pastel sky. The artwork should feel like an elegant handcrafted travel poster with intricate details, realistic textures, and premium editorial quality.",
+      "prompt_ko": "체코의 가장 상징적인 역사·문화·자연·현대 랜드마크를 하나의 통일된 구성으로 담은, 고도로 디테일한 레이어드 페이퍼크래프트 스타일 3D 여행 일러스트. 깊이감을 위한 부드러운 그림자의 실제 페이퍼컷 레이어, 장소에서 영감받은 따뜻한 색 팔레트, 화살표가 달린 손그림 라벨, 기발한 여행 두들(새·경로·별·현지 야생동물), 스카이라인·풍경·수로·교통·현지 생활·건축·유명 기념물을 보여주는 위아래 균형 레이아웃을 깨끗한 파스텔 하늘 배경에 배치. 정교한 디테일·사실적 질감·프리미엄 에디토리얼 퀄리티의 우아한 수제 여행 포스터 느낌.",
+      "ref_image": null,
+      "result": "results/noor-papercraft-cz.png",
+      "seed": 1695011559
     }
   ]
 };
