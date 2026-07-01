@@ -1,5 +1,5 @@
 window.PROMPT_DATA={
-  "updated": "2026-06-30",
+  "updated": "2026-07-01",
   "note": "x.com에서 수집한 GPT-image2 트렌드 프롬프트 라이브러리. Krea2로 재현 테스트. 새 링크는 prompts 배열에 append 후 generate_all.py 실행 → index.html 자동 반영.",
   "prompts": [
     {
@@ -1067,6 +1067,22 @@ window.PROMPT_DATA={
       "ref_image": null,
       "result": "results/noor-papercraft-cz.png",
       "seed": 1695011559
+    },
+    {
+      "id": "gdgtify-car-spec",
+      "source": "https://x.com/Gdgtify/status/2072274516865167430",
+      "author": "@Gdgtify",
+      "date": "2026-07-01",
+      "lang": "en",
+      "target_model": "GPT Image 2",
+      "category": "자동차/제품 포스터",
+      "title": "프리미엄 자동차 스펙 포스터 — 블루프린트 방정식 템플릿",
+      "prompt": "2x2 grid, 16:9 do this for 4 strange classic cars [vehicle] + [supplied_specs] + [cinematic hero car photography] + [blueprint annotations] + [engineering diagrams] - [fake tech data] - [generic car ad] - [unreadable mechanical clutter] = the output instruction: solve the equation as a premium automotive specification poster. rules: - the vehicle must dominate the composition. - the specs must be factual, supplied, or verified. - use blueprint overlays to explain engineering, dimensions, aerodynamics, drivetrain, engine, and signature design features. - include hand-drawn white technical notes, diagram insets, dimension lines, and cutaway sketches. - lighting should make the car feel sculptural, valuable, and historically important. - the poster should feel collectible, not like a dealership ad.",
+      "prompt_ko": "2x2 그리드, 16:9, 기묘한 클래식카 4대에 적용: [차량] + [제공된 사양] + [시네마틱 히어로 카 사진] + [블루프린트 주석] + [엔지니어링 다이어그램] - [가짜 기술 데이터] - [평범한 자동차 광고] - [읽기 힘든 기계적 잡동사니] = 출력 지시: 이 방정식을 프리미엄 자동차 사양 포스터로 풀어낼 것. 규칙: - 차량이 구도를 지배해야 한다. - 사양은 사실적·제공된·검증된 것이어야 한다. - 블루프린트 오버레이로 엔지니어링·치수·공기역학·구동계·엔진·시그니처 디자인 특징을 설명한다. - 손으로 그린 흰색 기술 노트, 다이어그램 인셋, 치수선, 컷어웨이 스케치를 포함한다. - 조명은 차를 조각적이고 값지며 역사적으로 중요하게 느껴지도록 한다. - 포스터는 대리점 광고가 아니라 수집가용처럼 느껴져야 한다.",
+      "gen_prompt": "A premium automotive specification poster arranged as a 2x2 grid, 16:9 widescreen. Four strange iconic classic cars, each in its own quadrant against a dark graphite museum background with dramatic sculptural studio lighting. Top-left: a light-blue and white 1955 BMW Isetta 300 bubble microcar with a front-entry door. Top-right: a light-blue Messerschmitt KR200 three-wheeled bubble car with an aircraft-style tandem canopy. Bottom-left: a silver 1955 Citroen DS 19 with an aerodynamic teardrop body. Bottom-right: a bare polished-aluminium 1935 Stout Scarab streamliner with a rounded aircraft-inspired body. Each hero car dominates its panel. Overlay hand-drawn thin white blueprint annotations around every car: dimension lines with measurements, aerodynamic wireframe side-profile diagrams, cutaway engine and chassis sketches, and neat specification callout blocks listing engine, power, top speed, transmission and curb weight. Collectible engineering poster aesthetic, factual and clean, precise technical white line work, premium editorial quality, not a dealership ad.",
+      "ref_image": "results/gdgtify-car-spec-ref.jpg",
+      "result": "results/gdgtify-car-spec.png",
+      "seed": 1629088954
     }
   ]
 };
