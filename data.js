@@ -1,5 +1,5 @@
 window.PROMPT_DATA={
-  "updated": "2026-07-01",
+  "updated": "2026-07-02",
   "note": "x.com에서 수집한 GPT-image2 트렌드 프롬프트 라이브러리. Krea2로 재현 테스트. 새 링크는 prompts 배열에 append 후 generate_all.py 실행 → index.html 자동 반영.",
   "prompts": [
     {
@@ -1243,6 +1243,38 @@ window.PROMPT_DATA={
       "ref_image": null,
       "result": "results/hemayxn-moto-campaign.png",
       "seed": 1481792412
+    },
+    {
+      "id": "jzaib-santorini-invite",
+      "source": "https://x.com/jzaib4269/status/2072352402204954888",
+      "author": "@jzaib4269",
+      "date": "2026-07-02",
+      "lang": "en",
+      "target_model": "GPT Image 2",
+      "category": "여행 포스터",
+      "title": "울트라리얼 럭셔리 산토리니 여행 초대장 카드 (3:4)",
+      "prompt": "Created with GPT Image 2.0 on ChatGPT \n\nPrompt: Ultra-Realistic Luxury Santorini Travel Invitation (3:4)\nCreate an ultra-realistic, premium travel invitation card emerging from an elegant cream-colored envelope on a rustic wooden table. The invitation features a breathtaking 3D pop-up miniature of Santorini, Greece, with iconic whitewashed buildings, vibrant blue domes, winding stone staircases, pink bougainvillea flowers, and a sparkling Aegean Sea with a small white sailboat.\nThe invitation uses luxurious typography with a sophisticated travel aesthetic. Large navy-blue serif text reads \"The Santorini Escape\", with elegant gold cursive text beneath saying \"A Journey to Remember.\" Additional details include Santorini, Greece, travel dates, and a stylish \"You're Invited\" heading.\nSurrounding the envelope are premium travel-themed accessories: a realistic boarding pass, passport stamps, luggage tag, vintage map, travel ribbon, compass emblem, and postcard. Soft pink satin ribbons wrap around the envelope, while blooming bougainvillea flowers frame the composition.\nIn the foreground, a tiny couple dressed in elegant summer vacation outfits stands with rolling suitcases, facing the picturesque Santorini village to create a magical miniature-world effect.\nThe background features a softly blurred Santorini cliffside with warm golden-hour sunlight, cinematic depth of field, creamy bokeh, subtle lens flare, and luxurious natural lighting. Every paper texture, architectural detail, flower, and shadow is highly realistic, creating a premium editorial travel advertisement.\nStyle: Ultra-realistic, luxury travel photography, 3D paper craft, miniature diorama, premium invitation design, cinematic composition, photorealistic, HDR, soft golden-hour lighting, intricate details, vibrant yet elegant color grading, Instagram-worthy, stop-scrolling, viral-quality, 8K resolution, aspect ratio 3:4.",
+      "prompt_ko": null,
+      "gen_prompt": null,
+      "ref_image": null,
+      "result": "results/jzaib-santorini-invite.png",
+      "seed": 1151945329
+    },
+    {
+      "id": "meng-tokyo-alley",
+      "source": "https://x.com/meng_dagg695/status/2072218912377499710",
+      "author": "@meng_dagg695",
+      "date": "2026-07-02",
+      "lang": "en",
+      "target_model": "GPT Image 2",
+      "category": "여행 포스터",
+      "title": "도쿄 밤 골목 미니멀 여행 포스터 (골든가이/오모이데 요코초)",
+      "prompt": "Turn your travel ideas into beautiful minimalist posters with GPT Image 2 on @SocialSight\n\nPrompt: Tokyo Night Alley (Golden Gai / Omoide Yokocho Inspired)\nMAIN COMPOSITION:\nCentral composition features a narrow atmospheric Tokyo alley filled with tiny izakayas, ramen bars, lantern-lit storefronts, bicycles, vending machines, noren curtains, and stacked Japanese signboards.\nForeground includes office workers, couples, solo diners, photographers, students, and local residents casually walking through the alley.\nPeople wear authentic contemporary Tokyo street fashion with subtle movement and natural interaction.\nBackground reveals dense architectural layering with utility poles, overhead electrical cables, balconies, air-conditioning units, lanterns, restaurant entrances, handwritten menu boards, and traditional-modern urban textures.\nA distant glimpse of Tokyo Tower subtly appears between rooftops without dominating the composition.\nUse authentic Japanese typography throughout every storefront and sign.\nLarge centered title at the top: \"TOKYO\"\nSubtitle at the bottom: \"東京\"\nSTYLE:\nUltra-clean vector illustration\nSwiss modernist travel poster\nJapanese editorial illustration\nArchitectural line drawing\nMid-century graphic design\nMinimalist city branding\nMonoline precision\nPrint-quality vector aesthetic\nPremium tourism campaign\nLINE STYLE:\nUltra-thin monochrome linework\nDense architectural detailing\nClean geometric perspective\nRhythmic repetition of signs, lanterns, cables, bicycles, and storefronts\nExceptional negative space\nCity-map precision\nCOLOR SYSTEM:\nSingle ink color only\nWarm ivory paper background\nDeep vermilion Japanese red ink\nSilkscreen print aesthetic\nNo gradients\nNo neon glow\nMOOD:\nWarm evening atmosphere\nQuiet urban energy\nAuthentic local neighborhood\nStylish nightlife\nSophisticated Japanese design\nTimeless travel poster\nOUTPUT:\nVertical 4:5 poster\nUltra-detailed 8K\nVector-quality rendering\nPrint-ready",
+      "prompt_ko": null,
+      "gen_prompt": null,
+      "ref_image": null,
+      "result": "results/meng-tokyo-alley.png",
+      "seed": 397724930
     }
   ]
 };
