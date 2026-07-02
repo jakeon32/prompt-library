@@ -1547,6 +1547,22 @@ window.PROMPT_DATA={
       "ref_image": null,
       "result": "results/larus-food-proposal.png",
       "seed": 1370305004
+    },
+    {
+      "id": "xxd-book-ceremony",
+      "source": "https://x.com/xiaoxiaodong01/status/2072315176293109898",
+      "author": "xiaoxiaodong01",
+      "date": "2026-07-02",
+      "lang": "zh",
+      "target_model": "GPT Image 2",
+      "category": "이벤트 포스터",
+      "title": "厚重 의식감 · 서적 해체 이벤트 포스터 (범용 템플릿)",
+      "prompt": "围绕任意主题对象生成一张具有厚重仪式感的图像：画面先让大面积单色背景承担情绪，主形体偏左形成沉稳的实体压迫感，表面带细密可触的材质纹理与微弱投影；主题内容在主形体前方被抽象成一组由下到上递减的阶梯式结构，左半用清晰浅色块呈现实物厚度，右半切换成极细线描轮廓，像从实体被剖开后露出知识、路径或时间的骨架，形成厚实物质与轻盈线稿并置的视觉瞬间。上方与中部保留大量安静留白，少量轻线小符号作为呼吸和尺度提示。文字是结构的一部分，主标题沿一侧纵排，字距宽、节奏慢，采用高对比、修长、有碑刻感的中文字体；辅助信息以更浅的细字贴近主形和底部线框。色彩从主题自身材质、情绪或文化信号中提取；整体温暖庄重、干净克制、饱和但不脏。关键是实体材质与半透明线描在同一主题结构中精确对半转换。\n——————\n[변형 예시] 分享会：旅行阅读+书籍清单+讲者小像 / 冷调 靛蓝+银灰+雾白 / 斜向书页路径, 16:9  ·  开业：城市书店+新店开放+书页阶梯 / 红金 深红+象牙白+暗金 / 左厚书封面+中央书堆阶梯+右纵排标题, 16:9",
+      "prompt_ko": "'무겁고 의식적인' 범용 에디토리얼 포스터 템플릿. 대면적 단색 배경이 정서를 지고, 주형체(두꺼운 책)는 좌측에 묵직하게. 주제를 아래→위로 줄어드는 계단식 구조로 추상화 — 왼쪽 절반=선명한 밝은 색블록(실물 두께), 오른쪽 절반=극세 선묘 윤곽(지식·경로·시간의 뼈대). 상·중단 대면적 여백 + 소량 가는 선 심볼. 세로 비문체(碑刻) 고대비 한자 타이틀, 보조정보는 옅은 세자. 색은 주제 재질/정서에서 추출. 실체 물질 ↔ 반투명 선묘가 한 구조에서 정확히 절반 전환되는 게 핵심. 변형=독서살롱(靛蓝/银灰/雾白) 또는 서점개업(深红/象牙白/暗金).",
+      "gen_prompt": "A heavy, ceremonial editorial poster, 16:9 horizontal, theme: a city bookstore grand opening. Large deep-red single-color background carries the emotion; a thick solid book cover sits left with tactile material texture and a faint shadow. In front of it the subject is abstracted into a bottom-to-top diminishing stepped structure of stacked book steps — the left half shown as clear light ivory solid blocks (physical thickness), the right half switching to ultra-thin dark-gold line-drawing outlines, as if the solid is cut open to reveal a skeleton of knowledge and paths. Lots of quiet negative space at top and middle, a few light small line symbols for scale. Title set vertically along the right side in a tall, high-contrast, inscription-like Chinese typeface with wide letter spacing; smaller pale auxiliary text near the base. Palette: deep red + ivory white + dark gold, high-saturation but dignified, warm and solemn, clean and restrained. Real material vs translucent line-drawing split exactly in half within one structure.",
+      "ref_image": null,
+      "result": "results/xxd-book-ceremony.png",
+      "seed": 1303791853
     }
   ]
 };
