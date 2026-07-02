@@ -1563,6 +1563,54 @@ window.PROMPT_DATA={
       "ref_image": null,
       "result": "results/xxd-book-ceremony.png",
       "seed": 1303791853
+    },
+    {
+      "id": "azed-blueprint-charsheet",
+      "source": "https://x.com/azed_ai/status/2072274553531977855",
+      "author": "azed_ai",
+      "date": "2026-07-02",
+      "lang": "en",
+      "target_model": "GPT Image 2",
+      "category": "캐릭터 시트",
+      "title": "블루프린트 캐릭터 컨셉 시트",
+      "prompt": "A character concept sheet of a [character], featuring detailed front, back, and side views, along with close-up sketches of facial features, costume details, and accessories. Annotated design notes and clearly labeled components are arranged across the layout, rendered in a refined blueprint style with glowing [color1] accents and a structured [color2] base design, presented on a clean white background with a polished professional character design presentation.",
+      "prompt_ko": "캐릭터 컨셉 시트 — 앞/뒤/옆 3면도 + 얼굴·의상·소품 클로즈업 스케치. 주석 디자인 노트와 라벨 붙은 컴포넌트를 레이아웃 전반에 배치. 정제된 블루프린트 스타일 + 빛나는 [color1] 액센트 + 구조적 [color2] 베이스. 깨끗한 흰 배경, 전문 캐릭터 디자인 프레젠테이션. [character]/[color1]/[color2] 치환.",
+      "gen_prompt": "A character concept sheet of a fantasy knight, featuring detailed front, back, and side views, along with close-up sketches of facial features, armor details, and accessories. Annotated design notes and clearly labeled components arranged across the layout, rendered in a refined blueprint style with glowing cyan accents and a structured deep-navy base design, on a clean white background, polished professional character design presentation.",
+      "ref_image": null,
+      "result": "results/azed-blueprint-charsheet.png",
+      "seed": 260310748
+    },
+    {
+      "id": "mahnoor-birthday-collage",
+      "source": "https://x.com/MahnoorAi12/status/2072289758987125031",
+      "author": "MahnoorAi12",
+      "date": "2026-07-02",
+      "lang": "en",
+      "target_model": "GPT Image 2",
+      "category": "이벤트 포스터",
+      "title": "럭셔리 생일 콜라주 포스터 (3D 숫자)",
+      "prompt": "Ultra-realistic luxury birthday collage poster featuring a giant 3D number \"[AGE]\" filled with a seamless collection of memorable photos. A young girl in an elegant white frock stands with her back to the camera, gracefully leaning against the number. Behind her, a large black-and-white blurred portrait creates a timeless, cinematic backdrop. Set against a clean white background with soft natural lighting, subtle shadows, and a dreamy editorial aesthetic. Add elegant typography on the right side displaying: \"Happy Birthday\" \"[NAME]\". Use a modern luxury font with a minimal, balanced layout. Create a premium celebration design with a sophisticated, emotional feel, ultra-realistic details, photorealistic quality, crisp textures, shallow depth of field, and stunning 8K resolution.",
+      "prompt_ko": "초사실 럭셔리 생일 콜라주 포스터 — 추억 사진들로 채운 거대한 3D 숫자 \"[AGE]\". 흰 드레스 소녀가 등을 돌린 채 숫자에 기대고, 뒤로 큰 흑백 블러 인물 배경(시네마틱). 깨끗한 흰 배경, 부드러운 자연광, 은은한 그림자, 몽환적 에디토리얼. 우측에 우아한 타이포 \"Happy Birthday\" \"[NAME]\". 모던 럭셔리 폰트, 미니멀 레이아웃. 얕은 심도, 8K. [AGE]/[NAME] 치환.",
+      "gen_prompt": "Ultra-realistic luxury birthday collage poster featuring a giant 3D number \"25\" filled with a seamless collection of memorable photos. A young girl in an elegant white frock stands with her back to the camera, gracefully leaning against the number. Behind her, a large black-and-white blurred portrait creates a timeless cinematic backdrop. Clean white background, soft natural lighting, subtle shadows, dreamy editorial aesthetic. Elegant typography on the right reading \"Happy Birthday\" and \"Emma\". Modern luxury font, minimal balanced layout, sophisticated emotional feel, photorealistic, shallow depth of field, 8K.",
+      "ref_image": null,
+      "result": "results/mahnoor-birthday-collage.png",
+      "seed": 1680161303
+    },
+    {
+      "id": "geekcatx-calligram",
+      "source": "https://x.com/GeekCatX/status/2072319469511446546",
+      "author": "GeekCatX",
+      "date": "2026-07-02",
+      "lang": "zh",
+      "target_model": "GPT Image 2",
+      "category": "아트 포스터",
+      "title": "동양 문인 서예 Calligram (글자로 채운 형상)",
+      "prompt": "创作一幅东方文人美学书法图形（Calligram）作品。主体采用极简毛笔线稿勾勒外轮廓，仅使用几笔富有书法笔意的墨线完成造型。主体内部并非普通填充，而是由大量竖排传统毛笔书法文字自然组成。书法文字沿着物体结构、重力方向或流动方向自然排列，使文字既是内容，也是造型本身。文字疏密变化自然，大小不一，具有书写节奏感，像真正手写完成。整体遵循中国传统文人画美学：大面积留白、疏可走马密不透风、构图偏静、呼吸感强、极简、克制、雅致、富有禅意。背景采用老宣纸、米白色纸张、天然纤维纹理、微黄旧化、极淡水墨晕染。色彩仅使用墨黑、淡墨灰、少量朱砂印章。画面点缀数枚中国传统篆刻印章，位置自然。整体像古代文人手稿、博物馆典藏、东方现代艺术、极简海报。不要现代字体，不要电脑排版，不要高饱和颜色，不要复杂背景，不要写实摄影，不要插画感。\n主体：荷花",
+      "prompt_ko": "동양 문인 미학 서예 Calligram — 극단순 붓 선묘로 외곽만 잡고, 내부를 세로배열 전통 서예 글자로 채워 '글자가 곧 형상'이 되게. 글자는 구조·중력·흐름 따라 자연 배열, 소밀·크기 변화로 손글씨 리듬. 문인화 미학(대면적 여백·소밀 대비·정적 구도·극단순·아취·선). 배경=오래된 선지/미백/천연섬유결/미황 구화/극담 수묵번짐. 색=먹흑+담묵회+소량 주사 낙관. 전통 전각 인장 몇 개 자연 배치. 현대폰트·전산조판·고채도·복잡배경·실사·일러스트감 금지. 주체=연꽃(치환 가능).",
+      "gen_prompt": "An Oriental literati calligram artwork: the outline of a lotus flower drawn with a few minimal expressive brush-ink strokes, and its interior filled entirely with columns of vertical traditional Chinese calligraphy characters arranged along the form's structure and flow, so the text itself becomes the shape. Natural density variation, varied sizes, handwritten rhythm. Traditional literati painting aesthetic: large negative space, quiet composition, minimal, restrained, elegant, zen. Background of aged rice paper / off-white / natural fiber texture / faint yellowing / very light ink wash. Colors only: ink black, light gray ink, a few small cinnabar seal stamps placed naturally. Like an ancient literati manuscript / museum archive / minimal poster. No modern fonts, no digital typesetting, no high saturation, no realism.",
+      "ref_image": null,
+      "result": "results/geekcatx-calligram.png",
+      "seed": 665191267
     }
   ]
 };
