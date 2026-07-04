@@ -1723,6 +1723,54 @@ window.PROMPT_DATA={
       "ref_image": null,
       "result": "results/maddox-armusic.png",
       "seed": null
+    },
+    {
+      "id": "yang-worldcup-ruins",
+      "source": "https://x.com/YangOnchain/status/2072870130477125657",
+      "author": "@YangOnchain",
+      "date": "2026-07-03",
+      "lang": "zh",
+      "target_model": "GPT Image 2",
+      "category": "스포츠 포스터",
+      "title": "2026 월드컵 폐허/침묵 컨셉 포스터 — 종료 후의 여백",
+      "prompt": "提示词：\n生成一张竖版 3:4 中文电影感海报，主题为「2026 世界杯」。\n\n整体不是热血体育海报，也不是普通足球赛事宣传图，而是\"终场之后 / 荣耀褪去 / 空场记忆 / 世界沉默\"的概念海报。画面要有强烈情绪隐喻，用废墟化的足球相关物件表达世界杯背后的孤独、消耗、等待、信念与余温。\n\n画面主体为【主体物件】，例如：倒塌球门、破损足球、空荡看台座椅、巨大红牌、熄灭的聚光灯塔、破碎计分牌、无人替补席、烧焦队长袖标、废弃裁判哨、被雨水淹没的球场入口。\n\n主体必须和参考图拉开距离：不要出现巨大机械轮、不要出现发动机零件、不要出现明显红黄道路中线、不要照搬参考图的构图。主体要换成全新的足球隐喻物件，并重新设计空间、角度和排版。\n\n画面环境：\n空旷、雾气、湿润地面、雨后反光、远处看不清的球场轮廓、低饱和灰白天空、黑色泥水、碎片、烟雾、残留灯光。整体有末日感、电影感、孤独感和高级海报感。\n\n视觉风格：\n黑白灰为主，少量红色或黄色作为点睛色。画面克制、安静、压抑、有力量。不要太艳，不要热闹，不要商业赛事广告感。\n\n排版要求：\n左上或左侧放中文主标题：\n「2026 世界杯」\n\n副标题写：\n「【副标题】」\n\n短句写：\n「【短句】」\n\n文字必须清晰准确，不要乱码，不要错字。中文为主，可加入极少量英文小字，但不能英文主导。\n\n构图要求：\n1. 大面积留白，主体位于画面下半部分或右下区域。\n2. 主体与地面倒影形成视觉记忆。\n3. 远处可以有微弱球场灯、看台轮廓或雾中人影，但不要复杂。\n4. 标题排版要像电影海报或艺术展览海报。\n5. 画面要有\"终场之后\"的情绪，而不是比赛进行中。\n\n质感关键词：\n雨后地面、雾、灰白天空、废墟、破损材质、泥水反光、焦痕、裂纹、残留光源、空场、沉默、终场、余温、记忆。\n\n不要水印，不要真实品牌 Logo，不要球队 Logo，不要真实球员脸，不要二维码，不要商业广告感。",
+      "prompt_ko": "세로 3:4 중국어 영화적 포스터, 주제 「2026 世界杯」. 열혈 스포츠 포스터가 아니라 \"종료 후/영광이 바랜 뒤/빈 경기장의 기억/세계의 침묵\" 컨셉. 폐허화된 축구 관련 사물(쓰러진 골대·파손된 축구공·텅 빈 관중석·거대 레드카드·꺼진 조명탑·부서진 스코어보드·주장 완장 등)로 고독·소진·기다림·신념·잔열을 은유. 참고 이미지와 확실히 구분(거대 기계바퀴·엔진부품·도로 중앙선 등 금지), 완전히 새로운 축구 은유 사물로 교체. 환경: 공허·안개·젖은 바닥·비 온 뒤 반사·저채도 회백 하늘·검은 진흙물·잔해·연기·잔광. 종말감·영화감·고독감의 고급 포스터. 색: 흑백회 위주+포인트로 소량 빨강/노랑. 타이포: 좌상단/좌측에 메인타이틀「2026 世界杯」, 부제, 짧은 문구. 텍스트는 정확·중국어 위주(영문 소량 가능하나 주도 X). 구도: 넓은 여백, 주체는 하단/우하단, 지면 반영과 짝, 원경에 미약한 경기장 불빛/관중석 실루엣/안개속 인영 정도만. \"종료 후\" 정서. 워터마크·실제 브랜드/팀 로고·실제 선수 얼굴·QR코드·상업광고감 금지.",
+      "gen_prompt": "Generate a vertical 3:4 cinematic Chinese-typography concept poster themed '2026 WORLD CUP'. Not a hot-blooded sports poster — instead a concept of 'after the final whistle / glory faded / empty stadium memory / the world falls silent'. Main subject: a collapsed goalpost half-submerged in rain-soaked turf, ruined and abandoned. Environment: vast empty space, fog, wet ground with rain reflections, a barely visible stadium silhouette in the distance, low-saturation grey-white sky, black muddy water, debris, smoke, residual stray light — apocalyptic, cinematic, lonely, premium poster mood. Visual style: mostly black/white/grey with a small accent of red or yellow, restrained, quiet, oppressive, powerful — not vibrant, not festive, not a commercial sports-ad look. Typography: large title at upper-left or left side reading 'WORLD CUP 2026'; subtitle 'AFTER THE FINAL WHISTLE'; short line 'Silence outlasts the cheering'. Text must be crisp, correctly spelled, legible. Composition: generous negative space, subject in the lower half or lower-right, subject paired with its ground reflection for visual memory, faint stadium lights/stand silhouettes/foggy figures far in the background only, kept simple. Mood of 'after the match', not mid-game. Texture: post-rain ground, fog, ruin, corroded material, muddy reflections, scorch marks, cracks, residual light, empty stands, silence, afterglow, memory. No watermark, no real brand or team logos, no real player faces, no QR code, no commercial-ad feel.",
+      "ref_image": null,
+      "result": "results/yang-worldcup-ruins.png",
+      "seed": null
+    },
+    {
+      "id": "yang-oxidation",
+      "source": "https://x.com/YangOnchain/status/2072576964637204782",
+      "author": "@YangOnchain",
+      "date": "2026-07-02",
+      "lang": "zh",
+      "target_model": "GPT Image 2",
+      "category": "아트 포스터",
+      "title": "산화의 힘 — 재질 변화/시간의 흔적 전시 포스터",
+      "prompt": "提示词：\n生成一张竖版 3:4 中文成品海报，主题为「氧化的力量」。\n\n整体方向是：材质变化、时间痕迹、自然反应、表面腐蚀、金属锈蚀、铜绿、焦化、风化、城市表皮、静物档案、艺术展览海报。\n\n画面不是普通科普图，也不是单纯材质贴图，而是把\"氧化\"设计成一张有视觉中心、有中文排版、有情绪表达的概念海报。\n\n画面主体为【主体对象】，例如：锈蚀铁片、青铜雕塑、苹果切片、焦化花朵、海洋金属残片、微观分子反应、建筑立面、旧物档案、人像雕塑。\n\n主体必须有明显的氧化痕迹：\n铁锈、铜绿、剥落、斑驳、腐蚀孔洞、色彩渐变、表面颗粒、裂纹、时间沉积、盐晶、烟痕、焦边、旧化痕迹。\n\n视觉要求：\n1. 中文主标题写「氧化的力量」\n2. 中文副标题写「【副标题】」\n3. 中文短句写「【短句】」\n4. 署名写「署名」\n5. 如果需要具体日期，写「当日」\n6. 中文必须清晰准确，不要乱码，不要错字\n\n版式要求：\n高级展览海报、中文大标题、克制留白、材质特写、档案式说明、小字注释、细线分割、信息层级清晰。\n\n色彩方向：\n锈红、焦橙、铜绿、炭黑、深蓝、灰白、旧金色、米白，可根据主体调整，但整体要高级克制。\n\n画面气质：\n沉静、厚重、时间感、材料感、自然力量、变化、痕迹、重生、不可逆、审美化的腐蚀。\n\n不要水印，不要真实品牌 Logo，不要二维码，不要电商感，不要廉价科技感.",
+      "prompt_ko": "세로 3:4 중국어 완성 포스터, 주제 「氧化的力量(산화의 힘)」. 방향: 재질 변화·시간의 흔적·자연 반응·표면 부식·금속 녹슴·청동녹·탄화·풍화·도시 표피·정물 아카이브·예술 전시 포스터. 단순 과학도해나 재질텍스처가 아니라 \"산화\"를 시각중심+중국어 타이포+정서표현이 있는 컨셉 포스터로. 주체: 녹슨 철판/청동조각상/사과단면/탄화된 꽃/해양금속잔해/미시분자반응/건축입면/오래된 물건 아카이브/인물조각 등. 주체엔 명확한 산화흔적(철녹·청동녹·벗겨짐·얼룩·부식구멍·색채그라데이션·표면입자·균열·시간의 퇴적·소금결정·그을음·탄 가장자리·낡은 흔적) 필수. 타이포: 메인타이틀「氧化的力量」, 부제, 짧은문구, 서명, (필요시)날짜 — 중국어 정확·정자. 판형: 고급 전시포스터, 중국어 대형 타이틀, 절제된 여백, 재질 클로즈업, 아카이브식 설명, 작은 각주, 얇은 선 분할, 명확한 정보 계층. 색상: 녹슨빨강·탄화오렌지·청동녹·차콜블랙·딥블루·회백·올드골드·아이보리(주체에 맞게 조정, 전반적으로 고급스럽고 절제됨). 분위기: 차분·묵직·시간감·재질감·자연의 힘·변화·흔적·재생·불가역·심미화된 부식. 워터마크·실제 브랜드로고·QR코드·이커머스감·값싼 테크느낌 금지.",
+      "gen_prompt": "Generate a vertical 3:4 premium exhibition poster themed 'THE POWER OF OXIDATION'. Direction: material transformation, marks of time, natural reaction, surface corrosion, metal rust, verdigris, charring, weathering, urban patina, still-life archive, art-exhibition poster. Not a science-diagram or plain material texture — design oxidation as a concept poster with a clear visual center, bold typography, and emotional expression. Main subject: a corroding bronze bust sculpture, half-covered in blue-green verdigris with patches of exposed dark metal. The subject must show clear oxidation marks: rust, verdigris, flaking, mottling, corrosion pits, color gradients, granular surface texture, cracks, sedimented time-layers, salt crystals, soot marks, charred edges, aged patina. Typography: large main title 'THE POWER OF OXIDATION'; subtitle 'What Time Leaves Behind'; short line 'Change is not damage — it is time writing on the surface'; a small credit line; a date if needed. Text must be crisp, correctly spelled, legible. Layout: premium exhibition-poster feel, large bold title, restrained negative space, close-up material detail, archive-style captions, small annotation text, thin dividing lines, clear information hierarchy. Color direction: rust red, charred orange, verdigris green, charcoal black, deep blue, grey-white, aged gold, ivory — adjusted to the subject but overall premium and restrained. Mood: calm, weighty, time-aware, material-aware, natural force, transformation, trace, rebirth, irreversibility, aestheticized decay. No watermark, no real brand logo, no QR code, no e-commerce feel, no cheap tech look.",
+      "ref_image": null,
+      "result": "results/yang-oxidation.png",
+      "seed": null
+    },
+    {
+      "id": "larus-hanbok-gayageum",
+      "source": "https://x.com/MrLarus/status/2071973321839677513",
+      "author": "@MrLarus (한국판 각색: Jake)",
+      "date": "2026-07-04",
+      "lang": "zh→ko-adapt",
+      "target_model": "GPT Image 2",
+      "category": "한복/전통악기 포스터",
+      "title": "묵선예복 시리즈 한국판 각색 — 가야금 X 한복 (원작 중국 고금/비파 템플릿)",
+      "prompt": "원작(중국어) 《墨线霓裳 · 乐舞成线》简版通用提示词：\n\n请生成一张 9:16 竖版、原创高级东方音乐视觉海报。\n\n主题乐器：[古琴 / 琵琶 / 竹笛 / 箜篌 / 古筝 / 编钟 / 二胡]\n主题方向：[古琴水纹 / 琵琶金音 / 笛音青岚 / 箜篌星音]\n主色调：[月白、墨青、淡金 / 朱砂红、暖金、米白 / 青绿、玉白、雾灰 / 月白、淡紫、冷金]\n声音视觉化元素：[水纹 / 金色音轨 / 青色风线 / 星轨弦光 / 回响圆环 / 墨色音波]\n\n整体风格为东方水墨时装插画，结合东方乐器、新中式幻想高定、宣纸质感、水墨留白、半透明纱层、细金线描绘与现代东方审美。\n\n画面主体是一位修长优雅的东方女性，气质高级、空灵、安静或灵动。人物姿态必须服务于乐器演奏，例如坐姿抚琴、抱琵琶拨弦、侧身吹笛、静坐拂箜篌弦。\n\n乐器必须清晰可见，是画面的视觉锚点。请强化乐器器形、弦线、木质感、装饰细节和东方美感。\n\n把声音画出来：让音波变成书法线条、水墨气流、金色音轨、水纹涟漪、青色风线或星轨弦光，并与人物衣袖、发丝、披帛和裙摆自然融合。\n\n服装为原创东方幻想高定礼服，带半透明纱层、柔和垂坠、水墨晕染、细腻褶皱和局部细金线。背景白而不空，带轻宣纸纹理、浅雾层和淡水墨气层。\n\n整体画面要高级、干净、空灵、东方、音乐感强，有品牌海报感。\n\n不要文字、不要书法字、不要标题、不要签名、不要 logo、不要水印、不要拼图。每次只生成一张独立图片。",
+      "prompt_ko": "원작은 중국 전통악기(고금·비파·죽적·공후·고쟁·편종·이호) + 신중식 판타지 오뜨쿠튀르 컨셉의 수묵 인물 음악 포스터 템플릿(변수: 악기/톤방향/팔레트/사운드시각화 요소). Jake 요청으로 한국판 각색: 악기를 가야금/거문고/대금/해금으로, 의상을 한복(저고리·치마) 기반 판타지 오뜨쿠튀르로 교체. 사운드 시각화(먹선·금색 음궤·물결무늬·바람선)와 한지 질감 배경, 반투명 사(紗) 레이어, 세필 금선 등 원작의 핵심 시각 문법은 유지.",
+      "gen_prompt": "Generate a 9:16 vertical, original premium Korean traditional-music visual poster.\n\nFeatured instrument: gayageum (가야금, 12-string Korean zither).\nTheme direction: gayageum water-ripple tones.\nMain palette: moon-white, ink blue-green, pale gold.\nSound-visualization elements: rippling water lines, golden sound-trails, faint ink-mist currents.\n\nOverall style: Korean ink-wash (sumukhwa) fashion illustration blending a traditional Korean instrument, a modern reinterpretation of hanbok as fantasy haute couture, hanji (mulberry paper) texture, ink-wash negative space, translucent gauze layers, fine gold linework, and contemporary Korean aesthetic.\n\nMain subject: a tall, elegant Korean woman, refined and ethereal, calm or dynamic in bearing. Her pose must serve the act of playing the instrument — seated, plucking the gayageum strings with poised hands.\n\nThe instrument must be clearly visible as the visual anchor — emphasize its long wooden body, twelve strings, silk string-holders (anjok bridges), wood grain, and traditional Korean ornamental detail.\n\nPaint the sound: let sound waves become ink-wash currents, golden sound-trails, rippling water circles, or faint calligraphic-style lines (no legible characters), naturally merging with her sleeves, hair, the goreum ribbon of her jeogori, and the pleats of her chima skirt.\n\nCostume: an original modern-couture reinterpretation of hanbok — translucent gauze layers over a fitted jeogori bodice and a wide flowing chima skirt, soft draping, ink-wash bleed-dye gradients, delicate pleats, and fine gold linework on parts of the fabric; silhouette and proportions rooted in traditional hanbok but elevated to a fantasy-couture register.\n\nBackground: white but not empty — a light hanji paper texture, a thin mist layer, and a faint ink-wash atmospheric haze.\n\nOverall the image should feel premium, clean, ethereal, distinctly Korean, strongly musical, with a brand-poster quality.\n\nNo text, no calligraphy characters, no titles, no signature, no logo, no watermark, no collage. Generate one single standalone image only.",
+      "ref_image": null,
+      "result": "results/larus-hanbok-gayageum.png",
+      "seed": null
     }
   ]
 };
