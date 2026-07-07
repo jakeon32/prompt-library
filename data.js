@@ -2639,6 +2639,21 @@ window.PROMPT_DATA={
       "gen_prompt": "A Korean Haetae guardian lion statue in this style: hyper-saturated street-poster illustration fused with white ceramic folk sculpture and gallery-object relief. The Haetae converted into a matte white ceramic and chalky plaster sculpture with handmade irregularity, carved clay relief, simplified elegant sculptural planes and fragile folk-art geometry — its mane curls, scales and grin reinterpreted as shallow carved lines, raised ceramic relief and cracked plaster texture. Selective neon poster-paint accents in hot magenta, cyan, lime green and electric blue across its mane edges, claws and background fragments, with black contour marks, chipped edges, graffiti strokes, angular color shards and energetic graphic bursts invading the calm display-like background. Mostly white, ivory and stone gray interrupted by electric colors. Clean gallery lighting with aggressive neon reflection, poster-like contrast. Mood: ancient Korean guardian artifact meets neon street culture — elegant, strange, collectible, rebellious, visually loud.",
       "result": "results/gdgtify-neon-porcelain.png",
       "seed": 358170044
+    },
+    {
+      "id": "azed-oversized-head-editorial",
+      "source": "https://x.com/azed_ai/status/2074493394873921605",
+      "author": "azed_ai",
+      "date": "2026-07-08",
+      "lang": "en",
+      "target_model": "Nano Banana Pro (Gemini)",
+      "category": "인물/패션",
+      "title": "오버사이즈 헤드 에디토리얼 — 초현실 광고 인체비례",
+      "prompt": "Full-body portrait of a person standing, exaggerated oversized head and tiny body, distorted proportions, head unrealistically large compared to body, tiny narrow shoulders, slim elongated legs, surreal anatomy, fashion editorial style\n\nNeutral facial expression, straight-on camera angle, eye-level perspective, pure white background, seamless studio backdrop, no walls, no environment, no objects, isolated subject, muted colors, natural daylight, soft shadows\n\nStylish outfit, loose oversized pants, jacket, casual fashion styling, modern streetwear aesthetic, cinematic realism mixed with surreal distortion, hyper-realistic facial details, sharp focus on face, slightly softer body details\n\nAbsurd proportions, uncanny visual effect, editorial photography look, conceptual fashion art, experimental composition, high resolution, ultra-detailed face texture, clean background, no cartoon style, realistic skin, modern surreal photography",
+      "prompt_ko": "초현실 광고 캠페인용 '대두 에디토리얼' 룩. 과장된 오버사이즈 헤드 + 작은 몸통·좁은 어깨·가늘고 긴 다리의 왜곡 비례, 무표정 정면 아이레벨, 순백 심리스 스튜디오, 뮤트 컬러·자연광. 루즈한 스트리트웨어, 얼굴은 하이퍼리얼 샤프 포커스 + 몸은 살짝 소프트. 시네마틱 리얼리즘 × 초현실 왜곡, 언캐니 광고 사진.",
+      "gen_prompt": "Full-body portrait of a person standing, exaggerated oversized head and tiny body, distorted proportions, head unrealistically large compared to body, tiny narrow shoulders, slim elongated legs, surreal anatomy, fashion editorial style\n\nNeutral facial expression, straight-on camera angle, eye-level perspective, pure white background, seamless studio backdrop, no walls, no environment, no objects, isolated subject, muted colors, natural daylight, soft shadows\n\nStylish outfit, loose oversized pants, jacket, casual fashion styling, modern streetwear aesthetic, cinematic realism mixed with surreal distortion, hyper-realistic facial details, sharp focus on face, slightly softer body details\n\nAbsurd proportions, uncanny visual effect, editorial photography look, conceptual fashion art, experimental composition, high resolution, ultra-detailed face texture, clean background, no cartoon style, realistic skin, modern surreal photography",
+      "result": "results/azed-oversized-head-editorial.png",
+      "seed": 1682039567
     }
   ]
 }
