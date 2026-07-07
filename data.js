@@ -2579,6 +2579,21 @@ window.PROMPT_DATA={
       "gen_prompt": "Overhead studio flat-lay photograph of a mechanical wristwatch disassembled into every single component, down to the smallest screws, springs, jewels, gears, mainspring, balance wheel, crown, hands, dial, crystal and case parts. All components arranged in a perfect knolling grid, but sequenced left-to-right by the decade each part technology was invented — the oldest inventions (screws, springs) on the far left, progressing through escapements and jeweled bearings, to the most recent materials on the right. Faint hand-lettered pencil callouts with thin leader lines label each part and its invention decade. Macro lens, real metal catching real light, soft contact shadows on a matte slate surface, physically accurate materials, a real photographed object, museum-catalog precision, no illustration.",
       "result": "results/gdgtify-chrono-knolling.png",
       "seed": 792199022
+    },
+    {
+      "id": "azed-xray-scan",
+      "source": "https://x.com/azed_ai/status/2074448877110132912",
+      "author": "azed_ai",
+      "date": "2026-07-08",
+      "lang": "en",
+      "target_model": "미표기 (GPT Image 계열 추정)",
+      "category": "컨셉 포스터",
+      "title": "X-ray 스캔 ([subject] 템플릿 → 빈티지 필름카메라)",
+      "prompt": "An X-ray scan of a [subject], bones and internal structures glowing in neon cyan and soft magenta against a matte black field. Scientific overlay graphics and scan metadata give it a medical sci-fi twist.",
+      "prompt_ko": "[subject]의 X-ray 스캔 — 뼈대/내부 구조가 네온 시안+소프트 마젠타로 발광, 매트 블랙 필드. 과학 오버레이 그래픽과 스캔 메타데이터로 메디컬 SF 무드를 얹는 초단문 만능 템플릿.",
+      "gen_prompt": "An X-ray scan of a vintage film camera, its internal gears, lens elements, springs, film spools and shutter mechanism glowing in neon cyan and soft magenta against a matte black field. Scientific overlay graphics, thin measurement reticles, waveform readouts and scan metadata text along the edges give it a medical sci-fi twist. High detail radiographic translucency, layered internal depth, clean laboratory aesthetic.",
+      "result": "results/azed-xray-scan.png",
+      "seed": 1528982959
     }
   ]
 }
