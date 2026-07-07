@@ -2609,6 +2609,21 @@ window.PROMPT_DATA={
       "gen_prompt": "A photorealistic top-down studio photograph of a data visualization physically built from hundreds of real miniature objects on large physical grid paper with faint grey gridlines. The chart plots the history of the automobile: the x-axis is chronological era from 1890s to 2020s hand-lettered along the bottom, the y-axis is speed. The data points are hundreds of era-accurate tiny miniature props — early horseless carriages, brass-era cars, a Model T, 1930s streamliners, 1950s chrome sedans, muscle cars, compact hatchbacks, modern EVs, tiny engines, wheels, spark plugs and traffic signs — each a tangible physical miniature casting a soft real shadow. The gestalt constraint: the distribution density of these plotted miniatures forms the unmistakable macro-silhouette of a classic car in side profile across the chart area. Minimal theme, clean margins, axis ticks and small hand-written labels, soft even studio light, real tangible items photographed from directly above, not a digital render.",
       "result": "results/gdgtify-data-physication.png",
       "seed": 471085352
+    },
+    {
+      "id": "lucia-vintage-cinema-poster",
+      "source": "https://x.com/luciaverseai/status/2074261515365228744",
+      "author": "luciaverseai",
+      "date": "2026-07-08",
+      "lang": "en",
+      "target_model": "미표기 (GPT Image 계열 추정)",
+      "category": "인물 포스터",
+      "title": "미드센추리 빈티지 시네마 포스터 ([SUBJECT NAME] 템플릿)",
+      "prompt": "Create a premium vintage cinematic poster of **[SUBJECT NAME]** in a bold mid-century editorial style. Place the subject at the center in a confident three-quarter profile, gazing slightly upward with a determined expression, wearing a tailored three-piece suit with both hands in their trouser pockets. Behind the subject, add a large faded off-white circular halo, intersected by bold diagonal blocks of muted teal and burnt orange, with subtle vertical accent lines for structure. Incorporate a stylized skyline inspired by the subject's world or legacy in the lower background. At the top, display the subject's name in large condensed uppercase typography with contrasting teal and brick-red colors, accompanied by a short two-line tagline reflecting their iconic persona. Apply rich distressed paper textures, scratches, creases, faded ink, and a warm sepia finish to achieve the authentic look of a weathered mid-century movie poster. Add a small elegant cursive artist signature in the bottom-left corner reading **\"By Samra.\"**",
+      "prompt_ko": "[SUBJECT NAME]의 프리미엄 빈티지 시네마틱 포스터 — 미드센추리 에디토리얼. 중앙 3/4 프로필(쓰리피스 수트, 양손 주머니, 살짝 위를 보는 결연한 표정) + 뒤에 대형 오프화이트 원형 헤일로 + 뮤트 틸·번트오렌지 대각 블록 + 세로 액센트 라인. 하단에 인물의 세계관 스카이라인, 상단에 콘덴스드 대문자 이름 타이포(틸×브릭레드) + 2줄 태그라인. 디스트레스드 종이 질감·스크래치·세피아. 좌하단 필기체 서명. (원본은 톰 크루즈/졸리 트리뷰트 — 재현은 가상 인물로)",
+      "gen_prompt": "Create a premium vintage cinematic poster of VINCENT KANE, a fictional golden-age film noir detective actor, in a bold mid-century editorial style. Place the subject at the center in a confident three-quarter profile, gazing slightly upward with a determined expression, wearing a tailored three-piece suit with both hands in his trouser pockets. Behind the subject, a large faded off-white circular halo, intersected by bold diagonal blocks of muted teal and burnt orange, with subtle vertical accent lines for structure. Incorporate a stylized rainy noir city skyline with neon signs and fire escapes in the lower background. At the top, display “VINCENT KANE” in large condensed uppercase typography with contrasting teal and brick-red colors, with a short two-line tagline reading “THE CITY NEVER SLEEPS. / NEITHER DOES HE.” Apply rich distressed paper textures, scratches, creases, faded ink, and a warm sepia finish for the authentic look of a weathered mid-century movie poster. Add a small elegant cursive artist signature in the bottom-left corner reading “By Samra.”",
+      "result": "results/lucia-vintage-cinema-poster.png",
+      "seed": 91483753
     }
   ]
 }
