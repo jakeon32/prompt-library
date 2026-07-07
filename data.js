@@ -2594,6 +2594,21 @@ window.PROMPT_DATA={
       "gen_prompt": "An X-ray scan of a vintage film camera, its internal gears, lens elements, springs, film spools and shutter mechanism glowing in neon cyan and soft magenta against a matte black field. Scientific overlay graphics, thin measurement reticles, waveform readouts and scan metadata text along the edges give it a medical sci-fi twist. High detail radiographic translucency, layered internal depth, clean laboratory aesthetic.",
       "result": "results/azed-xray-scan.png",
       "seed": 1528982959
+    },
+    {
+      "id": "gdgtify-data-physication",
+      "source": "https://x.com/gdgtify/status/2074405055005164018",
+      "author": "Gdgtify",
+      "date": "2026-07-08",
+      "lang": "en",
+      "target_model": "GPT Image 2 (R ggplot 함수형 템플릿, v2 업그레이드판)",
+      "category": "데이터viz/플랫레이",
+      "title": "데이터 피지케이션 v2 — 미니어처 산점도 실루엣 ([subject] → 자동차)",
+      "prompt": "library(ggplot2) library(ggimage)  dataset <- fetch_history(\"[subject]\")  # ai inference engine: # define x = \"chronological era\", y = \"defining metric\" # map physical 3d miniature objects as the plotted points. ggplot(dataset, aes(x = era, y = metric)) +   geom_image(aes(image = \"ai_infer(hundreds of era-accurate miniature props)\")) +   theme_minimal() +   theme(panel.grid.major = element_line(color = \"faint_grey\")) +      # the gestalt constraint: # the distribution density of the plotted image-points must form the macro-silhouette of [subject]. # render instruction: # output as a photorealistic top-down studio photograph, not a digital render. the points are real, tangible items casting soft shadows on physical grid paper.",
+      "prompt_ko": "R ggplot 코드 형식 함수형 템플릿(작성자 v2 업그레이드판). [subject]의 역사를 산점도로 — x=연대, y=결정적 지표, **데이터 포인트 = 시대고증 실물 미니어처 소품 수백 개**. 게슈탈트 제약: 포인트들의 분포 밀도가 [subject]의 매크로 실루엣을 형성해야 함. 렌더 지시 = 디지털 렌더가 아닌 실물 탑다운 스튜디오 사진(그리드 종이 위 실물 소품+소프트 섀도우). 차트가 곧 오브제가 되는 발상.",
+      "gen_prompt": "A photorealistic top-down studio photograph of a data visualization physically built from hundreds of real miniature objects on large physical grid paper with faint grey gridlines. The chart plots the history of the automobile: the x-axis is chronological era from 1890s to 2020s hand-lettered along the bottom, the y-axis is speed. The data points are hundreds of era-accurate tiny miniature props — early horseless carriages, brass-era cars, a Model T, 1930s streamliners, 1950s chrome sedans, muscle cars, compact hatchbacks, modern EVs, tiny engines, wheels, spark plugs and traffic signs — each a tangible physical miniature casting a soft real shadow. The gestalt constraint: the distribution density of these plotted miniatures forms the unmistakable macro-silhouette of a classic car in side profile across the chart area. Minimal theme, clean margins, axis ticks and small hand-written labels, soft even studio light, real tangible items photographed from directly above, not a digital render.",
+      "result": "results/gdgtify-data-physication.png",
+      "seed": 471085352
     }
   ]
 }
