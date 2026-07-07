@@ -2654,6 +2654,21 @@ window.PROMPT_DATA={
       "gen_prompt": "Full-body portrait of a person standing, exaggerated oversized head and tiny body, distorted proportions, head unrealistically large compared to body, tiny narrow shoulders, slim elongated legs, surreal anatomy, fashion editorial style\n\nNeutral facial expression, straight-on camera angle, eye-level perspective, pure white background, seamless studio backdrop, no walls, no environment, no objects, isolated subject, muted colors, natural daylight, soft shadows\n\nStylish outfit, loose oversized pants, jacket, casual fashion styling, modern streetwear aesthetic, cinematic realism mixed with surreal distortion, hyper-realistic facial details, sharp focus on face, slightly softer body details\n\nAbsurd proportions, uncanny visual effect, editorial photography look, conceptual fashion art, experimental composition, high resolution, ultra-detailed face texture, clean background, no cartoon style, realistic skin, modern surreal photography",
       "result": "results/azed-oversized-head-editorial.png",
       "seed": 1682039567
+    },
+    {
+      "id": "jake-eagle-popup-infographic",
+      "source": "discord-direct (제이크 공유, 원출처 미상)",
+      "author": "미상 (Jake 전달)",
+      "date": "2026-07-08",
+      "lang": "en+id",
+      "target_model": "미표기 (GPT Image 계열 추정)",
+      "category": "팝업북/디오라마",
+      "title": "3D 팝업북 인포그래픽 — 독수리 편 (FAKTA UNIK ELANG)",
+      "prompt": "Create a highly detailed 3D pop-up book infographic titled “FAKTA UNIK ELANG: POP-UP BOOK EDITION” on a warm beige background. Feature a magnificent eagle rising from an open pop-up book with layered paper wings above mountains, pine forests, and a flowing river. Surround it with labeled anatomy callouts for Aerodinamika, Daya Angkat, Mata Binokuler, and Cakar Pengunci, illustrated with folded paper diagrams. Below, include pop-up sections showing the eagle’s giant nest and long lifespan, followed by three miniature pop-up cards illustrating UV Vision, Gravitational Force during dives, and Monogamy. Use realistic layered papercraft textures, soft shadows, elegant typography, and a clean educational infographic layout with a premium handcrafted paper engineering aesthetic.",
+      "prompt_ko": "팝업북 형식의 교육 인포그래픽. 펼쳐진 팝업북에서 레이어드 페이퍼 날개의 독수리가 산·소나무숲·강 위로 솟아오르고, 주변에 해부학 콜아웃(공기역학·양력·양안시·잠금발톱, 인니어 라벨)이 접힌 종이 다이어그램으로. 하단에 둥지·수명 팝업 섹션 + 미니 팝업카드 3장(UV 시야·다이빙 중력·일부일처). 페이퍼크래프트 질감+교육 인포그래픽 레이아웃 결합이 포인트 — 팝업북(장식)과 인포그래픽(정보)의 하이브리드 구조.",
+      "gen_prompt": "Create a highly detailed 3D pop-up book infographic titled “FAKTA UNIK ELANG: POP-UP BOOK EDITION” on a warm beige background. Feature a magnificent eagle rising from an open pop-up book with layered paper wings above mountains, pine forests, and a flowing river. Surround it with labeled anatomy callouts for Aerodinamika, Daya Angkat, Mata Binokuler, and Cakar Pengunci, illustrated with folded paper diagrams. Below, include pop-up sections showing the eagle’s giant nest and long lifespan, followed by three miniature pop-up cards illustrating UV Vision, Gravitational Force during dives, and Monogamy. Use realistic layered papercraft textures, soft shadows, elegant typography, and a clean educational infographic layout with a premium handcrafted paper engineering aesthetic.",
+      "result": "results/jake-eagle-popup-infographic.png",
+      "seed": 1694373113
     }
   ]
 }
