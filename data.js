@@ -2864,6 +2864,21 @@ window.PROMPT_DATA={
       "gen_prompt": "A 16:9 physical flat-lay infographic on a dark charcoal editorial surface, museum-grade educational style, showing the hidden inputs of ONE 45-SECOND AI-GENERATED SHORT VIDEO (illustrative only). Title at top in clean editorial type: “WHAT ONE AI SHORT REALLY TAKES”, subtitle “hidden inputs behind 45 seconds — illustrative”. Real counted miniature objects arranged in neat vertical columns, each column labeled: column 1 “GPU HOURS — 3” as three miniature graphics cards stacked; column 2 “PROMPTS — 24” as twenty-four small paper prompt cards; column 3 “TAKES DISCARDED — 12” as twelve tiny film frames; column 4 “ELECTRICITY — 2 kWh” as two glowing battery cells; column 5 “COOLING WATER — 4 L” as four small water vials; column 6 “HUMAN COFFEE — 2 CUPS” as two espresso cups with beans. A small unit legend row at bottom left, a source/reference box bottom right reading “illustrative estimates”. Soft raking studio light casting gentle shadows from each object, physically real materials, precise grid alignment, generous margins, premium data-journalism aesthetic.",
       "result": "results/gdgtify-hidden-cost-flatlay.png",
       "seed": 1299405420
+    },
+    {
+      "id": "ludovic-industrial-organic",
+      "source": "https://x.com/LudovicCreator/status/2074508914809348172",
+      "author": "LudovicCreator",
+      "date": "2026-07-08",
+      "lang": "en",
+      "target_model": "미표기 (GPT Image 계열 추정)",
+      "category": "일러스트 스타일",
+      "title": "인더스트리얼 오가닉 합성 ([SUBJECT]/[COLOR] 템플릿 → 혹등고래)",
+      "prompt": "[SUBJECT] illustrated in an Industrial Organic Synthesis, blending mechanical structures with organic forms. Use [COLOR1] and [COLOR2] to highlight the fusion of technology and nature",
+      "prompt_ko": "[SUBJECT]를 기계 구조 × 유기적 형태의 융합체로 그리는 초단문 스타일 템플릿. [COLOR1]/[COLOR2] 두 색으로 기술과 자연의 융합을 강조.",
+      "gen_prompt": "A humpback whale illustrated in an Industrial Organic Synthesis style, blending mechanical structures with organic forms — the whale’s body half smooth living flesh and barnacled skin, half exposed articulated machinery: riveted copper plating, piston fins, turbine blowhole, gear-driven tail joints, pressure pipes flowing like veins, small gauges embedded along the flank. Use burnished copper and deep teal to highlight the fusion of technology and nature, teal ocean-mist background with drifting bubbles and blueprint-thin construction lines, dramatic side lighting, intricate detail, elegant industrial-naturalist poster composition.",
+      "result": "results/ludovic-industrial-organic.png",
+      "seed": 1360099383
     }
   ]
 }
