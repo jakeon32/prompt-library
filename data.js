@@ -2939,6 +2939,21 @@ window.PROMPT_DATA={
       "gen_prompt": "A premium FMCG hero advertisement for a matte-black insulated tumbler, fictional Korean brand “ONDO 온도”, Apple-inspired minimalism. Main hero shot: the tumbler standing tall in an ultra-clean luxury studio, background in a soft warm-graphite gradient derived from the product palette, large natural window shadow sweeping across, subtle floor reflection, luxury daylight, elegant negative space. Premium Swiss typography layout: brand wordmark “ONDO” top left in Helvetica-like grotesque, a short tagline “KEEPS 12 HOURS WARM” with editorial spacing, minimal hierarchy. Bottom strip: a mini product gallery of four clean angles — front, 45-degree, side, and top view — identical lighting, equal spacing, catalog quality. No clutter, no props, no icons, no patterns. Soft daylight studio lighting, global illumination, ultra-realistic reflections, premium shadow depth, high-end commercial retouching, 8K.",
       "result": "results/shahid-fmcg-hero-ad.png",
       "seed": 464580674
+    },
+    {
+      "id": "zephyra-neon-rain-closeup",
+      "source": "https://x.com/zephyraleigh/status/2074681964515439035",
+      "author": "zephyraleigh",
+      "date": "2026-07-08",
+      "lang": "en",
+      "target_model": "미표기 (GPT Image 계열 추정)",
+      "category": "시네마틱 씬",
+      "title": "네온 레인 시네마틱 클로즈업 ([subject] 템플릿 → 검은 고양이)",
+      "prompt": "A cinematic close-up of a [subject] beneath neon lights in heavy rain, water droplets sparkling across the scene, vibrant reflections on wet surfaces, moody cyberpunk atmosphere, dramatic rim lighting, ultra-detailed realism.",
+      "prompt_ko": "폭우 속 네온 아래 [subject]의 시네마틱 클로즈업 — 반짝이는 물방울, 젖은 표면의 선명한 반사, 무디 사이버펑크, 드라마틱 림라이트. zephyra 특유의 초단문 만능 무드 템플릿(루프탑 네오누아르와 자매).",
+      "gen_prompt": "A cinematic close-up of a black cat beneath neon lights in heavy rain, water droplets sparkling across its fur and whiskers, magenta and cyan neon signs reflected in its wide amber eyes and on the wet asphalt, vibrant reflections on wet surfaces, moody cyberpunk alley atmosphere, dramatic rim lighting tracing its silhouette, shallow depth of field, anamorphic cinematic framing, ultra-detailed realism.",
+      "result": "results/zephyra-neon-rain-closeup.png",
+      "seed": 1683900641
     }
   ]
 }
