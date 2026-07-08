@@ -3059,6 +3059,21 @@ window.PROMPT_DATA={
       "gen_prompt": "A 2x2 grid, 16:9, four monochrome art deco noir posters of four Korean icons, each inside a thick black ornamental frame with arches, stepped towers, vertical skyscraper ribs, sunburst panels and circular medallions, semi-symmetrical, high but readable density, pure black and white with limited gray, thick outer contours, angular panels, clean shadow blocks, elegant negative space. Panel 1: GEOBUKSEON — the turtle ship as a hard vector silhouette, its shell spikes remapped into deco stripes, oar splashes as diagonal speed lines, sunburst behind the dragon head. Panel 2: N SEOUL TOWER — the tower as a streamlined deco spire with radiating medallion rings and stepped city ribs below. Panel 3: HAETAE — the guardian lion as an angular deco statue, mane curls as concentric arcs, flanked by twin columns. Panel 4: CHEOMSEONGDAE — the stone observatory as stacked geometric bands under a starburst sky grid. Each panel has a small elegant deco-lettered caption of the icon name at the bottom. Vintage art deco noir print aesthetic, clean, iconic, collectible.",
       "result": "results/gdgtify-artdeco-noir.png",
       "seed": 1508974578
+    },
+    {
+      "id": "ludovic-imaginary-tokens",
+      "source": "https://x.com/LudovicCreator/status/2074735262417002567",
+      "author": "LudovicCreator",
+      "date": "2026-07-08",
+      "lang": "en",
+      "target_model": "Midjourney v8.1 (이매지너리 토큰 → Krea2 자연어 적응)",
+      "category": "스타일 변환",
+      "title": "이매지너리 토큰 4종 — Synesthesia/Cthonic/Redacted/Glyphic",
+      "prompt": "🎨 IMAGINERY TOKENS MIDJOURNEY V 8.1 🎨\n\nFor those who follow me since a long time you know I liked to play with imaginery tokens and to see how AI reacts with them ..\n\nHere 4 new ones with some possible interpretations :\n\n* Synesthesia :\n\n Might translate sounds or scents into abstract visuals\n\n* Cthonic :\n\nPrimal, subterranean, inspired by underworld mythologies\n\n* Redacted :\n\n Information/imagery selectively blocked out or obscured\n\n* Glyphic:\n\n Covered in arcane magical symbols\n\nSame Base prompt used here :\n\n[TOKEN ] Man  --v 8.1\n\nIt's not very stable and consistent and it's fun to play with...\n\nTry them , mix them , use them in other tools , share your creations if you want to.\n\nFind all images first commen\n1/2",
+      "prompt_ko": "MJ 이매지너리 토큰 실험: 베이스 '[TOKEN] Man --v 8.1'에 상상적 단어 토큰을 넣어 AI의 해석을 관찰. ①Synesthesia=소리/향을 추상 비주얼로 ②Cthonic=지하세계 신화의 원초성 ③Redacted=선택적 검열/차단 ④Glyphic=비전(秘傳) 마법 기호 뒤덮음. 불안정하지만 놀이 가치. **우리 재현=토큰 해석을 자연어로 풀어낸 스타일 적응**(MJ 토큰은 Krea2에 무의미).",
+      "gen_prompt": "A 2x2 grid, four portrait interpretations of the same man, each panel a different imaginary-token style, painterly-surreal, unified dark studio backdrop, small clean caption under each panel. Panel 1 SYNESTHESIA: the man’s presence translated into sound and scent made visible — ribbons of chromatic audio waves and perfume-like color mists swirling from his silhouette, his face half-dissolved into vibrating color frequencies. Panel 2 CTHONIC: primal and subterranean — his figure carved from cavern basalt and root systems, faint underworld glow from below, mythological shadow antlers. Panel 3 REDACTED: selectively obscured — heavy black censor bars across the eyes and chest, missing document textures, stamped ink marks, portions of the portrait torn away like classified files. Panel 4 GLYPHIC: covered in arcane magical symbols — luminous engraved glyphs crawling across his skin and floating in orbit around his head, dim candle-lit atmosphere. Consistent portrait framing across panels, rich texture, experimental art series aesthetic.",
+      "result": "results/ludovic-imaginary-tokens.png",
+      "seed": 735406853
     }
   ]
 }
