@@ -2759,6 +2759,21 @@ window.PROMPT_DATA={
       "gen_prompt": "A mindblowing numerosity comparison poster on a clean pure white background, museum-exhibit lighting. Headline question in bold editorial type at top: “HOW MANY BUSES DOES 100,000 PEOPLE TAKE?”. Answer line beneath in one clear statement: “2,223 forty-five-seat shuttle buses — enough to line up for 27 kilometers.” Hero comparison staged side by side as physically present objects: on the left, a vast dense crowd of 100,000 tiny detailed human figures packed into a glass stadium-shaped container; on the right, a long orderly grid formation of 2,223 miniature white-and-red shuttle buses arranged in neat rows on a white field, each bus casting a soft shadow. Both quantities feel tangible and countable, staged like museum dioramas with short museum-style labels: “ATTENDEES — 100,000” and “SHUTTLE BUSES — 2,223 UNITS”. At the bottom, an order-of-magnitude scale bar ruler from 10 to 100,000. Concise source line in small type: “45 seats per bus, single trip”. Clean white minimal visual tone, photorealistic miniature detail, soft even light, premium data-journalism poster.",
       "result": "results/gdgtify-quantity-compare.png",
       "seed": 851790726
+    },
+    {
+      "id": "ksa8-nine-style-moodboard",
+      "source": "https://x.com/ksa8Turky/status/2074515029659939087",
+      "author": "ksa8Turky",
+      "date": "2026-07-08",
+      "lang": "en (아랍어 트윗, ALT 숨김형)",
+      "target_model": "미표기 (GPT Image 계열 추정)",
+      "category": "콜라주/9그리드",
+      "title": "9스타일 인스타 무드보드 ([PRODUCT] 템플릿 → 막걸리)",
+      "prompt": "Create a premium 3×3 Instagram moodboard (9 unique square posts in one image) for [PRODUCT]. Each panel must use a different style: luxury cinematic, minimalist, dark premium, modern social media, rustic heritage, packaging ad, bold typography, testimonial card, and vintage editorial. Keep [PRODUCT] as the hero in every panel with unique colors, layouts, lighting, and typography. Ultra-realistic, premium branding, editorial quality, 8K.",
+      "prompt_ko": "[PRODUCT] 하나를 9가지 스타일로 변주하는 3×3 인스타 무드보드(1장): 럭셔리 시네마틱 / 미니멀 / 다크 프리미엄 / 모던 소셜 / 러스틱 헤리티지 / 패키징 광고 / 볼드 타이포 / 테스티모니얼 카드 / 빈티지 에디토리얼. 패널마다 컬러·레이아웃·조명·타이포를 다르게, 제품은 전 패널 히어로 유지. 브랜드 무드보드/스타일 탐색용 만능 템플릿.",
+      "gen_prompt": "A premium 3x3 Instagram moodboard, nine clearly different square posts in one image, for a premium Korean makgeolli rice-wine bottle brand 'SUL' (frosted white glass bottle, minimal hanji-paper label). Each panel is a COMPLETELY different art direction: Panel 1 luxury cinematic — the bottle on black marble with dramatic golden rim light and smoke. Panel 2 minimalist — tiny bottle centered on vast warm-white empty field, soft shadow. Panel 3 dark premium — matte black background, bottle half in shadow, single spotlight, condensation. Panel 4 modern social media — bright teal backdrop, bold diagonal composition, price-tag sticker graphics and playful shapes. Panel 5 rustic heritage — bottle on an old wooden jumak table with traditional Korean brass bowl, dried rice stalks, warm hanok daylight. Panel 6 packaging ad — the bottle beside its craft paper box, studio product shot with clean reflections. Panel 7 bold typography — giant cream serif letters 'SUL' filling the panel with the small bottle standing between letterforms on black. Panel 8 testimonial card — cream card with a short quote line, five small stars, tiny bottle photo in corner, taped-note aesthetic. Panel 9 vintage editorial — grainy sepia magazine page look, bottle photo with retro serif headline and thin rules. Keep the same bottle recognizable as hero in every panel but change colors, layout, lighting and typography per panel. Ultra-realistic, premium branding, editorial quality, thin white gutters between panels, 8K.",
+      "result": "results/ksa8-nine-style-moodboard.png",
+      "seed": 64424180
     }
   ]
 }
