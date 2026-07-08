@@ -2876,9 +2876,24 @@ window.PROMPT_DATA={
       "title": "인더스트리얼 오가닉 합성 ([SUBJECT]/[COLOR] 템플릿 → 혹등고래)",
       "prompt": "[SUBJECT] illustrated in an Industrial Organic Synthesis, blending mechanical structures with organic forms. Use [COLOR1] and [COLOR2] to highlight the fusion of technology and nature",
       "prompt_ko": "[SUBJECT]를 기계 구조 × 유기적 형태의 융합체로 그리는 초단문 스타일 템플릿. [COLOR1]/[COLOR2] 두 색으로 기술과 자연의 융합을 강조.",
-      "gen_prompt": "A humpback whale illustrated in an Industrial Organic Synthesis style, blending mechanical structures with organic forms — the whale’s body half smooth living flesh and barnacled skin, half exposed articulated machinery: riveted copper plating, piston fins, turbine blowhole, gear-driven tail joints, pressure pipes flowing like veins, small gauges embedded along the flank. Use burnished copper and deep teal to highlight the fusion of technology and nature, teal ocean-mist background with drifting bubbles and blueprint-thin construction lines, dramatic side lighting, intricate detail, elegant industrial-naturalist poster composition.",
+      "gen_prompt": "A humpback whale illustrated in an Industrial Organic Synthesis style on a clean warm-ivory studio background, presented like a premium specimen illustration — the whale floats isolated and centered as a single hero object with a soft contact shadow, no ocean, no underwater scene, no environment. The creature blends mechanical structures with organic forms in meticulous detail: half of the body is smooth living whale with natural skin and gentle eye, the other half opens into finely-crafted machinery — riveted copper plates, exposed clockwork gears, piston-driven fins, turbine blowhole, articulated tail linkages, tiny gauges and valves — every component crisply defined like a technical catalog rendering. Use burnished copper and deep teal as the only two accent colors against the clean background. A few thin hairline callout lines with small minimal labels point to key components, diagram-like. Elegant, precise, industrial-naturalist encyclopedia plate aesthetic, high detail, flat even lighting.",
       "result": "results/ludovic-industrial-organic.png",
-      "seed": 1360099383
+      "seed": 1350548751
+    },
+    {
+      "id": "liyue-zen-calligrapher",
+      "source": "https://x.com/liyue_ai/status/2074514733282284007",
+      "author": "liyue_ai",
+      "date": "2026-07-08",
+      "lang": "zh",
+      "target_model": "GPT Image 2",
+      "category": "미니멀 포스터",
+      "title": "동양 선의(禪意) 월페이퍼 — 일필견산하 (서예가 실루엣)",
+      "prompt": "主题方向：东方禅意极简海报\n风格分支：高对比传播型\n主体内容：一位站在长墙前挥笔书写的人物剪影\n情绪母题：表达、气势、清醒、文气张力\n场景与意象：米白长墙、钴蓝大面积留白空间、明橙落款印记、人物与笔势墨线\n构图与空间：偏侧构图，人物位于一侧，长墙形成大面积留白，书写动作带出纵向或斜向视觉动线\n色彩控制：米白作为墙面和主要留白基底，钴蓝用于局部背景块面或阴影层次，明橙只用于小面积印记、笔尾点睛或落款位置，人物用墨黑剪影；避免墙面整体染色过重\n光线与质感：自然光，纸墙肌理，墨线清晰，轻颗粒，现代文化海报感\n画幅比例：9:16 \n补充要求：动作要有力度但画面仍极简，适合做文化感、标题感很强的海报",
+      "prompt_ko": "'一笔见山河(한 붓에 산하가 보인다)' 시리즈. 구조화된 중문 프롬프트(주제방향/풍격분지/주체내용/정서모제/장면의상/구도/색채공제/광선질감/화폭/보충). 긴 벽 앞에서 붓을 휘두르는 인물 먹실루엣, 미백 벽+코발트블루 여백+명오렌지 낙관 포인트, 편측 구도·사선 필세 동선, 9:16 문화 포스터.",
+      "gen_prompt": "An Eastern zen minimalist poster, 9:16 vertical, high-contrast cultural-poster style. Main subject: the ink-black silhouette of a calligrapher standing before a long beige wall, arm sweeping mid-stroke, a powerful diagonal brush line of wet ink trailing across the wall. Composition: figure placed to one side, the long wall forming vast negative space, the writing gesture creating a strong diagonal visual flow. Color control: warm beige as the wall and dominant empty field, large cobalt-blue background block for depth and shadow layer, bright orange used only as one small seal mark and a tiny accent at the brush tail; figure in pure ink black. Natural daylight, paper-wall texture, crisp ink lines, light grain, modern cultural poster feel with strong title presence. The action forceful yet the frame extremely minimal — expression, momentum, clarity, literary tension.",
+      "result": "results/liyue-zen-calligrapher.png",
+      "seed": 1312625202
     }
   ]
 }
