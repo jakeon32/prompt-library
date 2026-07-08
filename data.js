@@ -2684,6 +2684,21 @@ window.PROMPT_DATA={
       "gen_prompt": "A hyper-realistic miniature surreal portrait of a tiny man with an oversized, highly expressive head standing between two giant sesame burger buns on a white dinner plate. The character has a funny grumpy facial expression with pursed lips, wearing an olive-green hoodie, black jeans, and brown sneakers. Fresh lettuce leaves and creamy melted cheese sauce are dramatically falling from above, with sauce dripping in mid-air and tiny sesame seeds and burger crumbs flying around, creating a dynamic frozen-action effect. The giant burger buns stand upright on both sides of him like walls, making him appear trapped inside the burger. The background features a warm, cinematic restaurant setting with shallow depth of field, soft golden bokeh lighting, and blurred hands in the distance. Ultra-detailed textures, photorealistic skin, realistic food textures, dramatic lighting, macro photography, 85mm lens, HDR, sharp focus, volumetric lighting, high contrast, premium food photography, whimsical surrealism, 8K, masterpiece, ultra-realistic.",
       "result": "results/mehwish-miniature-food-surreal.png",
       "seed": 1436922456
+    },
+    {
+      "id": "xxd-longshadow-city-poster",
+      "source": "https://x.com/xiaoxiaodong01/status/2074652685958307870",
+      "author": "xiaoxiaodong01",
+      "date": "2026-07-08",
+      "lang": "zh",
+      "target_model": "GPT Image 2 (이미지 ALT 숨김형)",
+      "category": "미니멀 포스터",
+      "title": "미니멀 롱섀도우 시티 포스터 (도시 시리즈 → BUSAN)",
+      "prompt": "围绕任意主题对象生成一张极简而有强烈图形记忆点的平面视觉：画面先读到一整片明亮、干净、近乎无纹理的高明度色场，主题内容被拆成许多尺度很小的真实剪影、符号或局部物件，稀疏散落在宽阔留白中，彼此保持明显距离，让空旷感成为主角。每个小主体都必须投下夸张拉长的深色影子，影子沿统一斜向穿越画面，长度远大于主体本身，形成比主体更醒目的节奏线；局部可让某个巨大结构的投影从边缘切入，只露出沉重暗形和少量规则透光缝，使画面出现尺度反差与城市般的压迫感。色彩从未来主题自身的材质、情绪和文化语义中提取，保留“大面积清透明亮底色、极少量高对比深色结构、微小主题色点缀”的角色关系，整体保持鲜亮、洁净、通风感和清晰色阶，避免灰脏、复古泛黄或泥状混色。信息文字若出现，应作为冷静的视觉重量：一组粗黑紧密排布的大字贴近一侧边缘形成硬朗竖向压力，少量小字以细字距分布在角落或底部，像公共标识一样克制、精确、留出大空场。整体完成度要像经过严密排版的商业艺术图像，主体虽小但影子巨大，真实物件与抽象色场之间产生强烈的日光、秩序、孤立与重新定义感。\n\n\n\n\n\n——————\n\n每张图片画面元素：城市+2026-07-08+早安金句问候+5个不同形式的信息点+富有构图节奏变化\n\n\n\n每次1个城市，每个城市有不同的配色逻辑、构图逻辑变化\n\n一共10个城市，10张图片，依次生成\n\n\n\n注意：每张图片，构图排版彼此不同。\n\n\n\n比例16:9 横版",
+      "prompt_ko": "임의 주제를 강한 그래픽 기억점의 미니멀 평면 비주얼로. 구조 = ①밝고 깨끗한 고명도 색장(色場)이 화면 전체 ②주제를 아주 작은 실물 실루엣·심볼로 해체해 넓은 여백에 희소 산포(공허감이 주인공) ③**모든 소주체가 통일된 사선 방향으로 본체보다 훨씬 긴 과장 그림자**를 드리워 리듬라인 형성 ④거대 구조물의 투영이 가장자리에서 컷인(스케일 대비+도시적 압박감) ⑤한쪽 가장자리에 굵은 세로 타이포 압력 + 구석에 공공사인 같은 절제된 소문자. 일광·질서·고립·재정의감. 원 시리즈 = 도시+날짜+아침인사 10종 16:9.",
+      "gen_prompt": "A minimalist flat graphic poster with a strong visual memory point, 16:9. The entire frame is a bright, clean, almost textureless high-luminance field of pale sea-glass mint fading to warm ivory. The subject — the port city of Busan — is deconstructed into many tiny realistic silhouettes scattered sparsely across the wide emptiness, keeping generous distance from each other: a small harbor crane, a tiny ferry, a city bus, two seagulls, a lighthouse, a camellia flower, a tiny cable car. Every small silhouette casts an exaggerated, elongated deep-navy shadow, all shadows running in one unified diagonal direction and far longer than the subjects themselves, forming rhythm lines more prominent than the objects. From the right edge, the huge dark projected shadow of the Gwangan Bridge structure cuts into the frame, showing only a heavy dark shape with a few regular slits of light, creating scale contrast and urban pressure. Tiny accent dots of coral red. Typography as calm visual weight: a group of bold black tightly-set vertical letters reading “GOOD MORNING” pressed against the left edge, and small precise caption lines in the bottom corner like public signage: “BUSAN — HARBOR LIGHT / 07:00 TIDE CALM”. Bright, clean, airy, clear color steps, no muddy or vintage tones, commercial-art precision, daylight, order, solitude.",
+      "result": "results/xxd-longshadow-city-poster.png",
+      "seed": 61593474
     }
   ]
 }
