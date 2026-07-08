@@ -3119,6 +3119,21 @@ window.PROMPT_DATA={
       "gen_prompt": "A 2x2 grid, 16:9, four breathtaking award-winning macro diorama advertisements for four strange fictional classic cars, each panel: colossal 3D three-word slogan typography physically constructed from the car’s native materials, tiny hyper-realistic miniature people climbing and celebrating on the letters, and the hero car prominently centered as the source of the miniature world. Panel 1 a bubble microcar — slogan “SMALL IS MIGHTY” built from chrome trim and pastel body panels, mechanics polishing the letters. Panel 2 a finned atomic-age cruiser — slogan “RIDE THE FUTURE” built from tailfins and rocket chrome, figures waxing the fins. Panel 3 a three-wheeled delivery truck — slogan “TINY BUT TRUE” built from wooden crates and rubber tires, workers loading cargo between letters. Panel 4 an amphibious car — slogan “DRIVE THE WAVES” built from propellers and life rings, swimmers diving off the letters. Dramatic macro lens depth, warm studio light, tactile materials, premium advertising diorama craft.",
       "result": "results/gdgtify-macro-diorama-ad.png",
       "seed": 2001930555
+    },
+    {
+      "id": "charas-fantasy-watercolor",
+      "source": "https://x.com/charaspowerai/status/2074916467288510634",
+      "author": "charaspowerai",
+      "date": "2026-07-09",
+      "lang": "en",
+      "target_model": "미표기 (GPT Image 계열 추정)",
+      "category": "일러스트 스타일",
+      "title": "판타지 수채×애니메 ([주제] 템플릿 → 운해 위 산사)",
+      "prompt": "a watercolor painting of [main subject or location], fantasy illustrations, impressive [sky or atmospheric element], anime art, vivid [color palette or regional colors], fantastical [environment or setting], lens flare",
+      "prompt_ko": "수채화+애니메 아트+렌즈 플레어의 초시적(超詩的) 판타지 일러스트 초단문 템플릿. 괄호 요소(주제/하늘·대기/팔레트/환경)만 바꾸면 소프트 시네마틱 스타일이 즉시 나옴.",
+      "gen_prompt": "a watercolor painting of an ancient Korean mountain temple floating above a sea of clouds, fantasy illustrations, impressive dawn sky with rose-gold light rays breaking through drifting mist, anime art, vivid palette of celadon green, misty blue, warm persimmon and pale gold, fantastical environment of pine-covered peaks emerging from the cloud ocean with paper lanterns drifting upward, lens flare",
+      "result": "results/charas-fantasy-watercolor.png",
+      "seed": 1863725828
     }
   ]
 }
