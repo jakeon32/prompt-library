@@ -2849,6 +2849,21 @@ window.PROMPT_DATA={
       "gen_prompt": "A 16:9 poster split into a 2x2 grid, four hybrid cut-paper relief posters for four Korean cities, each combining layered paper-cut relief (deep navy, cream, scarlet red, orange glow, dusty blue papers with torn curled hand-cut edges), explosive vector paper fragments (arrows, shards, waves, rays, ribbons, confetti bursting from the focal landmark), and a foreground of soft clay-meets-paper diorama miniatures (tiny people, small vehicles, little flags, cutout clouds, tiny signs). Panel 1 SEOUL: N Seoul Tower silhouette bursting with navy-red rays, miniature palace gate and city bus below, bold headline “SEOUL”. Panel 2 BUSAN: Gwangan Bridge arc with wave shards and gulls, tiny ferry and fish-cake cart, headline “BUSAN”. Panel 3 GYEONGJU: Cheomseongdae observatory with starburst confetti, miniature stone pagoda and cyclists, headline “GYEONGJU”. Panel 4 JEONJU: hanok rooftops relief with ribbon bursts, tiny hanbok figures and food stalls, headline “JEONJU”. Historic, bold, celebratory tone, editorial stacked relief depth, soft studio light with paper shadows, thin gutters between panels, no real logos.",
       "result": "results/gdgtify-hybrid-paper-poster.png",
       "seed": 298253836
+    },
+    {
+      "id": "gdgtify-hidden-cost-flatlay",
+      "source": "https://x.com/gdgtify/status/2074494897755943178",
+      "author": "Gdgtify",
+      "date": "2026-07-08",
+      "lang": "en",
+      "target_model": "GPT Image 2 (함수형 템플릿)",
+      "category": "데이터viz/플랫레이",
+      "title": "숨은 비용 플랫레이 인포그래픽 ([subject] → AI 쇼츠 1편)",
+      "prompt": "16:9 input: subject = [any product / activity / system / habit / event] impact_theme = [real cost / hidden inputs / environmental footprint / time cost / resource burden / social cost / ai-infers] data_mode = [user_provided_data / ai_inferred_estimates / illustrative_only] create a physical flat-lay infographic showing the hidden cost of subject. ai must infer: - the main cost categories - the quantity for each category - a visual token/object representing each unit - the process stages - title and subtitle - category labels - unit legend - source/reference box - background surface - layout hierarchy render the data as real counted objects arranged in vertical columns on a dark editorial surface, like a museum-grade educational infographic. rules: - no fixed product - no fixed metrics - no fixed numbers - no fixed unit icons - no copied layout labels - infer all categories and visuals from subject and impact_theme - if factual accuracy matters, use provided data rather than inventing values",
+      "prompt_ko": "[제품/활동/습관/이벤트]의 숨은 비용을 **실물 오브젝트를 세로 컬럼으로 진짜 개수만큼 배열**해 보여주는 물성 인포그래픽. AI가 비용 카테고리·수량·단위 토큰 오브젝트·타이틀·범례·출처박스·레이아웃 위계까지 전부 추론. 다크 에디토리얼 표면, 뮤지엄급. 고정 제품/수치/아이콘 없음 = 순수 구조 템플릿. 사실성 중요하면 실데이터 제공 모드.",
+      "gen_prompt": "A 16:9 physical flat-lay infographic on a dark charcoal editorial surface, museum-grade educational style, showing the hidden inputs of ONE 45-SECOND AI-GENERATED SHORT VIDEO (illustrative only). Title at top in clean editorial type: “WHAT ONE AI SHORT REALLY TAKES”, subtitle “hidden inputs behind 45 seconds — illustrative”. Real counted miniature objects arranged in neat vertical columns, each column labeled: column 1 “GPU HOURS — 3” as three miniature graphics cards stacked; column 2 “PROMPTS — 24” as twenty-four small paper prompt cards; column 3 “TAKES DISCARDED — 12” as twelve tiny film frames; column 4 “ELECTRICITY — 2 kWh” as two glowing battery cells; column 5 “COOLING WATER — 4 L” as four small water vials; column 6 “HUMAN COFFEE — 2 CUPS” as two espresso cups with beans. A small unit legend row at bottom left, a source/reference box bottom right reading “illustrative estimates”. Soft raking studio light casting gentle shadows from each object, physically real materials, precise grid alignment, generous margins, premium data-journalism aesthetic.",
+      "result": "results/gdgtify-hidden-cost-flatlay.png",
+      "seed": 1299405420
     }
   ]
 }
