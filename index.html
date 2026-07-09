@@ -49,13 +49,27 @@
   }
   .search input{flex:1; background:none; border:none; color:var(--tx); font-size:14px; outline:none; font-family:inherit}
   .search svg{flex-shrink:0; opacity:.5}
-  .chips{display:flex; gap:8px; flex-wrap:wrap}
+  .chips{
+    display:flex; gap:8px; flex-wrap:wrap; width:100%;
+    max-height:0; overflow:hidden; opacity:0;
+    transition:max-height .25s ease, opacity .2s ease, margin .25s ease;
+  }
+  .chips.open{max-height:600px; opacity:1; margin-top:14px}
   .chip{
     padding:8px 15px; border-radius:999px; border:1px solid var(--line2); background:var(--card);
     color:var(--tx2); font-size:13px; font-weight:600; cursor:pointer; transition:.15s; white-space:nowrap;
   }
   .chip:hover{border-color:var(--acc); color:var(--tx)}
   .chip.on{background:var(--acc); border-color:var(--acc); color:#fff}
+  .filter-toggle{
+    display:flex; align-items:center; gap:7px; padding:9px 15px; border-radius:999px; border:1px solid var(--line2);
+    background:var(--card); color:var(--tx2); font-size:13px; font-weight:600; cursor:pointer; transition:.15s;
+    white-space:nowrap; font-family:inherit; flex-shrink:0;
+  }
+  .filter-toggle:hover{border-color:var(--acc); color:var(--tx)}
+  .filter-toggle .chev{transition:transform .2s; flex-shrink:0}
+  .filter-toggle.open .chev{transform:rotate(180deg)}
+  .filter-toggle .cnt{background:var(--acc); color:#fff; border-radius:999px; padding:1px 8px; font-size:11px; font-weight:700}
 
   /* Grid */
   .grid{
@@ -177,6 +191,11 @@
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
       <input id="q" type="text" placeholder="제목·프롬프트·작성자 검색…">
     </label>
+    <button class="filter-toggle" id="filterToggle" type="button">
+      <span id="filterLabel">전체</span>
+      <span class="cnt" id="filterCnt">0</span>
+      <svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
     <div class="chips" id="cats"></div>
   </div>
 </div>
@@ -206,11 +225,20 @@ document.getElementById('f-upd').textContent = D.updated||'';
 
 // category chips
 const catBox = document.getElementById('cats');
+const filterLabel = document.getElementById('filterLabel');
+document.getElementById('filterCnt').textContent = cats.length;
 ["전체",...cats].forEach(c=>{
   const b=document.createElement('button');
   b.className='chip'+(c==="전체"?' on':''); b.textContent=c;
-  b.onclick=()=>{activeCat=c; document.querySelectorAll('#cats .chip').forEach(x=>x.classList.toggle('on',x.textContent===c)); render();};
+  b.onclick=()=>{activeCat=c; document.querySelectorAll('#cats .chip').forEach(x=>x.classList.toggle('on',x.textContent===c)); filterLabel.textContent=c; document.getElementById('filterCnt').style.display=(c==="전체"?'':'none'); render();};
   catBox.appendChild(b);
+});
+
+// collapsible filter panel (기본 접힘 — 카테고리 늘어나 화면 가림 방지)
+const filterToggle = document.getElementById('filterToggle');
+filterToggle.addEventListener('click',()=>{
+  catBox.classList.toggle('open');
+  filterToggle.classList.toggle('open');
 });
 
 document.getElementById('q').addEventListener('input',e=>{query=e.target.value.toLowerCase().trim(); render();});
