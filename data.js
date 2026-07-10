@@ -3425,6 +3425,38 @@ window.PROMPT_DATA={
       "result": "results/discord-direct-city-monument-greeting.png",
       "seed": 1244577417,
       "ref_image": null
+    },
+    {
+      "id": "xiaoxiaodong01-ai-product-slogan-poster",
+      "source": "https://x.com/xiaoxiaodong01/status/2075415503443820752",
+      "author": "xiaoxiaodong01",
+      "date": "2026-07-10",
+      "lang": "zh",
+      "target_model": "GPT-image 2",
+      "category": "제품광고·로고포스터",
+      "title": "AI 제품 로고+슬로건 포스터 — Gemini 'Good Morning'",
+      "prompt": "围绕任意主题对象生成强视觉传播画面：把主题提炼成一个近距离、饱满、带真实体积感的中心主形体，让它占据画面最强视觉重量，边缘可被轻微裁切，表面保持光洁高亮、圆润反光和可触摸的质感，少量主题派生的附着物或结构细节从主形体边缘伸出，形成鲜明识别点。背景使用同一主题词、日期感符号或短促信息拆解成大字号字阵，低对比地铺满画面，字形可旋转、重复、半遮挡，像节奏墙一样制造速度和记忆点，但必须退到主形体之后。核心标题文字直接压在主形体正面，使用粗重、紧凑、干净的无衬线字，形成图像与文字融合的第一阅读；辅助信息以细长竖排或窄列贴近边缘，带少量徽章式强调，制造促销、发布、公告般的仪式感。色彩从主题自身的材质、情绪和信息属性中提取：大面积背景承担高饱和而明亮的情绪场，中心主形体使用同色系或主题主色的更高明度、更强光泽层次，文字以清晰高反差信息色建立可读性，少量强调色只用于关键标题或徽章；整体保持明亮、洁净、热烈、有冲击力，色阶清楚，边界锐利，不做灰脏、陈旧或浑浊处理。完成效果应像一个单一主题被放大成可记忆的广告图形，第一眼先读到巨大的主题载体，第二眼读到压在其上的标题，再由背景字阵感到密集节奏。\n\n————\n\n本次主题：AI产品logo+名称+口号 海报，中心构图\n每个都是对应AI产品的图片和文案\n一共四个图片，逐张生成\n注意口号也是大字\n\n每个图片名称+文案的文案，参考如下：\nChatgpt - Good for Chat\nClaude - Good for Coding\nGrok - Good for Research\nGemini - Good Morning\n\n比例16:9",
+      "prompt_ko": "★ALT숨김형(4번째 이미지 ALT). AI 제품 하나를 근접·입체감 있는 중심 오브젝트로 형상화하고, 배경엔 같은 주제어를 반복·회전·반가림한 대형 자간으로 채워 리듬감/속도감을 주는 '제품 발표 포스터' 템플릿. 4개 AI 제품(ChatGPT/Claude/Grok/Gemini) 각각의 이름+말장난 슬로건으로 시리즈 제작 — 여기선 'Gemini - Good Morning'(제미니의 별자리/쌍둥이자리 상징과 '굿모닝' 언어유희) 편을 대표로 생성.",
+      "gen_prompt": "A bold advertising poster with a large, glossy, three-dimensional Gemini zodiac symbol (twin stars / twin silhouette icon) as the central hero object, filling most of the frame with real volumetric weight, edges slightly cropped, glossy reflective surface catching warm morning light. Behind it, the word \"GEMINI\" repeated at giant scale, rotated and partially overlapping itself, tiled low-contrast across the whole background like a rhythmic wall of text, receding behind the hero object. Bold, tight, clean sans-serif headline \"Good Morning\" pressed directly over the front of the hero object, fused with the image as the first read. Small vertical caption text near the edge for secondary info, with a small badge accent for a launch-announcement feel. Color palette: warm sunrise gradient background (soft peach, gold, lavender) carrying a bright saturated mood field, the hero object rendered in a deeper glossy version of the same warm palette with strong highlight layers, high-contrast white headline text for readability, one small accent color reserved for the badge. Bright, clean, energetic, sharp edges, no muddy or dated treatment. 16:9 aspect ratio, centered composition.",
+      "result": "results/xiaoxiaodong01-ai-product-slogan-poster.png",
+      "seed": 1556252370,
+      "ref_image": null
+    },
+    {
+      "id": "xiaoxiaodong01-who-rules-fate-poster",
+      "source": "https://x.com/xiaoxiaodong01/status/2074790830871900567",
+      "author": "xiaoxiaodong01",
+      "date": "2026-07-10",
+      "lang": "zh",
+      "target_model": "GPT-image 2",
+      "category": "컨셉포스터·대자보타이포",
+      "title": "대자보 컨셉 포스터 — '누가 흥망을 주관하는가(谁主沉浮)'",
+      "prompt": "围绕任意主题对象生成一张具有强烈图形编辑感的视觉作品：让主题被转译为一个清晰的主形体或象征性载体，置于巨大的裁切字形、数字或抽象标识前后，字形占据画面主要视觉重量，像建筑结构一样从边缘被切断，只露出局部笔画和内部留白，形成第一眼的巨大尺度与图文压迫感；主题主体以灰阶、低彩度或单色影像质感出现，边缘清晰但带轻微颗粒，局部遮挡字形并被字形反向包围，制造前景实体与背景符号互相嵌套的层次。背景保持干净、明亮、带通风感的高明度底场，可加入细薄的半透明描边、柔和阴影和轻微纸面噪点，让空间有复古印刷的触感但不浑浊。色彩从主题自身的材质、情绪和语义中提取：大面积底色承担明亮结构场，巨大字形使用主题派生的高饱和情绪色成为主强调，主体影像用清晰的深浅灰阶建立真实重量，顶部和边缘的小号信息文字使用同一强调色或其深色变体；保持少量强色、大面积浅底、清楚明暗台阶和干净边界，情绪应冷静精确、明亮有力。文字排版采用克制的现代无衬线体系，顶部放置短小信息组，字号小、字距紧、对齐明确，像档案标签一样增强秩序，不抢走巨大字形与主体叠压的第一阅读。整体避免普通插画感，必须让主题、巨型字形、留白、信息标签和颗粒质感共同形成一张有设计师手感的图像文本融合作品。\n\n封面文字：谁主沉浮\n配色：符合这个文字的主题\n中心构图\n比例：16:9\n用途：自媒体大字报封面",
+      "prompt_ko": "★ALT숨김형. 거대하게 잘린 한자 타이포(화면 가장자리에서 잘려나가는 건축적 스케일) 앞뒤로 그레이스케일 인물/오브젝트 실루엣이 겹쳐지며 전경-배경이 서로 맞물리는 '대자보' 그래픽 편집 스타일. 커버 문구 '谁主沉浮'(누가 흥망을 주관하는가 — 마오쩌둥 시구에서 유래한 웅장한 수사)에 맞춰 권력·역사·운명을 상징하는 짙은 배색 적용.",
+      "gen_prompt": "A large-scale graphic editorial poster. Giant Chinese calligraphy characters, cropped at the frame's edges like architectural structure so only partial strokes and negative space are visible, dominate the composition with immense scale. A grayscale, low-saturation silhouette of a solitary figure standing on a mountain summit at dusk overlaps and interlocks with the giant characters — partially obscuring the text while itself being enclosed by the character strokes, creating layered depth between foreground figure and background typographic symbol. Background is clean, bright, airy with a thin translucent outline, soft shadow, and faint paper-grain noise for a vintage-print tactile feel without looking muddy. Color palette: deep crimson red and aged gold as the dominant emotional accent on the giant characters (evoking power, history, fate), the figure rendered in crisp dark-to-light grayscale for real weight, bright pale parchment background field, small tight-tracking caption labels at the top in the same deep red. Sharp edges, clear tonal steps, calm and powerful mood, no illustration-cliche look. 16:9 aspect ratio, centered composition, editorial magazine-cover feel for a social-media big-type poster.",
+      "result": "results/xiaoxiaodong01-who-rules-fate-poster.png",
+      "seed": 1951230457,
+      "ref_image": null
     }
   ]
 };
