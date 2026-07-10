@@ -3377,6 +3377,54 @@ window.PROMPT_DATA={
       "result": "results/gdgtify-origami-monster.png",
       "seed": 2134702580,
       "ref_image": null
+    },
+    {
+      "id": "xiaoxiaodong01-daja-work-poster",
+      "source": "https://x.com/xiaoxiaodong01/status/2075232614605263028",
+      "author": "xiaoxiaodong01",
+      "date": "2026-07-10",
+      "lang": "zh",
+      "target_model": "GPT-image 2",
+      "category": "컨셉포스터·대자보타이포",
+      "title": "대자보(大字报) 컨셉 포스터 — 거대 타이포+환경장 반투과",
+      "prompt": "围绕任意主题对象生成一张图文融合的概念画面：先让一个极粗、极大的主题核心词占据中部，字形像沉重的结构墙一样压住画面，随后用主题派生的水平环境场从字的下半部横切过去，遮住部分笔画，使文字既保持可读，又像被真实空间吞没一截。环境场前方放置一个低矮横向的主题载体和一个很小的行动符号，尺度与巨字形成强烈反差，动作安静、缓慢、像暂停在工作之外；细长的方向线或工具线穿过留白，制造斜向张力。上方保留大面积通风留白，只安排少量小字号信息线、编号和短标题，字体使用粗重压缩无衬线与打字机式微小文字组合，字距紧、边界硬、带轻微套印偏差。色彩从主题自身的材质、情绪和语义中提取，映射为大面积明亮干净的基础底色、清透的水平场色、少量高饱和强调色、深色结构阴影和低存在感信息文字，保持明亮轻快、清晰色阶、冷暖轻微对冲和干净留白；纸纹、网点、划痕只作为复古印刷触感，不让画面变灰、变脏或失去通风感。整体像一张被巨大标题压住的慢节奏瞬间，主题动作很小，信息层很大，幽默、松弛、安静，但结构必须精确。\n\n——————\n慢工主题: 慢工作日+午休钓鱼+木船水面+办公室逃离感\n海报用途: 团队文化墙概念海报\n冷调配色: 冷蓝+银灰+电光青+暗场高对比\n主视觉重心: 巨大WORK居中+水面横切下半字+小船人物压低在右侧，竖版 3:4",
+      "prompt_ko": "★ALT숨김형 — 트윗 본문엔 소개멘트만 있고 실제 프롬프트는 이미지 ALT 속성에 있었음(pptr_scrape_alt.js로 확보). '대자보(大字报)' 스타일 — 거대한 주제 핵심 단어가 무거운 벽처럼 화면 중앙을 압도하고, 그 아래를 수평 환경장(물/지평선 등)이 가로질러 글자 일부를 가리며 실재감을 줌. 작은 인물/사물이 거대 글자와 스케일 대비를 이루는 유머러스하고 차분한 무드. 작성자가 '웨스 앤더슨 배색이 특히 이 스타일에 잘 어울린다'고 강조.",
+      "gen_prompt": "A concept poster blending giant typography with an environmental scene, Wes Anderson-inspired symmetrical color palette. The word \"WORK\" rendered in an extremely bold, oversized, heavily compressed sans-serif typeface dominates the center of the frame like a massive structural wall of text. A horizontal water-line environment cuts across the lower half of the letters, partially submerging the bottom strokes of \"WORK\" so the text feels physically swallowed by real space while staying legible. In front of this water line, a small low horizontal wooden fishing boat carries a tiny human figure fishing calmly, pausing from work — the scale contrast between the tiny boat and the giant letters is the visual joke. A thin diagonal fishing line or rod cuts through the negative space above for tension. Generous breathing negative space at the top holds only a few small typewriter-style info lines, a short caption, and a number tag; tight letter spacing, hard edges, slight print misregistration for a vintage-poster texture without looking dirty or faded. Color palette: cool blue, silver gray, electric cyan accents, and high-contrast dark shadow structure — bright, clean, crisp tonal steps, cool-warm micro contrast. Vertical 3:4 composition. Calm, deadpan, humorous mood; the action is tiny, the typographic information layer is huge; precise geometric structure throughout.",
+      "result": "results/xiaoxiaodong01-daja-work-poster.png",
+      "seed": 832601497,
+      "ref_image": null
+    },
+    {
+      "id": "ouzhen-landrover-mud-poster",
+      "source": "https://x.com/ou_zhen599/status/2075318334720184713",
+      "author": "ou_zhen599",
+      "date": "2026-07-10",
+      "lang": "en",
+      "target_model": "GPT-image 2",
+      "category": "자동차광고·시네마틱",
+      "title": "Land Rover Defender — 탑다운 항공뷰 진흙 스프린트 캠페인",
+      "prompt": "Land Rover\n\nGPT- image 2 prompt（Rainforest）\nCreate an ultra-premium cinematic campaign image for the Land Rover Defender, designed as a same-series top-down aerial action poster with a stronger rainforest mud-sprint direction. The core image is a single Land Rover Defender blasting at high speed through a narrow rainforest trail, seen from a strict overhead view, while an enormous explosive trail of mud spray, wet earth, mist, and debris erupts behind it with extreme visual impact. The image must feel hyper-real, forceful, elegant, and editorial, like a world-class automotive campaign that transforms off-road motion into a sculptural environmental event.\n\nUse a strict top-down aerial composition with a tall vertical frame. The Defender should sit slightly below center or in the lower-middle portion of the image, racing forward along a narrow muddy road carved through dense rainforest. Behind the vehicle, build a massive vertical mud-and-mist wake that stretches far up the road and dominates the composition — heavier and darker near the rear tires, expanding upward into rolling muddy vapor, wet dust, soil spray, shattered droplets, and earthy atmospheric bloom.\n\nThe Land Rover Defender must be rendered with exceptional product fidelity: accurate proportions, true-to-brand roof and body geometry, premium paint finish, realistic glass reflections, authentic off-road tires, slight wet mud splatter naturally adhering to the body.\n\nThe road and rainforest must be highly realistic: wet muddy trail with tire ruts, uneven earth texture, stones, roots, broken soil, dense rainforest vegetation framing the road like a natural tunnel, subtle mist and humidity in the air.\n\nLighting: soft, cinematic, rainforest-natural — filtered daylight through humid canopy, subtle reflective sheen on mud and water, gentle volumetric light within the mud plume.\n\nMinimal premium branding: Land Rover logo, DEFENDER title, cinematic tagline (\"CONQUER THE WILD\" / \"POWER THROUGH THE STORM\" / \"BORN FOR THE UNTAMED\").\n\nColor palette: deep rainforest green, wet earth brown, muddy umber, mist gray, soft gold daylight, dark graphite vehicle accents.\n\nRendering style: ultra realistic cinematic automotive photography, strict top-down aerial shot, massive explosive mud and mist wake, hyper-detailed wet earth and debris simulation, soft filtered jungle light, premium automotive campaign, 8k, world-class advertising quality.\n\nNegative prompt: static parked vehicle, weak mud trail, dry desert dust look, cartoon mud, cheap off-road poster, low-detail rainforest, plastic-looking car, cluttered composition, neon color grading, game UI aesthetic, generic SUV photo",
+      "prompt_ko": "랜드로버 디펜더가 열대우림 좁은 진흙길을 고속 질주하는 모습을 정확한 탑다운(항공샷) 시점으로 포착 — 차량 뒤로 거대한 진흙·물보라·안개가 폭발적으로 솟구쳐 조각적인 환경 이벤트처럼 보이게 연출. 세로 구도, 우림이 도로를 터널처럼 감싸는 구도. ouzhen 계정 특유의 시네마틱 자동차/제품 광고 시리즈.",
+      "gen_prompt": null,
+      "result": "results/ouzhen-landrover-mud-poster.png",
+      "seed": 389825092,
+      "ref_image": null
+    },
+    {
+      "id": "discord-direct-city-monument-greeting",
+      "source": "discord-direct",
+      "author": "jake (discord)",
+      "date": "2026-07-10",
+      "lang": "zh",
+      "target_model": "GPT-image (unspecified)",
+      "category": "정보그래픽·도시시리즈",
+      "title": "도시 기념비 색면 인포그래픽 — 아침인사 시리즈 (서울)",
+      "prompt": "围绕任意主题对象生成一张极简而有仪式感的视觉画面：让主题转化为一整片近距离的巨型结构色面，占据画面绝大部分空间，像高耸墙体或被放大的主题表面一样形成第一眼的压迫感与纪念碑感；底部保留一条明亮、清透、干净的浅色开放区域，作为呼吸空间和尺度基准。主题主体不以复杂叙事展开，而以一个极小的尺度标记停在下方边缘附近，和巨大色面形成强烈反差，使画面有安静行进、独自面对宏大事物的瞬间。色彩从主题自身的季节、材质、情绪和文化信号中提取：主色承担大面积情绪场，保持饱和但清晰的色阶；浅色承担光线、空气和洁净地面；文字与细节使用高明度反差色，少量深色只用于尺度标记和必要轮廓，整体保持明亮洁净、冷静庄重，不做浑浊旧化处理。主色面需要有细微材质痕迹、擦痕、斑驳颗粒或轻微层次，但纹理服务于空间重量而不是脏污。文字是画面结构的一部分：顶部使用宽松字距的大号衬线标题制造开场声势，中部以主题核心词形成稳定中轴，辅以少量小字号信息文字，排版克制、留白明确、白字清晰，文字像刻在巨大色面上的节令标记，而不是装饰贴纸。整体阅读路径从顶部标题进入，落到中心主题词，再被底部微小尺度标记收住，形成宏大、清冷、洁净、安静的主题仪式感。\n\n——————\n\n每张图片画面元素：城市+2026-07-10+早安金句问候+收藏价值+美学价值+5个不同形式的信息点+富有构图节奏变化\n\n每次1个城市，每个城市有不同的配色逻辑、构图逻辑变化\n\n一共10个城市，10张图片，依次生成\n\n注意：每张图片，构图排版彼此不同。\n\n比例16:9 横版",
+      "prompt_ko": "제이크가 디스코드로 직접 던진 프롬프트(source=discord-direct). 임의 주제를 거대한 단색 구조체(기념비적 벽면)로 치환하고, 하단에 밝고 깨끗한 개방 여백을 남겨 스케일 기준을 주는 미니멀 의식적 비주얼 템플릿. 도시+날짜+아침인사 금구+수집가치+미학가치+5개 정보포인트를 담아 10개 도시를 각기 다른 배색·구도로 순차 생성하는 시리즈 기획. 여기서는 그 중 서울 1편을 대표로 생성.",
+      "gen_prompt": "A minimalist, ceremonial 16:9 poster for Seoul. A single massive monochromatic color field dominates nearly the entire frame like a towering monument wall — deep hanok-tile charcoal navy as the emotional base color with subtle weathered texture, faint scratches and mottled grain that read as material weight, not dirt. At the bottom edge, a bright, clean, pale open strip of soft morning light gray serves as breathing space and scale reference. A tiny scale marker sits near this bottom strip: a minuscule silhouette of Namsan Tower and a small human figure walking, dwarfed by the giant color field above, creating a quiet, solitary moment facing something monumental. Typography is structural: a wide-letter-spaced large serif headline at the top reading \"SEOUL\", a stable central axis with the core word \"안녕, 서울\" (Good Morning, Seoul) in bright high-contrast white, and small caption-scale info lines below listing five compact data points (weather, date 2026-07-10, a short inspirational quote, a collectible edition number, an aesthetic rating) arranged with restrained, generous negative space. Text reads like a carved seasonal marker on the monument surface, not a decorative sticker. Overall mood: monumental, cool, clean, quiet ceremonial reverence for the city, crisp tonal steps, no muddy or aged treatment.",
+      "result": "results/discord-direct-city-monument-greeting.png",
+      "seed": 1244577417,
+      "ref_image": null
     }
   ]
 };
