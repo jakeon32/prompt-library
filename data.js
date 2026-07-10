@@ -3617,6 +3617,22 @@ window.PROMPT_DATA={
       "result": "results/discord-direct-city-monument-bangkok.png",
       "seed": 1513781169,
       "ref_image": null
+    },
+    {
+      "id": "mindboticni-photo-to-chibi-poster",
+      "source": "https://x.com/mind_boticni/status/2075482554761978128",
+      "author": "Mind_Boticni",
+      "date": "2026-07-10",
+      "lang": "en",
+      "target_model": "GPT-image 2 (personalized — needs uploaded reference photos)",
+      "category": "캐릭터 변환·에디토리얼 포트폴리오",
+      "title": "실사 인물 → 치비 캐릭터 변환 에디토리얼 포스터",
+      "prompt": "A premium editorial-style character evolution poster featuring a dynamic, asymmetrical layout instead of a traditional comparison grid. Four realistic portraits of fashionable children and teenagers are placed inside floating rounded-square frames with subtle overlapping depth, each photographed from a slightly different angle (front, 3/4 view, low angle, and candid side profile). The realistic portraits feature diverse modern hairstyles including textured bob, fluffy messy crop, long layered waves, and trendy double buns, with natural expressions and cinematic lighting.\n\nInstead of placing the cartoon directly underneath, each realistic portrait is connected to its illustrated version using elegant flowing curved ribbons, dotted transformation trails, and tiny sparkling particles, creating a magical \"photo transforming into illustration\" effect.\n\nThe cartoon versions are minimalist 2D chibi characters with clean expressive black line art, oversized sparkling eyes, simplified facial features, and playful proportions. Rather than pure black outlines only, use soft charcoal outlines accented with subtle pastel gradients (sky blue, peach, mint, lavender, and warm coral) to give a premium modern aesthetic while maintaining simplicity.\n\nBackground is an off-white luxury paper texture with floating geometric shapes, translucent color blobs, soft shadows, and minimal editorial design elements inspired by modern Apple event graphics and high-end children's illustration books.\n\nInclude subtle handwritten doodles, tiny stars, hearts, pencil strokes, and sketch marks around the transformation path. Add realistic paper layering, soft ambient lighting, and gentle drop shadows to create depth. The overall composition feels like a premium design portfolio page rather than a simple before-and-after comparison, ultra-clean, highly detailed, visually balanced, vibrant yet elegant, photorealistic portraits combined with beautiful modern vector illustration, 2K quality.",
+      "prompt_ko": "실제 아이/청소년 인물 사진 4장을 업로드해 각각 실사 초상+2D 치비(chibi) 캐릭터로 변환하고, 둘을 리본·점선 궤적·반짝이 파티클로 연결해 '사진이 일러스트로 변신하는' 마법 같은 에디토리얼 포트폴리오 페이지를 만드는 개인화형 프롬프트. 실제 업로드 사진이 필요해 우리 파이프라인에선 일반적인 아이 얼굴 예시로 대체해 레이아웃·스타일만 재현.",
+      "gen_prompt": "A premium editorial-style character evolution poster with a dynamic, asymmetrical layout. Four realistic portraits of fashionable children, each a different generic child model (no specific identity), placed inside floating rounded-square frames with subtle overlapping depth, photographed from slightly different angles (front, 3/4 view, low angle, candid side profile), diverse modern hairstyles (textured bob, fluffy messy crop, long layered waves, trendy double buns), natural expressions, cinematic lighting. Each realistic portrait connects to its illustrated chibi version via elegant flowing curved ribbons, dotted transformation trails, and tiny sparkling particles, creating a magical \"photo transforming into illustration\" effect. The chibi versions are minimalist 2D characters with soft charcoal line art accented with pastel gradients (sky blue, peach, mint, lavender, warm coral), oversized sparkling eyes, simplified features, playful proportions. Background: off-white luxury paper texture with floating geometric shapes, translucent color blobs, soft shadows, minimal editorial design inspired by Apple event graphics and high-end children's illustration books. Subtle handwritten doodles, tiny stars, hearts, pencil strokes around the transformation paths. Realistic paper layering, soft ambient lighting, gentle drop shadows for depth. Ultra-clean, highly detailed, visually balanced, vibrant yet elegant, photorealistic portraits combined with modern vector illustration.",
+      "result": "results/mindboticni-photo-to-chibi-poster.png",
+      "seed": 1703811994,
+      "ref_image": null
     }
   ]
 };
