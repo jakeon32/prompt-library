@@ -6081,6 +6081,22 @@ window.PROMPT_DATA={
       "result": "results/nitishkmrk-flare-fintech-icon-set.png",
       "seed": 710892374,
       "ref_image": null
+    },
+    {
+      "id": "xiaoxiaodong01-oldnewspaper-frontpage-poster",
+      "source": "https://x.com/xiaoxiaodong01/status/2078283170269757454",
+      "author": "xiaoxiaodong01",
+      "date": "2026-07-18",
+      "lang": "zh",
+      "target_model": "GPT Image 2 (ChatGPT) — 中문 댓글형(提示词见评论区, 실제 프롬프트는 self-reply 댓글)",
+      "category": "포스터/타이포",
+      "title": "올드 신문 1면 굿모닝 도시 시리즈 (지방신문 레이아웃+대형 플랫 일러스트 난입+인쇄 그레인/황변, 중문 댓글형)",
+      "prompt": "围绕任意主题对象生成一套旧报纸头版式视觉：整体先像地方报刊的整页报道，浅暖白新闻纸占主导，细黑线框、窄栏正文、顶部报头、左右密集竖排或横排栏目、底部小格广告带共同建立阅读秩序；随后由主题派生的巨大扁平插画突然闯入版心和栏间，几枚不规则圆形、长条形或叶片状轮廓以天真尺度压过文字，边缘略有套印偏移和纸面吸墨，简化到只有清楚外形、少量线条和成对小圆眼，让严肃报纸变成亲近的公共告示。核心标题使用厚重黑色明朝感字形，字距紧、行距稳，放在插画下方或旁侧形成强烈停顿；小标题和正文保持真实报刊的高密度灰黑文本块，局部嵌入小幅纪实照片和细边框问答栏，但不要让照片夺走版心。色彩由主题自身派生，控制为新闻纸底色、黑灰文字、两到三种高饱和专色大块插画和少量低饱和辅助色：大色块明亮、干净但带印刷颗粒，局部露出纸纤维、轻微污点、折痕、扫描泛黄和墨色不均，旧化主要发生在纸张、黑字边缘和实色块内部，不做统一褐色脏化。版面允许拥挤、错落和轻微不对齐，保留儿童画般的圆眼幽默、地方新闻的朴素可信感、插画穿插文字造成的阅读中断；避免现代杂志留白、光滑矢量、商业摄影棚质感和过度精致排版。\n\n主题：城市+早安文化+2026-07-18\n\n————\n一共10个城市\n每个城市不同的配色逻辑+排版逻辑\n10个图片\n比例16:9",
+      "prompt_ko": "임의 주제를 '旧报纸头版式'(오래된 신문 1면) 비주얼로 만드는 xiaoxiaodong01 早安(굿모닝) 도시 시리즈 템플릿(본문은 '프롬프트는 댓글에'라 명시, 실제 프롬프트는 작성자 self-reply 댓글에 있음). 전체를 지방 신문 전면 기사처럼: 옅은 웜화이트 신문지 바탕, 가는 흑선 프레임, 좁은 칼럼 본문, 상단 신문 헤더(报头), 좌우 조밀한 세로/가로 칼럼, 하단 작은 광고 밴드로 읽기 질서 형성. 이어서 주제 파생 거대 플랫 일러스트가 판심·칼럼 사이로 난입 — 불규칙 원형·긴 막대·잎사귀형 윤곽이 순진한 대형 스케일로 텍스트를 압도, 套印(오프셋) 미세 어긋남+종이 잉크흡수, 명료한 외형·소량 선·짝지은 작은 둥근 눈으로 단순화 → 진지한 신문을 친근한 공공 게시물로. 핵심 타이틀=두꺼운 흑색 명조체(자간 좁게·행간 안정), 일러스트 아래/옆 배치. 소제목·본문=실제 신문의 고밀도 회흑 텍스트 블록, 소형 다큐 사진·가는 테두리 Q&A 박스 삽입(사진이 판심을 뺏지 않게). 색은 주제 파생: 신문지 바탕+흑회 텍스트+2~3개 고채도 전용색 대형 일러스트+소량 저채도 보조색, 대형 색블록은 밝고 깨끗하되 인쇄 그레인·종이섬유·얼룩·접힘·스캔 황변·잉크 불균일. 판면은 조밀·엇갈림·미세 비정렬 허용, 어린이 그림 같은 둥근눈 유머+지방뉴스 소박한 신뢰감. 현대 잡지 여백·매끈 벡터·상업 스튜디오 질감 회피. ★주제=도시+아침인사+2026-07-18, 10개 도시 16:9. gen_prompt=서울 대표 데모.",
+      "gen_prompt": "Old newspaper front-page visual for a city morning-greeting. A full-page local-newspaper layout: pale warm-white newsprint dominant, thin black rule frames, narrow columns of body text, a top masthead nameplate, dense vertical and horizontal column sections left and right, and a bottom row of small boxed classified ads establishing reading order. Then a huge flat illustration derived from the theme suddenly bursts into the center and between the columns - a few irregular circular, bar-shaped and leaf-shaped silhouettes at a naive oversized scale overpowering the text, edges with slight offset-print misregistration and paper ink-bleed, simplified to clear outlines, few lines and paired little round eyes, turning a serious newspaper into a friendly public notice. Core headline in a heavy black Ming/serif display face, tight letter-spacing, steady leading, placed below or beside the illustration for a strong pause. Subheads and body text keep the high-density gray-black text blocks of a real newspaper, with small documentary photos and thin-bordered Q&A boxes embedded, but the photos never steal the center. Colors derived from the theme: newsprint base color, black-gray text, two or three high-saturation spot-color large illustration blocks and a little low-saturation support color; the large color blocks bright and clean but carrying print grain, with local paper fiber, slight stains, creases, scan yellowing and uneven ink. The layout is allowed to be crowded, staggered and slightly misaligned, keeping a childlike round-eye humor and the plain, trustworthy feel of local news. Avoid modern-magazine white space, smooth vectors, commercial studio gloss and over-polished typesetting. Theme: the city of SEOUL, morning-greeting culture, date 2026-07-18, a large Korean/Chinese headline reading GOOD MORNING SEOUL. 16:9 horizontal front page.",
+      "result": "results/xiaoxiaodong01-oldnewspaper-frontpage-poster.png",
+      "ref_image": null,
+      "seed": 1787625150
     }
   ]
 };
