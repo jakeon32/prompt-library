@@ -14037,54 +14037,6 @@ window.PROMPT_DATA={
       "ref_image": null,
       "result": "results/derekwall-path-narrative-3d-journey-map.webp",
       "seed": 572315577
-    },
-    {
-      "id": "derekwall-4panel-manga-identity-and-clean-text",
-      "source": "https://x.com/derek_wall90176/status/2083069678965166119",
-      "author": "derek_wall90176",
-      "date": "2026-08-01",
-      "lang": "zh",
-      "target_model": "GPT Image 2",
-      "category": "일러스트/애니",
-      "title": "★4컷 만화의 고질병 둘(2컷부터 얼굴이 바뀜 · 말풍선 글자가 깨짐)을 정면으로 막는 「강제 일관성 조항 + 대사 지정」",
-      "prompt": "以前用AI做系列四格漫画，最怕两件事：画完第一张，第二张就换脸。\n对话框一写文字，立刻乱码。\n现在，GPT-Image-2把这两个顽疾一起治好了。\n一组温柔到让人想谈恋爱的四格日式温情漫画：\n并肩站着 → 一起喝热饮 → 厨房做饭 → 最后额头一吻。角色从第一格到第四格完全同一张脸，\n中文对话气泡清晰零乱码。\n一句话，就能生成「有故事、角色不崩、文字正确」的社交内容。 \n\n核心提示词（直接复制）:\n生成一组四格日式温情漫画，干净手绘动漫线稿风格，温暖米棕色与浅棕色单色调，柔和奶油色背景，简单柔和阴影，整体温馨治愈氛围。画面比例：正方形1:1，标准2x2四格布局，每格之间用细棕色边框分隔。顶部标题：大字「夫婦の日」，左右各加一颗小心心，手写感深棕色。\n【四格内容】\n第1格：年轻亚洲情侣站立肖像。男人站在女人身后，双手轻轻放在她肩上，两人微笑看向镜头。\n第2格：情侣坐在温馨室内，双手捧着马克杯，相视而笑。女人对话框清晰写着中文：「谢谢你一直陪着我。」白色圆角对话框，黑色清晰文字。\n第3格：情侣一起在厨房做饭。两人并肩站在灶台前，男人搅拌，女人帮忙，表情专注又幸福。\n第4格：情侣紧紧拥抱。男人低头轻轻亲吻女人的额头，女人闭眼微笑。\n【角色一致性强制要求】\n两个角色从第1格到第4格必须保持完全同一张脸、同一发型、同一服装、同一身材比例。禁止任何漂移。\n男人：短发、温和长相、穿简单毛衣或衬衫。\n女人：中长发、温柔长相、穿家居感衣服。\n【风格与质感】\n干净手绘动漫线稿，单色调温暖米棕+浅棕+奶油白，简单阴影，像日式生活漫画或治愈系插画。\n【文字要求】\n对话框内中文必须正确、清晰、无乱码、无变形。避免：写实摄影、3D渲染、鲜艳色彩、复杂背景、角色脸崩、文字乱码、廉价贴纸感。 核心逻辑角色跨图一致性 + 中文零乱码 = 终于能稳定讲故事\n\n四格结构天然适合社交媒体\n温馨日常比炫技大片更容易引发共鸣和转发 \n\n关键控制点强制写明「同一张脸、同一发型、同一服装，禁止漂移」\n对话框必须单独强调「中文正确、清晰、无乱码」\n保持单色调和干净线稿，不要加复杂光影\n四格内容节奏要有起承转合（静 → 互动 → 协作 → 亲密） \n一句话总结: 一句话就能稳定产出有故事的四格漫画系列内容，你学会了吗。\n#AI绘画 #GPTImage2 #提示词 #AIGC #四格漫画 #角色一致性 #中文对话 #治愈系",
-      "gen_prompt": "A four-panel gentle Japanese-style comic in a clean hand-drawn anime line style, warm beige-brown and light brown monochrome with a soft cream background, simple gentle shading, healing atmosphere. Square 1:1, a standard two-by-two panel layout with thin brown borders between panels. At the top a large hand-lettered heading in deep brown reads \"OUR DAY\", with one small heart at each side. Panel one: a young couple standing, the man behind the woman with his hands resting lightly on her shoulders, both smiling toward the viewer. Panel two: the couple seated in a warm interior holding mugs in both hands, smiling at each other. A white rounded speech bubble beside the woman carries clear black text reading \"THANK YOU FOR STAYING\". Panel three: the two cooking together at a stove side by side, the man stirring, the woman helping, both absorbed and happy. Panel four: the couple embracing closely, the man bending to kiss the woman's forehead while she closes her eyes and smiles. Character consistency is absolute: from panel one to panel four both characters keep exactly the same face, the same hairstyle, the same clothing and the same body proportions, with no drift whatsoever. The man has short hair, gentle features and a simple sweater; the woman has medium-length hair, soft features and homewear. The heading and the one speech bubble are the only text in the image and both are spelled exactly as given, clean and undistorted. No photography, no 3D rendering, no vivid colours, no busy backgrounds.",
-      "prompt_ko": "★**AI 4컷 만화가 무너지는 지점 두 개를 정확히 지목하고 각각에 조항을 붙인 것**이 이 건의 값어치다.\n> 以前用AI做系列四格漫画，**最怕两件事**：画完第一张，第二张就换脸。对话框一写文字，立刻乱码。\n> 예전엔 두 가지가 제일 무서웠다 — **첫 장을 그리면 둘째 장에서 얼굴이 바뀌고, 말풍선에\n> 글자를 넣으면 즉시 깨졌다.**\n\n```\n① 강제 일관성   \"1격부터 4격까지 완전히 같은 얼굴·같은 헤어·같은 의상·같은 신체비율.\n                 ★어떤 드리프트도 금지.\" + 두 인물의 외형을 각각 한 줄로 고정\n② 대사 지정     말풍선 안 문구를 ★따옴표로 직접 적는다 (자리만 만들면 안 된다)\n```\n★②는 우리가 오늘 실측으로 확인한 것과 같다 — **글자 자리를 만들고 내용을 비우면\n프롬프트에서 아무 말이나 주워 찍는다**(§실측⑥-보강). 원문 작성자도 같은 결론에 도달했다.\n\n★**컷 내용을 「관계의 진행」으로 짠다** — 나란히 서기 → 같이 음료 → 부엌에서 요리 →\n이마 키스. 네 컷이 각각 다른 장면이 아니라 **한 관계가 깊어지는 순서**다.\n\n★**단색조로 잠근다** — 따뜻한 베이지브라운 + 라이트브라운 + 크림. 색을 줄이면\n컷 사이 톤 드리프트도 같이 줄어든다. 일관성을 색으로도 돕는 구조.\n\n⚠️원문은 중국어 대사를 쓴다. Krea2는 한자를 못 쓰므로 재현에서는 영문 대사로 바꿨다.",
-      "ref_image": null,
-      "result": "results/derekwall-4panel-manga-identity-and-clean-text.webp",
-      "seed": 954932674
-    },
-    {
-      "id": "ouzhen599-obsidian-character-three-layer-light",
-      "source": "https://x.com/ou_zhen599/status/2082765764768202870",
-      "author": "ou_zhen599",
-      "date": "2026-08-01",
-      "lang": "en",
-      "target_model": "GPT Image 2",
-      "category": "일러스트/캐릭터",
-      "title": "★다크 3D 캐릭터는 「검정」이 아니라 세 층이 동시에 성립해야 한다 — 흑요석/화산암 교대 · 내부에서 뚫고 나오는 빛 · 가로 아나모픽 플레어",
-      "prompt": "These dark 3D characters feature a combination of obsidian textures, internal lighting, and lens effects.\n这类暗黑 3D 角色，在黑曜石材质、内部透光和镜头光效三层同时成立。\n* glossy obsidian skin, matte volcanic rock, micro-fractures\n主体不是纯黑，而是镜面黑曜石与粗粝火山岩交替；裂纹、矿物颗粒和局部高光让黑色身体仍然有体积。\n\n* intense internal magma glow, subsurface scattering through thin edges\n光源必须从体内向外穿透，在裂缝、薄岩边缘和轮廓处透出橙黄热光；这是“内部能量”而非表面贴光。\n\n* razor-sharp horizontal anamorphic flares, matte dark studio\n只让发光核心切出几道细硬的水平镜头光带，背景保持无纹理深灰；画面会像 AAA 游戏角色资产，而不会变成杂乱特效图。",
-      "gen_prompt": "A dark 3D character asset, vertical, standing three-quarter view against a textureless deep grey matte studio background. The body is not flat black: glossy obsidian skin alternates with matte volcanic rock, broken by micro-fractures, mineral grain and localised specular highlights so that a black form still reads as volume. Light comes from inside the body outward — intense magma glow pushing through the fractures, with subsurface scattering carrying hot orange-yellow through the thin rock edges and around the silhouette. This is internal energy, not light painted onto the surface. Only the glowing core throws a few razor-sharp horizontal anamorphic flares across the frame; everything else stays restrained. AAA game character asset quality, precise material definition, clean silhouette, high detail in the rock and mineral surfaces. Plain render with no lettering anywhere.",
-      "prompt_ko": "★**\"이런 다크 3D 캐릭터는 세 층이 동시에 성립할 때만 된다\"** — 흑요석 재질 · 내부 투광 ·\n렌즈 광효. 검정 캐릭터를 시키면 대개 **납작한 실루엣**이 나오는데, 그 세 층이 없어서다.\n\n```\n① 재질   순수한 검정이 아니라 ★거울 같은 흑요석과 거친 화산암이 교대한다\n         균열·광물 입자·국소 하이라이트가 있어야 검은 몸에도 부피가 남는다\n② 광원   ★반드시 몸 안에서 밖으로 뚫고 나온다 — 균열·얇은 암석 가장자리·윤곽에서\n         주황빛이 새어 나오게. \"내부 에너지\"이지 표면에 칠한 빛이 아니다\n③ 광효   발광 코어만 몇 가닥 가늘고 단단한 ★수평 아나모픽 광대를 만든다\n         배경은 무늬 없는 심회색으로. 그래야 AAA 게임 에셋이 되고 잡다한 특효 이미지가 안 된다\n```\n★**\"표면에 칠한 빛이 아니라 내부에서 투과하는 빛\"** 한 줄이 이 계열의 성패를 가른다.\n서브서피스 스캐터링을 말로 규정한 것이고, **얇은 가장자리**를 지목한 것이 정확하다.\n\n★**광효를 「코어에서만」 나오게 제한**한 것도 같은 계열이다. 플레어를 화면 전체에 뿌리면\n게임 에셋이 아니라 이펙트 습작이 된다.",
-      "ref_image": null,
-      "result": "results/ouzhen599-obsidian-character-three-layer-light.webp",
-      "seed": 1455038189
-    },
-    {
-      "id": "chenlinspark-island-full-camera-and-light-spec",
-      "source": "https://x.com/chenlinspark/status/2082435986005614999",
-      "author": "chenlinspark",
-      "date": "2026-08-01",
-      "lang": "zh",
-      "target_model": "GPT Image 2",
-      "category": "인물/사진",
-      "title": "★한 컷을 「화폭·카메라·인물·메이크업·의상·장소·소품·시점·동작·조명·금지」 열한 축으로 완전히 명세한다 — 축마다 한 줄씩 갈아끼우면 변주가 된다",
-      "prompt": "海岛写真也可以很安静。\n\n提示词Prompt：\n\n3:4，单张独立竖版图片，不要拼图，不要网格，不要文字。CCD 数码卡片机摄影，橘子汽水海岛写真，明亮青蓝与橙色系统，轻微 blown highlights，真实旅行抓拍，细腻数码颗粒。人物是一位 20 多岁的成年韩国女性，具有自然清秀的韩国女性面部特征、清晰柔和的下颌轮廓和明亮自然眼神；韩系玫瑰水光妆的清透珊瑚变体，克制缎光底妆，浅金棕眼影，颧骨外侧淡珊瑚腮红，透明橘红唇釉仅作用于唇部；自然黑色松散麻花辫，鬓角碎发被风吹动。奶油白细肩带长裙，棉麻与薄纱叠层，腰线自然收束，裙摆宽松轻盈，赤脚。日落前的海岛木栈桥，天空由浅金过渡到淡蓝，海面安静，远处岛屿形成低矮剪影。道具从橘红色薄围巾、小型藤编包、贝壳耳饰、栈桥栏杆中按构图少量选取。侧前方远距离全身，85mm 中长焦压缩背景，镜头高度略低于人物胸口；人物位于栈桥延伸线中央偏左，占画面约三分之一，栈桥形成强透视引导线，海天留白占据大部分画面，裙摆与围巾形成两种风中动势。人物沿栈桥缓慢向前走，一只手轻提裙摆，另一只手自然垂落，视线看向海面，嘴角放松。低角度夕阳从人物侧后方进入，落在发辫、肩颈、手臂和薄纱裙摆边缘，形成暖金色轮廓光与轻微 film halation；海面冷色反光补亮脸部，皮肤保持克制缎光，双颊不湿亮。不要其他族裔人物，不要假夕阳、橙色滤镜覆盖全图、塑料皮肤、全脸湿亮、过度柔焦、婚纱商业摆拍、僵硬站姿、手指畸形、多余肢体、头颈断裂、签名、文字或水印。",
-      "gen_prompt": "A 3:4 single vertical photograph — not a collage, not a grid. Shot on a compact CCD digital camera: an orange-soda island portrait in a bright cyan-and-orange system with slightly blown highlights, real travel-snapshot feel and fine digital grain. The subject is a Korean woman in her twenties with naturally clean features, a soft defined jawline and bright natural eyes. Korean dewy makeup in a clear coral variant: restrained satin base, pale gold-brown eyeshadow, faint coral blush on the outer cheekbones, transparent orange-red lip glaze on the lips only. Natural black hair in a loose braid, wisps at the temples lifted by wind. She wears a cream-white thin-strap long dress layering cotton linen and sheer fabric, the waist naturally gathered, the skirt loose and light; barefoot. The setting is a wooden island pier before sunset: the sky graduating from pale gold to light blue, the sea quiet, distant islands forming a low silhouette. From the possible props — an orange-red thin scarf, a small woven bag, shell earrings, the pier railing — only a few are chosen to suit the composition. Full body from the front-side at distance, an 85mm medium telephoto compressing the background, the lens slightly below her chest. She stands centre-left along the pier's receding line and occupies about a third of the frame, the pier forming a strong perspective guide while sea and sky hold most of the picture as empty space; the skirt and the scarf carry two separate wind movements. She walks slowly forward along the pier, one hand lightly lifting the skirt, the other falling naturally, her gaze on the sea, mouth relaxed. Low-angle late sun enters from behind her side, landing on the braid, her shoulder and neck, her arm and the sheer hem, producing a warm gold rim light and slight film halation; cool reflected light off the sea fills her face. The skin keeps a restrained satin finish rather than a wet shine. Natural adult proportions, correct hands, no signature or watermark of any kind.",
-      "prompt_ko": "★**한 컷을 열한 개의 축으로 완전히 명세한다.** 이 계정 프롬프트의 형식 자체가 값어치다.\n```\n화폭·금지   3:4 단일 세로 · ★\"콜라주 아님, 그리드 아님, 글자 없음\"\n카메라      CCD 디카 · 밝은 청람+주황 계통 · 약간의 하이라이트 날림 · 미세 디지털 입자\n인물        20대 한국 여성 · 자연스러운 이목구비 · 부드럽고 또렷한 턱선\n메이크업    한국식 물광의 「맑은 코랄 변주」 · 절제된 새틴 베이스 · 입술에만 오렌지레드 글레이즈\n헤어        느슨한 땋기 · ★관자놀이 잔머리가 바람에\n의상        크림화이트 얇은 끈 원피스 · 면마+시스루 겹 · 맨발\n장소        일몰 전 섬 나무 잔교 · 하늘은 옅은 금→담청 · 먼 섬은 낮은 실루엣\n소품        후보 넷 중 ★구도에 맞게 소수만 고른다\n시점        전측방 원거리 전신 · 85mm로 배경 압축 · 렌즈 높이는 가슴 아래\n구도        인물은 잔교 연장선의 중앙좌측 · ★화면의 1/3만 차지 · 바다와 하늘이 대부분 여백\n동작·조명   천천히 걷기 · 한 손은 치맛자락 · 저각 역광 림라이트 + 바다 반사광이 얼굴을 채움\n```\n★**축마다 한 줄이라 「한 줄만 갈아끼우면 변주」**가 된다. 장소만 바꾸면 다른 시리즈,\n카메라만 바꾸면 다른 질감. 슬롯을 따로 만들지 않고도 슬롯처럼 쓰이는 구조다.\n\n★**인물을 화면의 1/3만 차지하게** 하고 바다·하늘을 대부분 비운다. 인물 사진에서\n**대상을 작게 두는 것**이 오히려 여행 스냅의 공기를 만든다.\n\n★**바람의 방향을 둘로 나눈다** — 치맛자락과 스카프가 각각 다른 동세를 만든다.\n하나면 정지 사진이고 둘이면 순간이 된다.",
-      "ref_image": null,
-      "result": "results/chenlinspark-island-full-camera-and-light-spec.webp",
-      "seed": 743890836
     }
   ]
 };
