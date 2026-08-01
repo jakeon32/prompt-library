@@ -13975,22 +13975,6 @@ window.PROMPT_DATA={
       "seed": 1306397978
     },
     {
-      "id": "ouzhen599-credible-before-after-microstructure",
-      "source": "https://x.com/ou_zhen599/status/2083208253677445205",
-      "author": "ou_zhen599",
-      "date": "2026-08-01",
-      "lang": "zh",
-      "target_model": "GPT Image 2",
-      "category": "제품 광고",
-      "title": "★★믿을 수 있는 Before/After는 「같은 얼굴의 미세구조가 바뀌는 것」 — 양쪽 모두 모공·솜털·불규칙을 남겨야 매끈하게 갈아끼운 얼굴이 안 된다",
-      "prompt": "皮肤修护的“极致对比”，不是左边更红、右边更白，而是让同一张脸的微观结构发生可验证的变化。\nThe “ultimate comparison” in skin repair isn’t about the left side being redder or the right side being whiter—it’s about bringing about verifiable changes in the microstructure of the same face.\n★ soft diffuse redness, subtle patchy irritation, faint flaking\n受损侧的红不能是一层滤镜：要有弥散泛红、局部不均和细小起皮，才像屏障失衡后的真实状态。\n★ fine dehydration lines, slightly enlarged pores, uneven skin rhythm\n问题要落在尺度上：干纹更明显、毛孔更松散、纹理节奏更粗糙。不是“脏”，而是缺水后失去稳定感。\n★ calmer tone, refined pores, more even micro texture\n修护侧的改变应是泛红收敛、毛孔边缘更柔和、颗粒感更均匀；保留结构，但让它变得安静。\n★ visible pores, peach fuzz, subtle irregularities intact\n两边都必须留下毛孔、绒毛与微小不规则。这样读者看到的是“皮肤状态变好了”，不是换了一张磨皮脸。\n真正可信的 Before / After，是瑕疵的密度、边界和反光方式在变化；五官、皮肤厚度与人味始终不变。",
-      "gen_prompt": "A split before-and-after skincare comparison of the same woman's cheek and jaw, shot in clean even beauty light, 16:9, the two halves meeting at a soft vertical seam. On the damaged side: soft diffuse redness spread unevenly rather than laid on like a filter, small patchy irritation, faint flaking at the edge of the nostril, fine dehydration lines that read clearly, slightly enlarged and loosened pores, and an uneven, coarser rhythm across the skin texture. It should read as a barrier out of balance and short of water, not as dirt. On the repaired side: the redness has drawn in, the pore edges are softer, the grain is more even, the tone calmer. The structure is unchanged — it has simply gone quiet. Both sides keep visible pores, peach fuzz and small irregularities. The features, the apparent thickness of the skin and the sense of a real person stay identical across the seam; only the density of the flaws, their boundaries and the way light reflects off them have changed. Macro clarity, natural colour, no retouching gloss, no smoothing. Plain photograph with no lettering.",
-      "prompt_ko": "★★**\"극한의 비교\"는 한쪽이 더 붉고 한쪽이 더 하얀 게 아니다.**\n> 而是让**同一张脸的微观结构**发生可验证的变化\n> **같은 얼굴의 미세구조에 검증 가능한 변화**가 일어나게 하는 것이다.\n\n화장품 Before/After가 가짜로 보이는 이유를 정확히 짚고, 네 가지로 나눠 규정한다:\n```\n손상측의 붉음   필터 한 겹이면 안 된다 — 확산된 홍조 · 국소 불균일 · 미세한 각질\n문제의 척도     건조 주름이 뚜렷 · 모공이 느슨 · 결의 리듬이 거칠다. \"더러움\"이 아니라 「불안정」\n수복측의 변화   홍조가 수렴 · 모공 가장자리가 부드러워짐 · 입자감이 균일.\n                ★구조는 남기고 조용해지게만 한다\n양쪽 공통       ★모공·솜털·미세 불규칙을 반드시 남긴다\n```\n★**마지막 한 줄이 이 프롬프트의 결론이다.**\n> 这样读者看到的是\"皮肤状态变好了\"，不是**换了一张磨皮脸**\n> 그래야 독자가 보는 것이 \"피부 상태가 좋아졌다\"이지, **매끈하게 갈아끼운 얼굴**이 아니다.\n\n*\"진짜 믿을 만한 비포/애프터는 **결점의 밀도·경계·반사 방식**이 변하는 것이고,\n이목구비·피부 두께·사람다움은 내내 그대로다.\"*\n\n★쓸 자리 — 뷰티 광고뿐 아니라 **모든 개선 비교 시각물**에 적용된다. \"좋아졌다\"를\n보여주려고 대상을 바꿔버리는 것이 이 계열의 가장 흔한 실패다.",
-      "ref_image": null,
-      "result": "results/ouzhen599-credible-before-after-microstructure.webp",
-      "seed": 144228407
-    },
-    {
       "id": "xiaoxiaodong01-lab-spec-floating-cross-section",
       "source": "https://x.com/xiaoxiaodong01/status/2082781922397450288",
       "author": "xiaoxiaodong01",
