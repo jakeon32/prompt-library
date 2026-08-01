@@ -13973,38 +13973,6 @@
       "ref_image": null,
       "result": "results/xiaoxiaodong01-base-broth-plus-seasoning-prompt.webp",
       "seed": 1306397978
-    },
-    {
-      "id": "chenlinspark-y2k-convenience-store-flash",
-      "source": "https://x.com/chenlinspark/status/2083183398168703289",
-      "author": "chenlinspark",
-      "date": "2026-08-01",
-      "lang": "zh",
-      "target_model": "GPT Image 2",
-      "category": "인물/패션",
-      "title": "★소품을 「후보 목록 + 다 넣지 마라」로 준다 — Y2K 편의점 직광, 도구는 구도에 맞는 것만 고른다",
-      "prompt": "冷光、闪光、玻璃唇。\n属于便利店凌晨两点的 Y2K 瞬间 🪩🩷\n\n提示词Prompt：\n\n9:16, CCD数码卡片机, 夜间便利店门口/街头, 冷调硬光现场感 Y2K桃粉玻璃唇妆, 清透奶油肌, 细闪眼妆, 眼下粉腮红, 高马尾/双马尾碎发 粉色/银色亮面短款吊带/修身短款运动上衣/低胸牛仔短外套, 上半身视觉重心, 短款露腰线, 肩线清晰 有线耳机/复古数码相机/金属腰链/棒棒糖/便利店冰饮（道具根据实际构图需求选取，不要将所有的道具全都塞进一个画面中） 近距离广角平视, 上半身裁切到胯部, 人物略微前倾靠近镜头, 便利店灯光背景虚化 身体前倾递饮料/抬手扶耳机wink/咬棒棒糖抬眼直视, 表情灵动甜酷, 带张扬感 机顶直闪+便利店冷白光, 落在上装亮面材质、锁骨、脸颊、发丝, 轻微过曝+硬阴影, 皮肤局部反光, CCD颗粒感, 背景轻微泛白 不要过度幼态、夸张暴露、畸形手、塑料皮肤、廉价美颜滤镜",
-      "gen_prompt": "A 9:16 night portrait shot on a compact CCD digital camera outside a convenience store, cool hard on-location light. A young woman with Y2K peach-pink glass lip gloss, clear creamy skin, fine glitter eye makeup, pink blush under the eyes, and a high ponytail with loose strands. She wears a shiny short pink camisole with a cropped fit, the visual weight in her upper body, waist showing, shoulder line clear. She holds wired earbuds and a cold drink from the store — only these two props, chosen for the composition rather than crowding everything in. Close wide-angle at eye level, cropped at the hips, her body leaning slightly toward the lens, the store's lighting blurred behind her. She leans in offering the drink, eyes up to camera, expression lively and sweet-cool with a bit of swagger. Direct on-camera flash mixed with the cold white store light lands on the shiny fabric, her collarbone, cheek and hair, with slight overexposure and hard shadows, partial skin reflection, CCD grain, and the background washing faintly white. Natural adult proportions, correct hands, real skin texture, no beauty-filter smoothing. Plain photograph with no lettering.",
-      "prompt_ko": "★**소품을 「목록 + 금지」로 주는 방식**이 이 계정의 실용적인 발명이다.\n> 有线耳机/复古数码相机/金属腰链/棒棒糖/便利店冰饮\n> （道具根据实际构图需求选取，**不要将所有的道具全都塞进一个画面中**）\n> 후보를 여럿 주되 — **전부 한 화면에 쑤셔 넣지 마라.**\n\n소품을 나열하면 모델이 전부 들고 나온다. 후보만 주고 **고르라고 지시**하면 구도가 산다.\n슬롯형 프롬프트가 흔히 겪는 문제를 한 줄로 막은 것이다.\n\n★**항목을 「축」으로 나눠 나열한다** — 화폭·카메라·장소·톤 / 메이크업 / 의상 / 소품 /\n시점과 크롭 / 동작과 표정 / 조명. 각 줄이 하나의 축이라 **한 줄만 갈아끼우면 변주**가 된다.\n\n★**직광 플래시를 「현장감의 근거」로 쓴다** — 기계 상단 직광이 정면을 때리고 환경을 눌러\n약간의 과노출과 경한 그림자, CCD 입자감, 배경의 옅은 백화. 폰·똑딱이 특유의 날것이 여기서 나온다.\n\n⚠️이 계정은 **같은 프롬프트를 소개 문구만 바꿔 반복 게시한다.** 큐에서 같은 계열 3건이\n잡혀 하나만 남겼다(2026-08-01 중복 판정). 계정 단위로 볼 때 주의할 것.",
-      "ref_image": null,
-      "result": "results/chenlinspark-y2k-convenience-store-flash.webp",
-      "seed": 1317310054
-    },
-    {
-      "id": "chenlinspark-indoor-wine-chiaroscuro-portrait",
-      "source": "https://x.com/chenlinspark/status/2083014786107977737",
-      "author": "chenlinspark",
-      "date": "2026-08-01",
-      "lang": "zh",
-      "target_model": "GPT Image 2",
-      "category": "인물/포트레이트",
-      "title": "★어둠을 배경이 아니라 「대비 장치」로 — 환경광을 낮추고 얼굴에만 빛을 둬 정적을 만든다",
-      "prompt": "夜色、红酒、微醺的灯光。\n有些氛围，不需要太多语言。🥂\n\n提示词Prompt：\n\n室内餐桌旁，正视镜头，面部打光，表情俏皮。黑色露肩毛衣，一手托腮，一手持酒杯。桌面有液体容器与杯子，背景为个性时尚墙面，木质纹理装饰，低调奢华。环境光线偏暗，明暗对比突出人物，静谧氛围。年轻娇小，发丝自然蓬松垂坠，灰棕色自然长发披肩，几缕拂面。不显示“nunu”这个词, 冷白皮美女，纯欲风，皮肤白皙细腻，64K高清画质，展现细腻水润肤质与精致五官、美甲长长的，嘴唇通明唇釉，大眼睛双眼皮睫毛长长的，眼睛周围亮晶晶的，露肩锁骨，偶像气质。",
-      "gen_prompt": "An indoor portrait beside a dining table, the subject facing the lens directly with light on her face and a playful expression. She wears a black off-shoulder knit, one hand propping her chin, the other holding a wine glass. On the table sit a decanter and glasses; behind her a characterful fashionable wall with wood-grain detailing, quietly luxurious. The ambient light is kept low so the contrast between light and dark lifts the figure out of the room and holds a still, hushed atmosphere. She is young and slight, her ash-brown hair long and naturally voluminous over her shoulders with a few strands across her face. Fair fine skin, delicate features, long lashes and double eyelids, a bright wet lip glaze, exposed shoulders and collarbone, long manicured nails. Ultra-high-definition detail in the skin and features. Plain photograph with no lettering anywhere.",
-      "prompt_ko": "★**어둠을 「배경」이 아니라 「대비 장치」로 쓴다** — *\"환경 광선을 어둡게 하여 명암 대비로\n인물을 부각시키고 정적인 분위기를 만든다.\"* 조명을 더하는 대신 **주변을 빼서** 주목을 만든다.\n\n★**작은 접점들이 사실감을 만든다** — 한 손은 턱을 괴고, 다른 손은 잔을 든다.\n테이블 위에 액체 용기와 잔. 손이 무언가에 닿아 있으면 인물이 공간에 붙는다.\n\n★**머리카락을 상태로 서술한다** — 자연스럽게 풍성하게 흘러내리고 **몇 가닥이 얼굴을 스친다.**\n정돈된 머리보다 이 한 줄이 「우연히 찍힌」 느낌을 만든다.\n\n⚠️원문에 특정 단어를 화면에 넣지 말라는 지시(`不显示\"nunu\"这个词`)가 있다 — 작성자의\n워터마크 회피용으로 보인다. 재현에서는 글자 자체를 넣지 않게 했다.",
-      "ref_image": null,
-      "result": "results/chenlinspark-indoor-wine-chiaroscuro-portrait.webp",
-      "seed": 967243425
     }
   ]
 }
