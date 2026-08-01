@@ -14037,6 +14037,22 @@ window.PROMPT_DATA={
       "ref_image": null,
       "result": "results/derekwall-path-narrative-3d-journey-map.webp",
       "seed": 572315577
+    },
+    {
+      "id": "voxcatai-line-character-exists-in-photo",
+      "source": "https://x.com/voxcatai/status/2083054270149271654",
+      "author": "voxcatai",
+      "date": "2026-08-01",
+      "lang": "zh",
+      "target_model": "GPT Image 2",
+      "category": "초현실 콜라주",
+      "title": "★2D 선 캐릭터를 실사에 「붙이지」 말고 「존재하게」 — 시선 연결·그림자·가림·심도로 차원이 다른 둘을 한 공간에 넣는다",
+      "prompt": "如果漫画里的角色真的走进现实，会是什么感觉？\n\n这组尝试把「真人摄影」和「手绘线条角色」放在同一个世界里。\n真人拥有真实的皮肤、光影和空间感，而二维角色像从纸张、墙面或空气中出现，成为现实中的幻想伙伴。\n\n不是贴图，而是让它真正“存在”。\n\n核心提示词：\n真人摄影 × 手绘线条角色互动 × 奇幻现实主义\n让真人与黑色线条绘制的二维角色产生真实互动：\n触碰、对视、坐在肩膀、停留在手掌或桌面。\n通过真实环境光影、景深和空间关系，让二维与三维产生碰撞。\n\n完整提示词在评论区\n\n--- (작성자 답글 = 프롬프트 본체) ---\n以【角色/人物】为主体，创作一张真人摄影 × 手绘线条角色互动 × VOXCAT 品牌幻想世界的奇幻现实主义画面。\n\n一位真实存在的成年人物，与一个由黑色线条、简洁手绘笔触形成的二维角色共同出现在真实现实环境中。线条角色像从漫画本、墙面涂鸦或空气中自然浮现，与真人产生真实互动关系。\n\n真人保持真实摄影质感：\n真实皮肤纹理、自然发丝、真实服装材质、自然表情与动作。\n线条角色保持独特手绘风格：\n黑色流畅线条、不规则笔触、简洁可爱的造型，具有独立动画角色感，与现实世界形成二维与三维的视觉碰撞。\n\n互动设计：\n真人伸手触碰线条角色，线条角色坐在真人肩膀、手掌、桌面或靠近身体位置，与真人对视、交流、玩耍。\n两者拥有明确视线连接和空间关系，像一个来自另一个维度的幻想伙伴。\n\n真实环境：\n现代城市街道、咖啡馆、卧室、工作空间、公园、艺术展厅等现实场景。\n真实环境光影、材质反射、空气透视、浅景深摄影效果。\n线条角色自然融入环境，与桌面、墙壁、地面产生互动。\n\nVOXCAT 品牌元素：\n左上角加入简洁现代图形 logo，由 stylized “V” 与猫元素结合构成，图形干净、现代、具有识别度；\n右下角加入小型签名“voxCAT”，其中 vox 小写、CAT 大写，尺寸克制，与整体版式自然统一；\n若人物服装、包袋或道具出现，可加入低调 VOXCAT 织标、金属铭牌、压纹或暗纹细节，不破坏整体视觉。\n\n构图：\n电影摄影构图，近距离中景或半身构图。\n真人与线条角色共同位于画面中心。\n使用大光圈浅景深，前景轻微遮挡，增强空间沉浸感。\n二维线稿角色与真人形成大小比例反差，部分线条延伸进入现实空间。\n\n视觉风格：\n真人摄影 × 独立动画 × 手绘涂鸦艺术 × 奇幻现实主义 × 潮流品牌视觉。\n类似动画角色进入现实电影世界的感觉。\n\n光影：\n自然柔光，真实环境阴影，线条角色拥有符合现实光源方向的轻微投影。\n高质量商业摄影，电影级调色，细腻真实质感。\n\n整体情绪：\n温暖、治愈、童趣、想象力、孤独中的陪伴感。\n现实与幻想融合，创造一个属于 VOXCAT 的角色宇宙。\n\n画面干净清晰，减少无关元素，人物比例自然，手部结构准确，细节稳定。",
+      "gen_prompt": "A photograph of a real adult woman in a sunlit modern cafe, and a two-dimensional character drawn in simple black hand-drawn lines existing in that same space with her. She keeps full photographic reality — real skin texture, natural hair, real fabric, a natural expression. The line character keeps its own drawn language: flowing black strokes, irregular hand-made line weight, a simple cute form, reading as an independent animated character rather than a sticker laid on top. They interact for real. The character sits on the cafe table beside her cup, small enough to fit in her palm, and she reaches out with one hand to touch it while the two of them look directly at each other. Their eye-lines connect and their spatial relationship is unambiguous, like a fantasy companion arrived from another dimension. The character belongs to the environment: it casts a faint soft shadow onto the tabletop, its lines slightly occluded where the cup passes in front of it, and it sits within the same depth of field as the objects around it — sharper than the background, softer than her hand. Real window light with material reflections and aerial perspective, shallow depth of field, warm wood and pale ceramic, natural colour. Plain photograph with no lettering anywhere.",
+      "prompt_ko": "★**\"붙여넣기가 아니라 진짜로 「존재」하게 한다.\"** 작성자가 밝힌 이 한 줄이 논지다.\n> 不是贴图，而是让它真正\"存在\"。\n\n2D 캐릭터를 실사에 얹으면 대개 **스티커**가 된다. 이 프롬프트는 그걸 막는 조건을 셋으로 나눈다.\n\n```\n① 각자의 언어를 지킨다   실사는 실사대로(피부결·머리카락·옷 재질), 선 캐릭터는 선 캐릭터대로\n                        (검은 유려한 선·불규칙한 필치·간결한 조형)\n② ★상호작용을 물리로 만든다  손을 뻗어 만지고, 어깨·손바닥·탁자 위에 앉고,\n                        ★시선이 서로 연결되고 공간 관계가 분명하다\n③ 환경에 속하게 한다     실제 환경광·재질 반사·공기 원근·얕은 심도.\n                        선 캐릭터가 탁자·벽·바닥과 상호작용한다\n```\n\n★**\"명확한 시선 연결과 공간 관계\"**가 핵심 장치다. 두 존재가 서로를 보고 있으면\n차원이 달라도 한 장면이 된다 — 오늘 담은 `voxcatai-two-figure-eastern-lolita-garden`에서\n2인을 묶은 것과 같은 원리이고, 여기서는 **2D와 3D를 묶는 데** 쓴다.\n\n★재현에서 우리가 더한 것 — 원문이 \"환경에 융화\"라고만 한 부분을 **그림자·가림·심도** 세 가지\n물리로 풀어 적었다. 붙여넣기와 존재를 가르는 게 결국 이 셋이다.\n\n⚠️원문은 자기 브랜드(VOXCAT 로고·서명·라벨)를 화면에 심는다. 남의 브랜드라 뺐다.",
+      "ref_image": null,
+      "result": "results/voxcatai-line-character-exists-in-photo.webp",
+      "seed": 1389061818
     }
   ]
 };
