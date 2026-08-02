@@ -14831,38 +14831,6 @@
       "ref_image": null,
       "result": "results/maddoxdigital-faceless-and-copy-space-stock-formula.webp",
       "seed": 2065981336
-    },
-    {
-      "id": "yourplugai-storyboard-must-stay-rough",
-      "source": "https://x.com/yourPlugAI/status/2083767824573493756",
-      "author": "yourPlugAI",
-      "date": "2026-08-02",
-      "lang": "en",
-      "target_model": "GPT Image 2",
-      "category": "실험/기법",
-      "title": "★스토리보드는 완성 스틸이 아니라 러프여야 한다 — 얼굴은 몇 획으로, 대신 동작선과 카메라 지시선이 그림 위에 겹친다",
-      "prompt": "16-Panel Live-Action Storyboard Prompt\n\nCreate a 16-panel cinematic storyboard grid for a 15-second live-action arena fight between Marcus and Tae-Hyun, 16:9 horizontal storyboard sheet.\n\nArtwork style for storyboard:\nBlack and white photographic sketch, realistic human proportions, ringside sports framing, strong silhouette readability, unfinished pay-per-view choreography previs look. Use selective colored annotations:\n- red arrows for Marcus's punches,\n- crimson arrows for Tae-Hyun's kicks,\n- yellow marks for spotlight beams & flashbulbs,\n- blue arrows for camera tracking moves.\nNo timestamps, no dialogue, no logos, no watermark.\n\nScene:\nPacked championship fight ring under overhead stadium lights with blurred crowds and ropes.\n\nCharacters:\nMarcus (heavyweight boxer in black/gold trunks) and Tae-Hyun (MMA striker in crimson shorts).\n\nPanel 1:\nStart mid-action. Marcus throws a lightning jab; Tae-Hyun slips the punch inside the center canvas ring.\n\nPanel 2:\nRingside low angle. Tae-Hyun fires a rapid spinning back kick, his heel catching Marcus's guard with a heavy thud.\n\nPanel 3:\nMarcus rebounds off the elastic ring ropes, using the momentum to march forward under a high guard.\n\nPanel 4:\nClose-up flurry. Marcus digs a vicious right hook to the body; Tae-Hyun counters with a sharp downward elbow block.\n\nPanel 5:\nTae-Hyun executes a high-vaulting Taekwondo roundhouse kick, his foot grazing Marcus's forehead.\n\nPanel 6:\nULTRA SLOW-MOTION IMPACT BEAT. Marcus counters with a massive, overhand right cross landing dead-center on Tae-Hyun's jaw.\n\nPanel 7:\nULTRA SLOW-MOTION CONTINUED. Tae-Hyun's face ripples from the impact; mouthguard pops out into the air with a spray of sweat droplets under stadium lights.\n\nPanel 8:\nTae-Hyun staggers back against the ropes, eyes wide, shaking off the impact as the crowd roars.\n\nPanel 9:\nOver-the-shoulder shot. Marcus closes the distance with relentless pressure, throwing a three-punch combination.\n\nPanel 10:\nTae-Hyun duck-slips the third hook, using the corner post for leverage to launch a surprise flying knee.\n\nPanel 11:\nWide arena camera shot. Both fighters collide mid-ring, stadium flashbulbs firing frantically in the crowd behind them.\n\nPanel 12:\nDirty clinch moment. Both fighters trade short shoulder bumps and body knees against the ropes before the referee separates them.\n\nPanel 13:\nFinal exchange setup. Both step back into center ring, breathing heavily, sweat dripping, resetting their stances.\n\nPanel 14:\nSimultaneous sprint. Marcus loads an explosive left hook; Tae-Hyun coils for a spinning hook kick.\n\nPanel 15:\nClimax moment. Mid-air collision: glove and kick meeting simultaneously at center frame.\n\nPanel 16:\nFinal frozen hero panel. Cinematic freeze frame: Marcus's punch and Tae-Hyun's kick locked at the peak of impact, sweat spray frozen in overhead spotlights, packed crowd roaring in the background.",
-      "gen_prompt": "A single cinematic storyboard frame from a live-action arena fight sequence, wide horizontal format, rendered as a rough production sketch rather than a finished still. Two fighters face each other at the centre of a floodlit sand arena ringed by dark tiered seating; the near fighter is caught mid-lunge with the weight already committed forward, the far one bracing with a raised guard. The drawing is loose graphite and grey marker over toned paper, with confident gesture lines, hatched shadow blocks and only the key forms resolved — faces are indicated with a few strokes, not detailed. Motion arrows sweep from the lunging fighter's shoulder through the strike path, and a thin dashed line marks the camera's push-in. Hard overhead stadium light casts long shadows across the sand. Framing notes are implied by the composition alone. No lettering anywhere.",
-      "prompt_ko": "★**16패널 스토리보드 계열의 「실사판」이다.** 같은 작성자가 애니메이션 버전을 여러 번\n냈고([[yourplugai-ugc-start-frame-product-in-hand]] 계정), 이번엔 실사 촬영용으로 옮겼다.\n\n★**스토리보드는 「완성 스틸」이 아니라 「러프 스케치」여야 한다**는 게 핵심이다.\n얼굴을 몇 획으로만 표시하고 주요 형태만 해결한다. 스토리보드를 예쁘게 그리면\n**연출 정보가 아니라 그림을 보게 된다.**\n\n★**동작선(motion arrow)과 카메라 지시선**이 화면 안에 그려진다 — 스토리보드가 일반 일러스트와\n다른 지점이 정확히 이것이다. **그려진 것 위에 「어떻게 움직일지」가 겹쳐 있다.**\n\n★15초 분량을 16칸으로 나눈다는 것은 **칸당 약 1초**라는 뜻이다. 컷 길이가 프레임 수로\n환산돼 있어 그대로 편집 타임라인이 된다.\n\n⚠️재현은 **16칸 중 한 칸**을 단일로 뽑았다. 16칸은 칸마다 다른 장면이라 Krea2에서\n한 장으로 시키면 같은 구도가 반복된다(런북 §④). 전체 시트가 필요하면 `grid_repro.py`로\n칸별 생성해야 하고, 그때는 **인물 연속성이 무너진다**는 문제가 따로 생긴다\n([[derekwall-four-panel-identity-and-empty-balloons]] 참조 — 4칸까지는 한 장이 유리하다).",
-      "ref_image": null,
-      "result": "results/yourplugai-storyboard-must-stay-rough.webp",
-      "seed": 2144127899
-    },
-    {
-      "id": "voxcatai-pose-module-reveal-one-imply-the-other",
-      "source": "https://x.com/VoxcatAI/status/2083709124253282336",
-      "author": "VoxcatAI",
-      "date": "2026-08-02",
-      "lang": "zh",
-      "target_model": "GPT Image 2",
-      "category": "실험/기법",
-      "title": "★★가리는 것으로 자세를 완성한다 — 다리 하나만 선명히 보이고 다른 하나는 무릎 윤곽과 옷자락으로만 암시하면, 자세는 서고 오류 지점은 사라진다",
-      "prompt": "动作提示词：\n\n人物坐在一把竖立放置的油纸伞上，一条腿自然弯曲抬起，从伞面上方轻轻翘过雨伞边缘，小腿顺着伞的弧度自然下垂，脚尖微微绷直，作为画面中唯一清晰可见的一条腿。\n\n另一条腿收在伞的另一侧，被伞面大部分遮挡，仅通过膝部轮廓、衣摆变化或身体重心暗示受力关系，不完整露出脚部。\n\n上半身微微后仰或侧转，腰部放松，肩颈舒展，一只手向外伸展保持平衡，另一只手自然垂落或轻搭在腿侧，整体呈现轻盈、优雅又带一点悬浮感的伞上坐姿。\n\n适合真人 COS、古风写真、东方幻想人像，也可以搭配低机位、侧面视角或轻微广角透视自由变化。",
-      "gen_prompt": "A seated figure balanced on top of a large oiled-paper umbrella standing upright on its handle, shot as a single clean illustration against a plain pale background. One leg is bent and lifted, hooking gently over the curved edge of the umbrella canopy from above, the calf hanging along the curve of the canopy with the toes lightly pointed — this is the only leg fully visible in the frame. The other leg is tucked on the far side of the umbrella and is mostly hidden by the canopy: only the outline of the knee, a change in the fall of the hem and the shift of the body's weight suggest where it takes support, and the foot is never fully shown. The pose reads as balanced and deliberate rather than perched precariously. Soft even light, clean lines, generous empty space around the figure. No lettering anywhere.",
-      "prompt_ko": "★★**동작만 따로 떼어낸 프롬프트다.** 스타일도 배경도 색도 없다 — 오직 자세.\n작성자가 제목을 `动作提示词`(동작 프롬프트)라고 붙였다. **모듈로 쓰라는 뜻**이다.\n\n```\n보이는 다리   자연스럽게 굽혀 들어, 우산 면 «위에서» 가장자리를 가볍게 넘긴다\n              종아리가 우산의 곡률을 따라 늘어지고 발끝은 살짝 곧게\n              ★화면에서 «유일하게 선명히 보이는» 다리\n숨긴 다리     우산 반대편에 접혀 대부분 가려진다\n              ★무릎 윤곽 · 옷자락의 변화 · 몸의 무게중심으로만 힘 관계를 «암시»한다\n              발은 완전히 드러내지 않는다\n```\n★★**「가리는 것으로 자세를 완성한다」**가 이 프롬프트의 발명이다.\n두 다리를 다 그리려 하면 교차·관통·비율 오류가 생기는데, **하나를 소품 뒤로 보내고\n무릎 윤곽과 옷자락으로만 존재를 암시**하면 자세가 성립하면서 오류 지점이 사라진다.\n[[ouzhen599-hand-as-force-bearing-grip-structure]]가 손을 「힘 관계」로 다뤘다면,\n이쪽은 **드러냄과 감춤의 배분**으로 같은 문제를 푼다.\n\n★**\"화면에서 유일하게 선명히 보이는 다리\"**라는 표현이 정확하다. 무엇을 보여줄지가 아니라\n**무엇«만» 보여줄지**를 정한다. 시선의 목적지가 하나로 고정된다.\n\n★동작 프롬프트를 독립 모듈로 두면 **스타일팩과 조합**할 수 있다 — 같은 자세를 수묵으로,\n사진으로, 3D로 갈아끼운다. 이 계정이 스타일을 JSON으로 분리해 둔 것과 짝을 이루는 설계다.",
-      "ref_image": null,
-      "result": "results/voxcatai-pose-module-reveal-one-imply-the-other.webp",
-      "seed": 1829678983
     }
   ]
 }
