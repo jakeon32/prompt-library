@@ -15471,6 +15471,38 @@
       "ref_image": null,
       "result": "results/simplyannisa-replacement-strip-must-be-structural.webp",
       "seed": 1990114624
+    },
+    {
+      "id": "taaruk-rear-curtain-flash-splits-the-exposure",
+      "source": "https://x.com/Taaruk_/status/2083942638307483665",
+      "author": "Taaruk_",
+      "date": "2026-08-03",
+      "lang": "en",
+      "target_model": "GPT Image 2",
+      "category": "패션/에디토리얼",
+      "title": "★★후막 동조 플래시로 한 장 안에 시간을 둘로 나눈다 — 느린 셔터가 배경을 흘리고 셔터 닫히기 직전의 플래시가 인물만 정지시킨다",
+      "prompt": "GPT IMAGE 2 on Chatgpt \n\nPrompt:\nCreate a cinematic fashion editorial portrait at blue hour in an open wildflower field. A beautiful young woman with short, softly wavy dark hair and natural makeup stands among blooming pink and white poppies, wearing an oversized white crew-neck T-shirt tucked into high-waisted vintage blue jeans. She gazes directly into the camera with a calm, effortless expression while a gentle breeze moves her hair.\nPhotograph using a slow shutter with rear-curtain flash, keeping the subject perfectly sharp while the flowers in the foreground create glowing motion-blur streaks and painterly light trails sweeping diagonally across the frame. Warm flash illumination freezes the model against a rich deep navy twilight sky, creating a striking contrast between cool ambient light and warm floral highlights.\nForeground filled with heavily blurred flowers, soft bokeh, translucent ghosting, glowing streaks, dreamy long-exposure movement, and subtle lens bloom. Background fades into a dark meadow with minimal distractions, emphasizing the subject.\nEditorial fashion photography, luxury campaign aesthetic, cinematic color grading, Kodak Portra 400 tones, soft skin texture, natural color rendition, high dynamic range, realistic fabric folds, premium styling, shallow depth of field, ultra-detailed, photorealistic, 85mm lens, f/1.8, ISO 400, 1/5s exposure with rear-curtain flash, crisp eyes, volumetric atmosphere, award-winning fashion photography, magazine cover quality, 4:5 aspect ratio.",
+      "gen_prompt": "A cinematic fashion editorial portrait at blue hour in an open wildflower field. A young woman with short softly wavy dark hair and natural makeup stands among blooming pink and white poppies, wearing an oversized white crew-neck t-shirt tucked into high-waisted vintage blue jeans, gazing directly into the camera with a calm effortless expression while a gentle breeze lifts her hair. The frame is exposed as a slow shutter fired with rear-curtain flash: she is held perfectly sharp and frozen by the flash burst — every strand of hair and the weave of the cotton crisp — while the poppies around and behind her smear into soft directional streaks of pink and white in the direction the wind carried them during the long exposure, the blur trailing behind the motion rather than in front of it. The deep blue dusk sky holds its colour and a first star, the horizon still faintly warm. Cool ambient blue against the warm pop of the flash on her skin. Shallow depth of field, fine film grain. No lettering anywhere.",
+      "prompt_ko": "★★**「후막 동조 플래시(rear-curtain flash)」** — 한 장 안에서 시간을 두 개로 나눈다.\n```\n느린 셔터    주변(꽃·바람)은 «노출 내내» 기록되어 흐른다\n플래시       ★셔터가 «닫히기 직전»에 터져 인물만 정지시킨다\n결과         인물은 완벽히 선명, 배경은 «움직인 궤적»으로 남는다\n```\n★★**「후막(rear-curtain)」이라는 점이 핵심이다.** 전막(front-curtain)에서 터지면\n번짐이 피사체 «앞»으로 나가 부자연스럽고, 후막이면 **번짐이 움직임 «뒤»로 끌린다** —\n그래서 방향이 물리적으로 맞는다. 어제 담은\n[[gdgtify-temporal-frame-t-minus-one-zero-plus-one]]의 \"머리와 천은 운동 뒤로 끌린다\"와\n같은 원리를 **촬영 기법 이름 하나로** 부른다.\n\n★**블루아워를 고른 것도 계산이다** — 주변광이 약해야 느린 셔터를 쓸 수 있고,\n차가운 앰비언트 블루와 따뜻한 플래시가 인물과 배경을 **색으로도 분리**한다.\n\n★[[taaruk-crowd-blur-one-sharp-figure]](군중은 흐르고 한 사람만 선명)와 같은 계정의\n같은 축인데, 그쪽은 «패닝», 이쪽은 «플래시 동조»다.\n**\"하나만 선명하게 남긴다\"는 목표에 다른 기법을 대는** 사례가 둘 쌓였다.",
+      "ref_image": null,
+      "result": "results/taaruk-rear-curtain-flash-splits-the-exposure.webp",
+      "seed": 557420174
+    },
+    {
+      "id": "imshahid7-eruption-wraps-but-never-touches",
+      "source": "https://x.com/im_shahid7/status/2083879200336097658",
+      "author": "im_shahid7",
+      "date": "2026-08-03",
+      "lang": "en",
+      "target_model": "GPT Image 2",
+      "category": "패션/에디토리얼",
+      "title": "★사진과 회화를 겹치되 「닿지 않게」 한다 — 실루엣을 감싸며 검은 여백을 남기면 인물이 닿지 못하는 폭풍 속에 고요히 선 것이 된다",
+      "prompt": "The vibrance in her style\nMade with GPT IMAGE 2\nPrompt:\n\nSurreal maximalist fashion artwork, naturally beautiful young woman, full body, near foreground, facing camera with calm magnetic expression. Relaxed plain white cotton T shirt, faded medium blue straight leg jeans, shoulder length dark hair moving gently. Realistic facial features, natural skin texture. Behind her, immense lacquer black space erupts into hand painted ivory smoke, cobalt blue waves, vermilion flames, molten gold ornamental lines spiraling dramatically around her silhouette without obscuring her face. Tiny celestial stars, fine luminous threads, marbled color bleeding, intricate decorative details fill the darkness. Bold contrast, deep crushed blacks, glowing red and blue pigments, gilded highlights, vintage screen print texture, visible paper grain, slight misregistration, psychedelic celestial atmosphere. Striking fusion of photorealistic fashion portraiture and richly detailed mythological print art. --chaos 12 --ar 4:5 --raw --profile be6pjat --stylize 200 --weird 14 --hd",
+      "gen_prompt": "A surreal maximalist fashion artwork. A young woman stands near the foreground facing the camera with a calm magnetic expression, full length, in a relaxed plain white cotton t-shirt and faded medium-blue straight-leg jeans, her shoulder-length dark hair moving gently. Her face and skin stay entirely realistic with natural texture — she is photographic. Behind her, an immense lacquer-black space erupts: hand-painted ivory smoke curls upward, cobalt blue waves break sideways, vermilion flames rise, and molten gold ornamental lines spiral dramatically around her silhouette — all of it painted, flat and gestural, in clear contrast to her photographic realism. Crucially none of it touches or overlaps her: the eruption wraps her outline exactly, leaving a clean margin of black between the painted chaos and her body, so she reads as calmly standing inside a storm that cannot reach her. Dramatic rim light along her shoulders from the gold, deep black ground, wide vertical composition. No lettering anywhere.",
+      "prompt_ko": "★**사실적 인물 + 손그림 폭발 배경**을 겹치되, **둘이 «닿지 않게»** 한다.\n\n```\n인물   완전히 사실적 — 자연스러운 피부 결, 평범한 흰 티셔츠와 청바지\n       ★일상적인 옷차림이라 배경과의 «격차»가 더 벌어진다\n배경   칠흑 같은 옻칠 검정이 «분출»한다 —\n       손으로 그린 아이보리 연기 · 코발트 파도 · 주홍 불꽃 · 녹아내린 금색 장식선\n       전부 «회화적»으로, 사진적 인물과 명확히 대비되게\n★조건  «실루엣을 감싸되 겹치지 않는다» —\n       회화와 몸 사이에 검은 여백이 남아, 인물이 «닿지 못하는 폭풍 속에 고요히 선» 것으로 읽힌다\n```\n★★**\"감싸되 닿지 않는다\"**가 이 구성의 전부다. 배경 요소가 인물 위로 넘어오면\n합성이 되고, **윤곽을 따라 여백을 남기면** 두 층이 각자의 세계를 유지한 채 공존한다.\n\n★**옷을 「평범한 흰 티셔츠와 청바지」로 둔 것**도 의도적이다. 화려한 의상이면 배경과\n경쟁하는데, 일상복이면 **인물이 «현실»의 닻**이 되어 배경의 초현실이 더 크게 읽힌다.\n\n★[[gdgtify-anti-texture-translate-art-into-parts]]와 반대 방향의 해법이다 —\n그쪽은 회화를 «부품으로 번역»해 하나로 합쳤고, 이쪽은 **두 매체를 끝까지 분리**해 대비를 만든다.",
+      "ref_image": null,
+      "result": "results/imshahid7-eruption-wraps-but-never-touches.webp",
+      "seed": 919461948
     }
   ]
 }
