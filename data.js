@@ -15169,22 +15169,6 @@ window.PROMPT_DATA={
       "seed": 1343766262
     },
     {
-      "id": "sairah0-y2k-collage-keep-the-scissored-edge",
-      "source": "https://x.com/Sairah_0/status/2083824087127015875",
-      "author": "Sairah_0",
-      "date": "2026-08-03",
-      "lang": "en",
-      "target_model": "GPT Image 2",
-      "category": "패션/에디토리얼",
-      "title": "★콜라주는 「오린 가장자리」가 보여야 한다 — 깨끗하게 마스킹하면 합성이고, 종이 결이 남으면 손으로 만든 것이 된다",
-      "prompt": "GPT Image 2 On ChatGpt\n\nPrompt:\n\nA fashion editorial collage photo in a Y2K 'soft pop art' aesthetic, featuring an Asian model posing playfully with a pet against a white background. Both the model and pet have distinct, blue-outline Halftone dotted-screen borders. The model wears unique headwear related to the pet and stylized outfits. The background is covered with various light blue line art doodles, star shapes, and handwritten text blocks including 'Fashion Editorial Collage', 'Stars can't shine without darkness', 'Best Friend Forever ♡', and 'Happy Together ♡'. The pets—a large Golden British Shorthair cat, a larger-than-life Orange tabby and white cat, or a blue-grey chihuahua—have large, expressive, doe-like 'doll' eyes and a curious gaze. The model has a playful expression with specific hairstyles like soft curls, long straight hair, or space buns.",
-      "gen_prompt": "A fashion editorial collage in a Y2K soft pop-art aesthetic, vertical. A cut-out photographic portrait of a young woman in a pale blue slip dress is layered over a flat bubblegum-pink field, her figure trimmed with a visible rough paper edge as though scissored from a magazine. Around her, flat vector shapes crowd the frame: a lime green star burst behind her shoulder, two concentric baby-blue circles, a scattering of small silver chrome hearts, and a wide cream halftone band running diagonally beneath her. A second, smaller cut-out of the same figure appears at reduced scale in the lower corner, slightly rotated. Everything sits flat with hard edges and no drop shadows, and one strip of glossy chrome gradient crosses the composition. Muted retro print texture over the whole image, faint paper grain. No lettering anywhere.",
-      "prompt_ko": "★**Y2K 소프트 팝아트 콜라주** — 사진을 «오려 붙인 것»으로 다룬다.\n\n```\n인물     ★사진 컷아웃 · «가위로 잡지에서 오린» 거친 종이 가장자리가 보이게\n배경     평면 색면(버블검 핑크)\n요소     플랫 벡터 도형이 «화면을 붐비게» — 별 버스트 · 동심원 · 크롬 하트 · 하프톤 밴드\n반복     ★같은 인물의 «작은 컷아웃»이 모서리에 축소·회전되어 한 번 더\n질감     전체에 레트로 인쇄 질감 + 옅은 종이 그레인\n금지     드롭섀도 없음 — 전부 평면, 하드 엣지\n```\n★★**\"오린 가장자리를 보이게 한다\"**가 콜라주의 핵심이다. 깨끗하게 마스킹하면 합성이고,\n**종이가 찢긴 결이 남으면** 손으로 만든 콜라주가 된다.\n\n★**같은 요소를 축소·회전해 반복**하는 것도 이 장르의 관용구다. 리듬이 생기고\n«편집된 지면»으로 읽힌다.\n\n★크롬 그라데이션 한 줄이 Y2K의 시대 표식이다 — 이것만 빼면 그냥 팝아트 콜라주가 된다.",
-      "ref_image": null,
-      "result": "results/sairah0-y2k-collage-keep-the-scissored-edge.webp",
-      "seed": 853294564
-    },
-    {
       "id": "taaruk-split-the-face-and-put-a-journey-in-the-gap",
       "source": "https://x.com/Taaruk_/status/2083856573982535929",
       "author": "Taaruk_",
