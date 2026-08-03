@@ -15311,6 +15311,22 @@
       "ref_image": null,
       "result": "results/noorwithwifi-climbing-out-of-the-polaroid-frame.webp",
       "seed": 1818188418
+    },
+    {
+      "id": "promptsref-dreamy-means-no-hard-edges-anywhere",
+      "source": "https://x.com/promptsref/status/2084036944028139533",
+      "author": "promptsref",
+      "date": "2026-08-03",
+      "lang": "en",
+      "target_model": "Midjourney",
+      "category": "제품 광고",
+      "title": "★「몽환」은 경계를 하나도 두지 않는 것 — 배경과 바닥을 같은 색으로 잇고, 그림자는 끝나지 않고 흩어지며, 하이라이트는 선이 아니라 넓은 그라데이션이다",
+      "prompt": "Warm coral + dreamy minimalism for polished product shots. Perfect for beauty, fashion, lifestyle ads and summer campaigns. Try it in Midjourney:  Full prompt in comments.\n\n--sref 690444053\n#midjourney #sref https://t.co/Uk3peewmox\n\n--- (원문 프롬프트 얻지 못함) ---\n작성자 답글이 외부 유료 링크로 막혀 있어 전체 프롬프트를 확보하지 못했다. 본문의 스타일 서술(warm coral + dreamy minimalism, 뷰티·패션·라이프스타일·여름 캠페인용)과 sref 690444053의 성격만으로 gen_prompt를 재구성했다.",
+      "gen_prompt": "A polished beauty product photograph in a dreamy minimalist register. A single frosted glass serum bottle stands slightly off-centre on a seamless field of warm coral that fills the whole frame with no horizon line, the surface and background reading as one continuous colour. The light is broad and diffused with no hard edge anywhere — the bottle's shadow is a soft coral pool that fades out rather than ending, and the highlight down its side is a wide gentle gradient rather than a specular line. A faint atmospheric haze sits between the camera and the product, lifting the blacks and softening every contour so the image feels slightly dreamt. Two small props share the frame and nothing more: a smooth pale stone and a single dried flower stem lying flat, both in tones a half-step from the coral so they never compete. Generous empty space above the bottle. Muted, warm, summer-campaign mood with restrained colour and no saturation spikes. Plain photograph with no lettering or logos anywhere.",
+      "prompt_ko": "★**웜 코랄 단색장 + 몽환적 미니멀리즘** — 뷰티·패션·라이프스타일 광고와 여름 캠페인용\nsref(`--sref 690444053`)로 소개된 건.\n\n작성자가 본문에 남긴 성격 서술은 이것뿐이다:\n```\nWarm coral + dreamy minimalism for polished product shots.\nPerfect for beauty, fashion, lifestyle ads and summer campaigns.\n```\n★**「몽환(dreamy)」을 만드는 것이 무엇인지**를 재현하면서 정리했다:\n```\n경계 없음   배경과 바닥이 «같은 색»으로 이어져 수평선이 사라진다\n그림자     끝나지 않고 «흩어지는» 부드러운 코랄 웅덩이\n하이라이트  가는 반사선이 아니라 «넓은 완만한 그라데이션»\n헤이즈     카메라와 제품 사이의 옅은 대기 — 검정을 들어 올리고 윤곽을 풀어놓는다\n소품      단 둘, 코랄에서 «반 걸음»만 떨어진 색조라 경쟁하지 않는다\n```\n★★**「하드 엣지를 하나도 두지 않는 것」**이 이 결의 조건이다. 미니멀 제품 사진은 보통\n선명한 그림자와 반사로 형태를 세우는데, 여기서는 **모든 경계를 풀어** 꿈 같은 인상을 만든다.\n같은 미니멀이라도 [[kingofdairyque-pure-white-single-product-single-shadow]]\n(순백 + 그림자 «하나» + 선명함)와 정반대 방향이다.\n\n⚠️★**원문 프롬프트는 얻지 못했다.** 답글이 *\"정확한 프롬프트를 보려면 전체 breakdown을\n여기서 받아라\"*는 **외부 유료 링크**였다(런북 §유료 게이트).\n위 gen_prompt는 본문의 스타일 서술과 sref의 성격만으로 **우리가 재구성한 것**이다.\n\n⚠️`--sref 690444053`은 미드저니 전용 코드라 이식할 수 없다. 스타일 키워드만 가져왔다.",
+      "ref_image": null,
+      "result": "results/promptsref-dreamy-means-no-hard-edges-anywhere.webp",
+      "seed": 17768534
     }
   ]
 }
