@@ -16449,6 +16449,38 @@ window.PROMPT_DATA={
       "ref_image": "results/xiaoxiaodong01-cover-dark-restraint-glowing-flow-ref.jpg",
       "result": "results/xiaoxiaodong01-cover-dark-restraint-glowing-flow.webp",
       "seed": 294303022
+    },
+    {
+      "id": "maddoxdigital-object-as-snow-peak-with-gondolas",
+      "source": "https://x.com/Maddox_Digital/status/2084302776277114921",
+      "author": "Maddox_Digital",
+      "date": "2026-08-05",
+      "lang": "en",
+      "target_model": "Nano Banana Pro",
+      "category": "초현실 콜라주",
+      "title": "★사물을 「눈으로 빚은 산봉우리」로 바꾸고 곤돌라 케이블을 걸어 «스키 리조트»라고 우긴다 — 규모를 케이블이 증명한다",
+      "prompt": "Nano banana pro promotional and Cinematic Prompt☃️⤵️\n\nA colossal [OBJECT NAME] shaped like a mountain, entirely made of snow and ice, blending naturally into a high alpine landscape. The [OBJECT] looks like a real snowy peak with [OBJECT SPECIFIC DETAILS], rough snowy textures and sculpted ice details. From the top of the [OBJECT], multiple ski gondola cables are attached, stretching across the sky like a ski resort. Gondola cabins are suspended in the air, moving between snowy mountain peaks. Bright winter daylight, dramatic scale, cinematic composition, ultra-realistic, highly detailed snow textures, surreal yet believable, luxury alpine atmosphere, wide-angle view, photorealistic, 8k quality",
+      "gen_prompt": "A colossal grand piano shaped like a mountain, entirely made of snow and ice, blending naturally into a high alpine landscape. The piano reads as a real snowy peak: its lid becomes a wind-scoured ridge, its keyboard a band of exposed rock and ice at the shoulder, its legs buried in drifts, with rough snowy textures and sculpted ice detail over the whole form.\n\nFrom the top of the piano, multiple ski gondola cables are anchored and stretch away across the sky toward neighbouring peaks like a working ski resort. Small gondola cabins hang along the cables, some near, some tiny in the distance, and it is those cabins that reveal how enormous the piano is.\n\nBright winter daylight, dramatic scale, cinematic wide-angle composition, ultra-realistic snow texture, surreal yet believable, luxury alpine atmosphere. There is no text anywhere in the image.",
+      "prompt_ko": "★논지는 **「규모를 무엇으로 증명하는가」**다. 사물을 거대하게 그리라고만 하면 그냥 큰 물건이 된다. 이 프롬프트는 **곤돌라 케이블과 캐빈**을 걸어서, 보는 사람이 캐빈 크기로 산의 규모를 «역산»하게 만든다. 축척 장치가 곧 서사다.\n\n★두 번째 장치는 **「자연스럽게 녹아들게(blending naturally)」**다 — 사물을 산에 «놓는» 게 아니라 **산이 되게** 한다. 그래서 뚜껑이 능선이 되고 건반이 노출된 암반이 되는 식으로 부위를 지형으로 번역해야 한다.\n\n`[OBJECT NAME]` + `[OBJECT SPECIFIC DETAILS]` 두 슬롯짜리라 무엇이든 넣을 수 있다.",
+      "ref_image": "results/maddoxdigital-object-as-snow-peak-with-gondolas-ref.jpg",
+      "result": "results/maddoxdigital-object-as-snow-peak-with-gondolas.webp",
+      "seed": 1259925513
+    },
+    {
+      "id": "michaelrabone-two-srefs-blended-with-weight",
+      "source": "https://x.com/michaelrabone/status/2084187525338259496",
+      "author": "michaelrabone",
+      "date": "2026-08-05",
+      "lang": "en",
+      "target_model": "Midjourney",
+      "category": "실험/기법",
+      "title": "★★sref를 «두 개 동시에» 걸고 --sw로 세기를 조절한다 — 「움직임」과 「빛」을 각각 한 코드에 맡겨 섞는 법",
+      "prompt": "1. Motion &amp; Chaos --sref 1817778782\n2. Light &amp; Bokeh --sref 3349256275\n3. Double Exposure Prompt\n\nBlonde woman double exposure --ar 16:9 --raw --sref 1817778782 3349256275 --sw 100 --stylize 300 --hd --v 8.2 https://t.co/EFQzuDwesm",
+      "gen_prompt": "Double exposure portrait of a blonde woman, 16:9. Two images are layered into one: her profile in sharp silhouette, and inside that silhouette a second exposure of city lights at night dissolving into large soft bokeh circles. Where the two overlap, the lights burn through her hair and shoulder line and trail sideways as if the camera moved during the exposure, so motion and light read as separate ingredients that meet on the same frame. Deep blacks around the edges, no background clutter, raw photographic look rather than illustration. There is no text anywhere in the image.",
+      "prompt_ko": "★★기법 자체가 값어치다 — **`--sref 1817778782 3349256275 --sw 100`**. sref 코드를 **둘 동시에** 걸고 `--sw`로 스타일 가중치를 조절한다. 작성자가 두 코드에 각각 이름을 붙여 뒀다: **1817778782 = Motion & Chaos / 3349256275 = Light & Bokeh.**\n\n즉 «움직임»과 «빛»을 각각 다른 코드에 맡기고 한 화면에서 섞는 구성이다. 기보유 [[azed-ai-sref-2848504174-sw500-style-lock]]가 **단일 sref에 --sw 500**으로 스타일을 «잠그는» 쪽이라면, 이건 **복수 sref를 --sw 100으로 «섞는»** 쪽이다. 두 사용법이 짝을 이룬다.\n\n⚠️sref 숫자는 Krea2로 이식 불가라 두 코드가 뜻하는 «움직임 + 빛»을 자연어 형태 지시로 옮겨 재현했다(런북 §미드저니 sref).",
+      "ref_image": "results/michaelrabone-two-srefs-blended-with-weight-ref.jpg",
+      "result": "results/michaelrabone-two-srefs-blended-with-weight.webp",
+      "seed": 1405600730
     }
   ]
 };
