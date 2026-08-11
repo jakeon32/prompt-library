@@ -22547,23 +22547,6 @@ window.PROMPT_DATA={
       "private": false
     },
     {
-      "id": "ksa8turky-two-poses-one-vintage-collage",
-      "source": "https://x.com/ksa8Turky/status/2086884031682294031",
-      "author": "ksa8Turky",
-      "date": "2026-08-10",
-      "lang": "ar",
-      "target_model": "GPT-image 2",
-      "category": "콜라주/9그리드",
-      "title": "★같은 인물의 «다른 포즈·다른 앵글 2컷»을 찢은 종이 콜라주로 — 모노크롬 사진+낡은 종이+매거진 컷아웃의 빈티지 에디토리얼 ([SUBJECT] 슬롯)",
-      "prompt": "صورتك لكن بروح مجلة فنية قديمة. ✂️📸\n\nالبرومبت في الوصف ⤵️ https://t.co/IGmpJKvLPF\n\n[이미지 ALT 프롬프트]\n Vintage editorial collage of [SUBJECT], featuring two portraits of the same character in clearly different poses and camera angles. Surround with [THEME-RELATED OBJECTS], torn paper layers, monochrome photography, muted colors, aged paper texture, magazine cutouts, film grain, balanced asymmetrical composition, premium mixed-media aesthetic, no text.",
-      "gen_prompt": " Vintage editorial collage of an adult jazz trumpeter in a 1950s suit, featuring two portraits of the same character in clearly different poses and camera angles. Surround with a brass trumpet, scattered sheet music, a vinyl record, an old stage-light, torn paper layers, monochrome photography, muted colors, aged paper texture, magazine cutouts, film grain, balanced asymmetrical composition, premium mixed-media aesthetic, no text.",
-      "prompt_ko": "★논지 — 인물 콜라주의 기본기: 같은 인물을 «명확히 다른 포즈·카메라 앵글 2컷»으로 담아 찢은 종이 레이어·매거진 컷아웃과 짜는 비대칭 균형. 재즈 트럼페터+주제 소품으로 슬롯 채움. ⚠️ALT 숨김형.",
-      "ref_image": "results/ksa8turky-two-poses-one-vintage-collage-ref.jpg",
-      "result": "results/ksa8turky-two-poses-one-vintage-collage.webp",
-      "seed": 2044344906,
-      "private": false
-    },
-    {
       "id": "ksa8turky-boarding-pass-as-a-poster",
       "source": "https://x.com/ksa8Turky/status/2086788241542275300",
       "author": "ksa8Turky",
@@ -23358,23 +23341,6 @@ window.PROMPT_DATA={
       "ref_image": "results/aleena-charcoal-unfinished-edges-ref.jpg",
       "result": "results/aleena-charcoal-unfinished-edges.webp",
       "seed": 1635665397,
-      "private": false
-    },
-    {
-      "id": "maddox-vector-tentacle-hugs-the-photo",
-      "source": "https://x.com/Maddox_Digital/status/2086438529555665352",
-      "author": "Maddox_Digital",
-      "date": "2026-08-09",
-      "lang": "en",
-      "target_model": "GPT-image 2",
-      "category": "패션/에디토리얼",
-      "title": "★실사 인물에 «플랫 벡터 촉수 팔»이 감긴다 — 하이엔드 스튜디오 사진 × 2D 두들 오버레이의 재질 충돌 믹스드미디어 (레퍼런스 슬롯→오리지널 치환)",
-      "prompt": "Nano banana pro promotional and Cinematic Prompt ⤵️ \n\nA vibrant mixed media composition blending high-end studio fashion photography with bold 2D vector art overlays, featuring a stylish subject with uploaded face as reference posing dynamically against a clean, neutral grey gradient studio background. The subject stands with hands on hips, head tilted slightly back and to the right, with tongue playfully sticking out, wearing teal-rimmed sunglasses with pink arms, a bright yellow bandana tied loosely around the neck, a white ribbed tank top exhibiting realistic fabric folds, and high-sheen metallic blue satin athletic shorts. Interacting with the realistic figure is a surreal, flat-illustrated cyan-blue cartoon arm that winds like a tentacle around her torso and right arm, terminating in a hand making the \"rock on\" devil horns gesture, accessorized with a black spiked wristband. Surrounding the figure are scattered illustrative elements including floating geometric diamonds in pink, yellow, and white, a small white cartoon rabbit in the upper right corner holding a yellow crystal, and a red mushroom doodle with a squiggly black line. The lighting is professional high-key studio softbox illumination, highlighting the contrast between the hyper-realistic skin texture and subsurface scattering of the subject against the thick black outlines and flat coloring of the graffiti-style doodle art, 8k resolution, commercial editorial aesthetic.",
-      "gen_prompt": "A vibrant mixed media composition blending high-end studio fashion photography with bold 2D vector art overlays, featuring a stylish adult East Asian woman with a playful confident face posing dynamically against a clean, neutral grey gradient studio background. The subject stands with hands on hips, head tilted slightly back and to the right, with tongue playfully sticking out, wearing teal-rimmed sunglasses with pink arms, a bright yellow bandana tied loosely around the neck, a white ribbed tank top exhibiting realistic fabric folds, and high-sheen metallic blue satin athletic shorts. Interacting with the realistic figure is a surreal, flat-illustrated cyan-blue cartoon arm that winds like a tentacle around her torso and right arm, terminating in a hand making the \"rock on\" devil horns gesture, accessorized with a black spiked wristband. Surrounding the figure are scattered illustrative elements including floating geometric diamonds in pink, yellow, and white, a small white cartoon rabbit in the upper right corner holding a yellow crystal, and a red mushroom doodle with a squiggly black line. The lighting is professional high-key studio softbox illumination, highlighting the contrast between the hyper-realistic skin texture and subsurface scattering of the subject against the thick black outlines and flat coloring of the graffiti-style doodle art, 8k resolution, commercial editorial aesthetic.",
-      "prompt_ko": "재질 충돌 문법 — 초실사(모공·서브서피스)와 두꺼운 흑윤곽 플랫 벡터(시안 촉수 팔·토끼·다이아)를 한 화면에. 촉수가 실사 몸을 «감아» 두 층이 물리적으로 상호작용하는 게 핵심. 얼굴 업로드 슬롯은 오리지널 인물 서술로 치환.",
-      "ref_image": "results/maddox-vector-tentacle-hugs-the-photo-ref.jpg",
-      "result": "results/maddox-vector-tentacle-hugs-the-photo.webp",
-      "seed": 37473967,
       "private": false
     }
   ]
