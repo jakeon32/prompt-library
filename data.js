@@ -24529,6 +24529,23 @@ window.PROMPT_DATA={
       "result": "results/xiaoxiaodong-mid-autumn-batch-creative-directions.png",
       "seed": null,
       "private": false
+    },
+    {
+      "id": "gdgtify-rare-collectibles-technical-ads",
+      "source": "https://x.com/Gdgtify/status/2087820704213328241",
+      "author": "@Gdgtify",
+      "date": "2026-08-13",
+      "lang": "en",
+      "target_model": "GPT Image 2",
+      "category": "빈티지 제품 포스터",
+      "title": "희귀 수집품 2×2 기술광고 — 물건의 시대적 ‘미래성’을 기술 사양과 선언형 카피로 압축",
+      "prompt": "I asked GPT to show me a few collectibles from before 1940.\n\n2×2 grid, 16:9, do this for 4 extremely rare collectibles from 1850 to 1940. For each subject, infer its primary design thesis, compress it into a short manifesto headline, select one high-information technical metric, and use a large headline + isolated product + dominant technical metric composition. Use a low three-quarter hero portrait, micro editorial copy, technical annotation, profile schematic, an optional alternate-script typography layer, an inferred period-futurist palette, and subtle archival advertising-print texture.",
+      "prompt_ko": "1850~1940년 사이의 희귀 수집품 네 개를 단순한 박물관 진열이 아니라, 각 물건이 당대의 차세대 기술로 막 출시된 듯한 2×2 광고 포스터로 만든다. 물건별로 디자인 논지를 추론해 짧은 선언형 헤드라인으로 압축하고, 가장 정보량이 큰 기술 사양 하나를 크게 강조한다. ‘대형 헤드라인 + 고립된 제품 + 지배적 기술 지표’, 낮은 3/4 히어로 샷, 미세한 에디토리얼 카피·기술 주석·측면 도식·시대별 미래주의 팔레트·은은한 아카이브 인쇄 질감이 공통 시스템이다.",
+      "gen_prompt": "Create one cohesive 16:9 image divided into a precise 2×2 grid with very thin ivory gutters. Each panel is a finished, period-authentic luxury technical advertisement for one extremely rare collectible made between 1850 and 1940. The four subjects: an 1890s brass-and-mahogany Edison phonograph, a 1908 hand-built touring automobile radiator badge and hood ornament, a 1927 Art Deco Bakelite cathedral radio, and a 1936 chrome-and-leather Leica-style 35mm rangefinder camera. Treat each object as the advanced future technology of its own era, not as a museum artifact. Premium archival print advertising, crisp product illustration blended with high-end studio product photography, historically accurate materials, printing, and industrial design. Every panel uses a low three-quarter hero portrait of one isolated object, an oversized short manifesto headline, one dominant technical metric, restrained micro editorial copy, fine engineering annotations, and a small profile schematic. Each panel infers a period-futurist palette: 1890s oxblood and antique gold; 1908 cobalt, cream, and red enamel; 1927 black, ivory, and jade; 1936 silver, charcoal, and warm tan. Subtle letterpress grain, lithographic halftone, aged paper fibers, authentic ink density. Exact 2×2 grid; no people, no collage clutter, no modern electronics, no watermark. Avoid generic steampunk, museum placards, random historical objects, excessive ornament, broken object geometry, and illegible giant text.",
+      "ref_image": null,
+      "result": "results/gdgtify-rare-collectibles-technical-ads.png",
+      "seed": null,
+      "private": false
     }
   ]
 };
