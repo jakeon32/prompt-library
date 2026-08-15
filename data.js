@@ -24512,6 +24512,23 @@ window.PROMPT_DATA={
       "result": "results/ouzhen599-hero-plus-five-construction-proofs.webp",
       "seed": 702604351,
       "private": false
+    },
+    {
+      "id": "xiaoxiaodong-mid-autumn-batch-creative-directions",
+      "source": "https://x.com/xiaoxiaodong01/status/2088093310330237319",
+      "author": "@xiaoxiaodong01",
+      "date": "2026-08-14",
+      "lang": "zh",
+      "target_model": "GPT Image 2",
+      "category": "이벤트 포스터",
+      "title": "중추절 포스터 10방향 컨셉 배치 — 색·아이디어·카피·레이아웃을 한 번에 분산시키는 발상 프롬프트",
+      "prompt": "GPT2 × 게으른 배치 창의성 × 중추절 × 포스터 × 미학 프롬프트\n\n아이디어가 떠오르지 않을 때, 다음 지시로 서로 다른 창의안 10개를 한 번에 만듭니다:\n\n주제: 중추절 포스터\n비율: 16:9\n총 10장. 각 이미지의 색상 톤은 완전히 달라야 하며, 다음 항목이 서로 반복되지 않아야 합니다: 창의안, 핵심 창의안, 카피, 레이아웃, 일러스트 논리.",
+      "prompt_ko": "중추절이라는 하나의 주제를 10개의 서로 다른 디자인 방향으로 확장하는 배치 발상 프롬프트. 색조만 바꾸는 변주가 아니라, 각 안마다 ①핵심 발상 ②카피 접근 ③레이아웃 ④일러스트 매체를 함께 교체하도록 명시한다. 달·토끼·붉은색 같은 익숙한 반복을 피하고, 천문 도표·페이퍼컷 가족 식사·문케이크 패키지·이클립스 타이포·야시장·수묵 산수·야간 열차·미니어처 찻집·시아노타입 식물·기하학적 문케이크 등 완전히 다른 시각 언어를 탐색하는 데 쓴다.",
+      "gen_prompt": "Create one polished contact sheet containing exactly 10 clearly separated horizontal 16:9 Mid-Autumn Festival poster concepts, arranged as a clean 5-column by 2-row grid with slim cream gutters. Each tile must feel like an independently art-directed finished poster, not a crop or variation of the same design. Theme: Mid-Autumn Festival, moon appreciation, reunion, lantern light, seasonal harvest. Deliberately make every panel different in hue, core idea, copy approach, layout, and illustration logic. The ten directions are: cobalt-blue astronomical chart with a tiny gold moon and precise constellation lines; warm amber paper-cut family reunion seen through an architectural window; lush jade-and-coral mooncake packaging still life in extreme macro; black-and-silver contemporary editorial typography with a lunar eclipse; electric-violet night-market lantern scene from street level; cream-and-ink Chinese brush landscape with an enormous empty sky; vermilion retro screen-print travel poster with a night train reunion; pale peach and mint 3D miniature floating tea pavilion; deep indigo cyanotype botanical harvest study with a crescent moon; terracotta-and-gold abstract geometric poster where mooncake patterns become architectural forms. Premium contemporary East Asian graphic design. Use only a very short clear English title per panel. No logos, no watermark, no people close-ups. Avoid repeated layouts, generic rabbit mascot artwork, copy-pasted moon shapes, visual clutter, and broken typography.",
+      "ref_image": null,
+      "result": "results/xiaoxiaodong-mid-autumn-batch-creative-directions.png",
+      "seed": null,
+      "private": false
     }
   ]
 };
