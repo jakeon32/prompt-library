@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Video Prompt Library — 영상 프롬프트 문법 아카이브</title>
+<style>
+  :root{
+    --bg:#0a0b0f; --bg2:#111319; --card:#16181f; --card2:#1d2029;
+    --line:#262a35; --line2:#333845;
+    --tx:#e8eaf0; --tx2:#9aa0b0; --tx3:#646b7e;
+    --acc:#7c83ff; --acc2:#22d3ee; --ok:#34d399; --warn:#fbbf24;
+    --r:16px; --rs:10px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0}
+  html{scroll-behavior:smooth; overflow-x:hidden}
+  body{
+    background:var(--bg); color:var(--tx);
+    font-family:'Pretendard',system-ui,-apple-system,'Malgun Gothic',sans-serif;
+    line-height:1.6; word-break:keep-all; overflow-wrap:anywhere;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit; text-decoration:none}
+  .wrap{max-width:1320px; margin:0 auto; padding:0 24px}
+
+  header{
+    padding:56px 0 0; border-bottom:1px solid var(--line);
+    background:radial-gradient(1200px 400px at 50% -120px, rgba(34,211,238,.14), transparent 70%);
+  }
+  .navlinks{display:flex; gap:18px; font-size:13px; font-weight:600; color:var(--tx3); margin-bottom:20px}
+  .navlinks a{padding-bottom:3px}
+  .navlinks a:hover{color:var(--tx2)}
+  .navlinks a.on{color:var(--tx); border-bottom:2px solid var(--acc2)}
+  h1{font-size:clamp(28px,4vw,42px); font-weight:800; letter-spacing:-.02em; margin:0; text-wrap:balance}
+  .lede{color:var(--tx2); font-size:15px; margin-top:12px; max-width:680px}
+  .note{
+    margin-top:16px; padding:12px 15px; border:1px solid var(--line2); border-radius:var(--rs);
+    background:var(--bg2); color:var(--tx2); font-size:13.5px; max-width:680px;
+  }
+  .note b{color:var(--tx)}
+  .stats{display:flex; gap:28px; margin:26px 0 24px; flex-wrap:wrap}
+  .stat .n{font-size:24px; font-weight:800; color:var(--tx)}
+  .stat .l{font-size:12px; color:var(--tx3); letter-spacing:.04em}
+
+  .toolbar{
+    position:sticky; top:0; z-index:30; background:rgba(10,11,15,.82);
+    backdrop-filter:blur(12px); border-bottom:1px solid var(--line); padding:14px 0;
+  }
+  .tb{display:flex; gap:12px; align-items:center; flex-wrap:wrap}
+  .search{
+    flex:1; min-width:200px; display:flex; align-items:center; gap:8px;
+    background:var(--card); border:1px solid var(--line2); border-radius:999px; padding:9px 16px;
+  }
+  .search input{flex:1; background:none; border:none; color:var(--tx); font-size:16px; outline:none; font-family:inherit}
+  .search svg{flex-shrink:0; opacity:.5}
+  .axis{display:flex; gap:6px; flex-shrink:0}
+  .axbtn{
+    padding:9px 14px; border-radius:999px; border:1px solid var(--line2); background:var(--card);
+    color:var(--tx2); font-size:13px; font-weight:600; cursor:pointer; transition:.15s;
+    font-family:inherit; white-space:nowrap;
+  }
+  .axbtn:hover{border-color:var(--acc2); color:var(--tx)}
+  .axbtn.on{background:var(--acc2); border-color:var(--acc2); color:#03252b}
+  .chips{display:flex; gap:8px; flex-wrap:wrap; width:100%; margin-top:14px}
+  .chip{
+    padding:8px 15px; border-radius:999px; border:1px solid var(--line2); background:var(--card);
+    color:var(--tx2); font-size:13px; font-weight:600; cursor:pointer; transition:.15s; white-space:nowrap;
+  }
+  .chip:hover{border-color:var(--acc); color:var(--tx)}
+  .chip.on{background:var(--acc); border-color:var(--acc); color:#fff}
+  .chip .c{color:var(--tx3); font-weight:600; margin-left:5px}
+  .chip.on .c{color:rgba(255,255,255,.7)}
+
+  .grid{display:grid; gap:22px; padding:32px 0 80px; grid-template-columns:repeat(auto-fill,minmax(360px,1fr))}
+  .card{
+    background:var(--card); border:1px solid var(--line); border-radius:var(--r);
+    overflow:hidden; display:flex; flex-direction:column; transition:.2s;
+  }
+  .card:hover{border-color:var(--line2); transform:translateY(-3px)}
+
+  /* 구조 헤더 — 영상 카드에는 썸네일이 없다. 문법이 그 자리를 대신한다. */
+  .struct{
+    padding:14px 16px; background:var(--bg2); border-bottom:1px solid var(--line);
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+  }
+  .struct .st{font-size:14px; font-weight:800; letter-spacing:-.01em; color:var(--acc2)}
+  .struct .dur{font-size:11.5px; color:var(--tx3); font-family:ui-monospace,monospace; white-space:nowrap}
+
+  .body{padding:16px 16px 18px; display:flex; flex-direction:column; gap:12px; flex:1}
+  .meta{display:flex; gap:6px; flex-wrap:wrap; align-items:center}
+  .tag{font-size:11px; font-weight:700; padding:3px 9px; border-radius:6px; letter-spacing:.02em}
+  .tag.cat{background:rgba(124,131,255,.16); color:#aeb3ff}
+  .tag.model{background:rgba(34,211,238,.14); color:#7fe7f5}
+  .tag.tech{background:var(--card2); color:var(--tx2)}
+  .ttl{font-size:16px; font-weight:700; letter-spacing:-.01em; line-height:1.45; text-wrap:balance}
+  .langtabs{display:flex; gap:5px; margin-bottom:-6px}
+  .ltab{font-size:11px; font-weight:700; padding:4px 11px; border-radius:7px 7px 0 0; cursor:pointer; color:var(--tx3); background:var(--card2); transition:.15s; border:none; font-family:inherit}
+  .ltab:hover{color:var(--tx2)}
+  .ltab.on{color:var(--tx); background:var(--bg2)}
+  .prompt{
+    position:relative; font-size:12.5px; line-height:1.65; color:var(--tx2);
+    background:var(--bg2); border:1px solid var(--line); border-radius:var(--rs);
+    padding:12px 13px; max-height:150px; overflow:hidden; white-space:pre-wrap;
+    font-family:'SF Mono',ui-monospace,Menlo,Consolas,monospace; transition:max-height .25s;
+  }
+  .prompt.open{max-height:2200px}
+  .prompt::after{
+    content:""; position:absolute; left:0; right:0; bottom:0; height:42px;
+    background:linear-gradient(transparent,var(--bg2)); pointer-events:none; transition:.2s;
+  }
+  .prompt.open::after{opacity:0}
+  .pactions{display:flex; gap:8px}
+  .btn{
+    flex:1; padding:9px; border-radius:var(--rs); border:1px solid var(--line2); background:var(--card2);
+    color:var(--tx); font-size:12.5px; font-weight:600; cursor:pointer; transition:.15s; font-family:inherit;
+    display:flex; align-items:center; justify-content:center; gap:6px;
+  }
+  .btn:hover{border-color:var(--acc); background:#222533}
+  .btn.copied{border-color:var(--ok); color:var(--ok)}
+  .foot{display:flex; justify-content:space-between; align-items:center; font-size:11.5px; color:var(--tx3); margin-top:auto; padding-top:4px; gap:10px}
+  .foot a:hover{color:var(--acc2)}
+  .empty{text-align:center; color:var(--tx3); padding:80px 20px; grid-column:1/-1}
+  footer{border-top:1px solid var(--line); padding:28px 0 48px; color:var(--tx3); font-size:13px}
+  code{background:var(--card2); padding:2px 6px; border-radius:5px; font-size:.92em; color:var(--acc2)}
+
+  @media (max-width:640px){
+    .wrap{padding:0 16px}
+    .search{flex:1 1 100%}
+    .axis{flex:1 1 100%}
+    .axbtn{flex:1}
+    .chips{
+      width:100%; min-width:0; max-width:100%;
+      display:grid; grid-auto-flow:column; grid-template-rows:repeat(2,auto);
+      grid-auto-columns:max-content; gap:8px; overflow-x:auto;
+      -webkit-overflow-scrolling:touch; padding-bottom:6px; scroll-snap-type:x proximity;
+    }
+    .chips .chip{scroll-snap-align:start}
+    .chips::-webkit-scrollbar{height:4px}
+    .chips::-webkit-scrollbar-thumb{background:var(--line2); border-radius:2px}
+    .chips::-webkit-scrollbar-track{background:transparent}
+    .grid{grid-template-columns:1fr; gap:18px}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav class="navlinks">
+      <a href="./index.html">이미지 프롬프트</a>
+      <a href="./video.html" class="on">영상 프롬프트</a>
+    </nav>
+    <h1>Video Prompt Library</h1>
+    <p class="lede">x.com에서 수집한 영상 생성 프롬프트를 문법·기법·용도로 분류한 아카이브입니다. Seedance·Grok Video·Kling·Veo·H3 등 모델을 가리지 않고, 프롬프트를 <b>어떻게 쓰는지</b>를 모읍니다.</p>
+    <div class="note">
+      <b>여기 있는 것은 재현본이 아니라 분석 자료입니다.</b> 이미지 라이브러리처럼 결과를 다시 뽑아 비교하지 않습니다 —
+      영상은 생성 비용이 크고, 우리가 필요할 때 꺼내 보는 것은 결과물이 아니라 <b>구조(문법)</b>이기 때문입니다.
+      그래서 검색 축이 썸네일이 아니라 <code>문법 · 기법 · 용도</code>입니다.
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="n" id="s-count">0</div><div class="l">PROMPTS</div></div>
+      <div class="stat"><div class="n" id="s-struct">0</div><div class="l">문법</div></div>
+      <div class="stat"><div class="n" id="s-tech">0</div><div class="l">기법</div></div>
+      <div class="stat"><div class="n" id="s-upd">—</div><div class="l">UPDATED</div></div>
+    </div>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="wrap tb">
+    <label class="search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="q" type="text" placeholder="제목·프롬프트·기법·작성자 검색…">
+    </label>
+    <div class="axis">
+      <button class="axbtn on" data-axis="structure_type" type="button">문법</button>
+      <button class="axbtn" data-axis="techniques" type="button">기법</button>
+      <button class="axbtn" data-axis="category" type="button">용도</button>
+    </div>
+    <div class="chips" id="chips"></div>
+  </div>
+</div>
+
+<main class="wrap">
+  <div class="grid" id="grid"></div>
+</main>
+
+<footer>
+  <div class="wrap">
+    수집·분류: x.com 자동 수집 → 선별 → 문법 분석 · 영상은 <b>재현하지 않습니다</b>.
+  </div>
+</footer>
+
+<script src="./data_video.js"></script>
+<script>
+(function(){
+  var D = (window.VIDEO_DATA || {});
+  var ITEMS = D.prompts || [];
+  var axis = 'structure_type';
+  var active = null;
+  var qv = '';
+
+  var $ = function(s){ return document.querySelector(s); };
+  var grid = $('#grid'), chips = $('#chips');
+
+  function valuesOf(it, ax){
+    var v = it[ax];
+    if (v == null) return [];
+    return Array.isArray(v) ? v.filter(Boolean) : [v];
+  }
+
+  function esc(s){
+    return String(s == null ? '' : s)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  function counts(ax){
+    var m = {};
+    ITEMS.forEach(function(it){
+      valuesOf(it, ax).forEach(function(v){ m[v] = (m[v]||0)+1; });
+    });
+    return Object.keys(m).map(function(k){ return [k, m[k]]; })
+      .sort(function(a,b){ return b[1]-a[1] || a[0].localeCompare(b[0]); });
+  }
+
+  function renderChips(){
+    var list = counts(axis);
+    var html = '<button class="chip' + (active===null?' on':'') + '" data-v="">전체'
+             + '<span class="c">' + ITEMS.length + '</span></button>';
+    list.forEach(function(p){
+      html += '<button class="chip' + (active===p[0]?' on':'') + '" data-v="' + esc(p[0]) + '">'
+            + esc(p[0]) + '<span class="c">' + p[1] + '</span></button>';
+    });
+    chips.innerHTML = html;
+  }
+
+  function match(it){
+    if (active !== null && valuesOf(it, axis).indexOf(active) === -1) return false;
+    if (!qv) return true;
+    var hay = [it.title, it.prompt, it.prompt_ko, it.author, it.target_model,
+               it.category, it.structure_type, (it.techniques||[]).join(' ')]
+              .join(' ').toLowerCase();
+    return hay.indexOf(qv) !== -1;
+  }
+
+  function card(it, i){
+    var techs = (it.techniques||[]).map(function(t){
+      return '<span class="tag tech">' + esc(t) + '</span>'; }).join('');
+    var dur = [it.duration, it.aspect].filter(Boolean).join(' · ');
+    var hasKo = !!it.prompt_ko;
+    return ''
+      + '<article class="card" data-i="' + i + '">'
+      +   '<div class="struct">'
+      +     '<span class="st">' + esc(it.structure_type || '—') + '</span>'
+      +     (dur ? '<span class="dur">' + esc(dur) + '</span>' : '')
+      +   '</div>'
+      +   '<div class="body">'
+      +     '<div class="meta">'
+      +       (it.category ? '<span class="tag cat">' + esc(it.category) + '</span>' : '')
+      +       (it.target_model ? '<span class="tag model">' + esc(it.target_model) + '</span>' : '')
+      +       techs
+      +     '</div>'
+      +     '<h2 class="ttl">' + esc(it.title || it.id) + '</h2>'
+      +     (hasKo
+          ? '<div class="langtabs">'
+            + '<button class="ltab on" data-l="ko">해설</button>'
+            + '<button class="ltab" data-l="src">원문</button></div>'
+          : '')
+      +     '<div class="prompt" data-ko="1">' + esc(hasKo ? it.prompt_ko : it.prompt) + '</div>'
+      +     '<div class="pactions">'
+      +       '<button class="btn js-more" type="button">전체 보기</button>'
+      +       '<button class="btn js-copy" type="button">원문 복사</button>'
+      +     '</div>'
+      +     '<div class="foot">'
+      +       '<span>@' + esc(it.author || '') + '</span>'
+      +       (it.source ? '<a href="' + esc(it.source) + '" target="_blank" rel="noopener">원본 ↗</a>' : '<span>' + esc(it.date||'') + '</span>')
+      +     '</div>'
+      +   '</div>'
+      + '</article>';
+  }
+
+  function render(){
+    var list = ITEMS.filter(match);
+    grid.innerHTML = list.length
+      ? list.map(function(it){ return card(it, ITEMS.indexOf(it)); }).join('')
+      : '<div class="empty">조건에 맞는 프롬프트가 없습니다.</div>';
+  }
+
+  // 이벤트 — 위임
+  chips.addEventListener('click', function(e){
+    var b = e.target.closest('.chip'); if (!b) return;
+    var v = b.getAttribute('data-v');
+    active = (v === '' ? null : (active === v ? null : v));
+    renderChips(); render();
+  });
+
+  document.querySelectorAll('.axbtn').forEach(function(b){
+    b.addEventListener('click', function(){
+      document.querySelectorAll('.axbtn').forEach(function(x){ x.classList.remove('on'); });
+      b.classList.add('on');
+      axis = b.getAttribute('data-axis'); active = null;
+      renderChips(); render();
+    });
+  });
+
+  $('#q').addEventListener('input', function(e){
+    qv = e.target.value.trim().toLowerCase(); render();
+  });
+
+  grid.addEventListener('click', function(e){
+    var art = e.target.closest('.card'); if (!art) return;
+    var it = ITEMS[+art.getAttribute('data-i')];
+    var pre = art.querySelector('.prompt');
+
+    if (e.target.closest('.js-more')) {
+      pre.classList.toggle('open');
+      e.target.closest('.js-more').textContent = pre.classList.contains('open') ? '접기' : '전체 보기';
+      return;
+    }
+    if (e.target.closest('.js-copy')) {
+      var btn = e.target.closest('.js-copy');
+      navigator.clipboard.writeText(it.prompt || '').then(function(){
+        btn.classList.add('copied'); btn.textContent = '복사됨';
+        setTimeout(function(){ btn.classList.remove('copied'); btn.textContent = '원문 복사'; }, 1400);
+      });
+      return;
+    }
+    var tab = e.target.closest('.ltab');
+    if (tab) {
+      art.querySelectorAll('.ltab').forEach(function(x){ x.classList.remove('on'); });
+      tab.classList.add('on');
+      pre.textContent = tab.getAttribute('data-l') === 'ko' ? (it.prompt_ko || '') : (it.prompt || '');
+    }
+  });
+
+  // 통계
+  var structs = {}, techs = {};
+  ITEMS.forEach(function(it){
+    if (it.structure_type) structs[it.structure_type] = 1;
+    (it.techniques||[]).forEach(function(t){ techs[t] = 1; });
+  });
+  $('#s-count').textContent  = ITEMS.length;
+  $('#s-struct').textContent = Object.keys(structs).length;
+  $('#s-tech').textContent   = Object.keys(techs).length;
+  $('#s-upd').textContent    = D.updated || '—';
+
+  renderChips(); render();
+})();
+</script>
+</body>
+</html>
