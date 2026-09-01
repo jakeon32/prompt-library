@@ -103,6 +103,8 @@
   .tag.cat{background:rgba(124,131,255,.16); color:#aeb3ff}
   .tag.model{background:rgba(34,211,238,.14); color:#7fe7f5}
   .tag.lang{background:var(--card2); color:var(--tx2)}
+  /* 🔒 개인 소장 — 로컬에서만 보인다. 공개 배포본(deploy.py)에는 데이터 자체가 빠진다 */
+  .tag.priv{background:rgba(245,158,11,.18); color:#fbbf24}
   .ttl{font-size:16px; font-weight:700; letter-spacing:-.01em; line-height:1.4; text-wrap:balance}
   .langtabs{display:flex; gap:5px; margin-bottom:-6px}
   .ltab{font-size:11px; font-weight:700; padding:4px 11px; border-radius:7px 7px 0 0; cursor:pointer; color:var(--tx3); background:var(--card2); transition:.15s}
@@ -120,6 +122,8 @@
     background:linear-gradient(transparent,var(--bg2)); pointer-events:none; transition:.2s;
   }
   .prompt.open::after{opacity:0}
+  /* 프롬프트 «위»의 액션 줄 — 펼친 뒤에도 스크롤 없이 접을 수 있다 */
+  .ptop{display:flex; align-items:flex-end; justify-content:space-between; gap:10px; flex-wrap:wrap; margin-bottom:-6px}
   .pactions{display:flex; gap:8px}
   .btn{
     flex:1; padding:9px; border-radius:var(--rs); border:1px solid var(--line2); background:var(--card2);
@@ -211,7 +215,9 @@
 <script src="data.js"></script>
 <script>
 const D = (window.PROMPT_DATA||{prompts:[]});
-const P = D.prompts||[];
+// ★배포 최신순 — data.json에 나중에 등재된 항목이 먼저 보인다.
+// 원문 게시일(date)은 배포 시점과 다르므로 기본 정렬에 사용하지 않는다.
+const P = [...(D.prompts||[])].reverse();
 let activeCat = "전체";
 let query = "";
 
@@ -227,7 +233,9 @@ document.getElementById('f-upd').textContent = D.updated||'';
 const catBox = document.getElementById('cats');
 const filterLabel = document.getElementById('filterLabel');
 document.getElementById('filterCnt').textContent = cats.length;
-["전체",...cats].forEach(c=>{
+// 개인 소장분이 있을 때만 🔒 칩을 앞에 세운다(공개 배포본에는 private가 없으므로 자동으로 사라진다)
+const privCnt = P.filter(p=>p.private).length;
+["전체",...(privCnt?["🔒 개인"]:[]),...cats].forEach(c=>{
   const b=document.createElement('button');
   b.className='chip'+(c==="전체"?' on':''); b.textContent=c;
   b.onclick=()=>{activeCat=c; document.querySelectorAll('#cats .chip').forEach(x=>x.classList.toggle('on',x.textContent===c)); filterLabel.textContent=c; document.getElementById('filterCnt').style.display=(c==="전체"?'':'none'); render();};
@@ -259,20 +267,23 @@ function card(p){
     </div>
     <div class="body">
       <div class="meta">
+        ${p.private?'<span class="tag priv">🔒 개인</span>':''}
         <span class="tag cat">${esc(p.category)}</span>
         <span class="tag model">${esc(p.target_model)}</span>
         <span class="tag lang">${esc((p.lang||'').toUpperCase())}</span>
       </div>
       <div class="ttl">${esc(p.title)}</div>
-      <div class="langtabs">
-        <span class="ltab on" data-l="ko">한글</span>
-        <span class="ltab" data-l="orig">원문</span>
+      <div class="ptop">
+        <div class="langtabs">
+          <span class="ltab on" data-l="ko">한글</span>
+          <span class="ltab" data-l="orig">원문</span>
+        </div>
+        <div class="pactions">
+          <button class="btn b-toggle">전체보기</button>
+          <button class="btn b-copy">원문 복사</button>
+        </div>
       </div>
       <div class="prompt" id="pr-${p.id}">${esc(p.prompt_ko||p.prompt)}</div>
-      <div class="pactions">
-        <button class="btn b-toggle">전체보기</button>
-        <button class="btn b-copy">원문 복사</button>
-      </div>
       <div class="foot">
         <a href="${esc(p.source)}" target="_blank" rel="noopener">${esc(p.author)} ↗</a>
         <span class="seed">${p.seed?('seed '+p.seed):''}</span>
@@ -307,7 +318,8 @@ function card(p){
 function render(){
   const g=document.getElementById('grid'); g.innerHTML='';
   const list=P.filter(p=>{
-    const okCat=activeCat==="전체"||p.category===activeCat;
+    // "🔒 개인"은 카테고리가 아니라 private 플래그로 거른다(로컬 전용 칩)
+    const okCat=activeCat==="전체"||(activeCat==="🔒 개인"?!!p.private:p.category===activeCat);
     const okQ=!query||((p.title+p.prompt+(p.prompt_ko||'')+p.author).toLowerCase().includes(query));
     return okCat&&okQ;
   });
