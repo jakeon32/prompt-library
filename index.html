@@ -255,6 +255,10 @@ const esc = s => (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;
 
 function card(p){
   const hasRef = !!p.ref_image, hasRes = !!p.result;
+  const engine = String(p.result_engine||'krea2').toLowerCase();
+  const isGptImage2 = engine.includes('gpt') && engine.includes('image');
+  const resultLabel = isGptImage2 ? 'GPT Image 2 \uC0DD\uC131\uBCF8' : 'Krea2 \uC7AC\uD604';
+  const refLabel = isGptImage2 ? '\uC6D0\uBCF8 \uAC8C\uC2DC \uC774\uBBF8\uC9C0' : '\uC6D0\uBCF8 GPT-image2';
   const el = document.createElement('div'); el.className='card';
   el.innerHTML = `
     <div class="imgwrap">
@@ -289,6 +293,13 @@ function card(p){
         <span class="seed">${p.seed?('seed '+p.seed):''}</span>
       </div>
     </div>`;
+  const resTab=el.querySelector('.imgtab.res'), refTab=el.querySelector('.imgtab.ref');
+  if(resTab) resTab.textContent=resultLabel;
+  if(refTab) refTab.textContent=refLabel;
+  const resImg=el.querySelector('.i-res'), refImg=el.querySelector('.i-ref'), missing=el.querySelector('.badge-missing');
+  if(resImg) resImg.alt=resultLabel;
+  if(refImg) refImg.alt=refLabel;
+  if(missing) missing.textContent=resultLabel+' \uACB0\uACFC \uC5C6\uC74C';
   // image compare
   const tabs=el.querySelectorAll('.imgtab'), iRes=el.querySelector('.i-res'), iRef=el.querySelector('.i-ref');
   tabs.forEach(t=>t.onclick=()=>{
