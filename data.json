@@ -38464,7 +38464,7 @@
       "title": "★첫 글자의 획을 사물 실루엣으로 연결한다",
       "category": "타이포그래피",
       "prompt": "Turn any name into a Signature + Symbol logo with one prompt with ChatGPT Images 2.0!\n\nPrompt ⤵️ https://t.co/zI16MzyrKq\n\nPrompt : Create a minimalist, elegant single-line logo/signature on a clean white canvas featuring the name \"[NAME]\".\n\nTransform the capital first letter \"[FIRST_LETTER]\" into a stylized \"[OBJECT]\" while ensuring that it still clearly reads as the letter \"[FIRST_LETTER]\". Integrate the defining visual characteristics of the [OBJECT] naturally into the structure and strokes of the letter, rather than placing a separate object beside it.\n\nThe object-shaped first letter should flow seamlessly into the remaining letters of \"[NAME]\" as one continuous handwritten signature.\n\nKeep the name clear and legible while giving it a refined, sophisticated, artistic, and personal-brand aesthetic.\n\nStyle:\n\nminimalist single-line drawing\nelegant handwritten signature\nthin, smooth black ink line\nmonochrome black on pure white\ngenerous negative space\ngraceful continuous strokes\nclean premium logo aesthetic\nno shadows, gradients, textures, borders, or additional text\nthe [FIRST_LETTER] should simultaneously look recognizable as both the letter and the [OBJECT]\n\nThe final composition should feel like one uninterrupted pen stroke, with the [OBJECT] concept subtly incorporated into the first letter and naturally transitioning into the rest of the name.",
-      "prompt_ko": "★첫 글자의 획을 사물 실루엣으로 연결한다\n\n선정 근거: 서명 첫 글자의 획을 사물 실루엣으로 바꾸는 단일선 로고; 본인 답글 확보\n\n재현 실측: 직접 생성 1차. Swan의 S가 백조 목·몸통 곡선으로 이어지고 나머지 서명이 연결됐다. 획 연결은 시각적으로 보이나 실제 단일 벡터 경로는 아니다. 순백 캔버스를 요청했지만 알파 투명으로 출력돼 배경 조건은 불일치한다. 라틴 대문자 자체가 기법인 항목이라 영문을 유지했다.",
+      "prompt_ko": "★첫 글자의 획을 사물 실루엣으로 연결한다\n\n선정 근거: 서명 첫 글자의 획을 사물 실루엣으로 바꾸는 단일선 로고; 본인 답글 확보\n\n재현 실측: 직접 생성 1차에서 Swan의 S가 백조 목·몸통 곡선으로 이어졌으나 흰 배경 대신 알파로 출력돼 검은 카드에서 보이지 않았다. 2차는 이미지 편집 도구에 기존 서명과 흰 불투명 배경 지시를 넣었고 RGB·흰 모서리·선의 가독성을 확인했다. 획이 첫 결과보다 굵어졌으며 실제 단일 벡터 경로 검증은 아니다. 라틴 대문자 자체가 기법인 항목이라 영문을 유지했다.",
       "gen_prompt": "Create an elegant minimalist single-line signature logo on pure white canvas for the name Swan. The capital S simultaneously forms the curved neck and body gesture of a swan, while clearly reading as letter S. Its final stroke flows seamlessly into the remaining handwritten letters wan as one continuous thin smooth black ink signature. Broad negative space, graceful strokes, refined legible name. The only text is Swan. Monochrome, flat ink on white, no separate animal icon, no shadows or borders. Wide 3:2 composition.",
       "result": "results/umesh-signature-first-letter-becomes-swan.webp",
       "ref_image": "results/umesh-signature-first-letter-becomes-swan-ref.jpg",
@@ -38472,11 +38472,13 @@
       "private": false,
       "seed": null,
       "reproduced_at": "2026-09-15",
-      "result_sha256": "71b6f51eb5ccc677f6018b0a65e789f85dc4ad9bd1fc1d88897dbb68b4b802e7",
+      "result_sha256": "47d85039576ff4c6ac5bba84a7e496efef7794313238678525113457eac20d6e",
       "prompt_reply_ids": [
         "2092907667136328019"
       ],
-      "review_batch": "20260915-100"
+      "review_batch": "20260915-100",
+      "gen_edit_prompt": "Edit this signature image to match its original intended output: black ink on a solid opaque pure white rectangular background. Preserve the Swan lettering and the swan-shaped capital S, stroke shapes, relative scale, placement, and surrounding margins. Fill every transparent pixel with pure opaque white. The paper/background fills all four corners and all pixels behind the black signature. Flat bright white scanned-paper field, no shadows, no gradients, no lighting effects. Output a completely opaque image with the identical black signature clearly visible. Do not use transparency.",
+      "generation_attempts": 2
     },
     {
       "id": "taaruk-cafe-photo-illustration-memory",
