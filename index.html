@@ -106,8 +106,8 @@
   /* 🔒 개인 소장 — 로컬에서만 보인다. 공개 배포본(deploy.py)에는 데이터 자체가 빠진다 */
   .tag.priv{background:rgba(245,158,11,.18); color:#fbbf24}
   .ttl{font-size:16px; font-weight:700; letter-spacing:-.01em; line-height:1.4; text-wrap:balance}
-  .langtabs{display:flex; gap:5px; margin-bottom:-6px}
-  .ltab{font-size:11px; font-weight:700; padding:4px 11px; border-radius:7px 7px 0 0; cursor:pointer; color:var(--tx3); background:var(--card2); transition:.15s}
+  .langtabs{display:flex; gap:5px; flex-wrap:wrap; margin-bottom:-6px}
+  .ltab{font-family:inherit; border:0; font-size:11px; font-weight:700; padding:4px 11px; border-radius:7px 7px 0 0; cursor:pointer; color:var(--tx3); background:var(--card2); transition:.15s}
   .ltab:hover{color:var(--tx2)}
   .ltab.on{color:var(--tx); background:var(--bg2)}
   .prompt{
@@ -116,7 +116,7 @@
     padding:12px 13px; max-height:96px; overflow:hidden; white-space:pre-wrap;
     font-family:'SF Mono',ui-monospace,Menlo,Consolas,monospace; transition:max-height .25s;
   }
-  .prompt.open{max-height:1400px}
+  .prompt.open{max-height:none}
   .prompt::after{
     content:""; position:absolute; left:0; right:0; bottom:0; height:42px;
     background:linear-gradient(transparent,var(--bg2)); pointer-events:none; transition:.2s;
@@ -280,8 +280,10 @@ function card(p){
       <div class="ttl">${esc(p.title)}</div>
       <div class="ptop">
         <div class="langtabs">
-          <span class="ltab on" data-l="ko">한글</span>
-          <span class="ltab" data-l="orig">원문</span>
+          <button type="button" class="ltab on" data-l="ko" aria-pressed="true">한글</button>
+          <button type="button" class="ltab" data-l="orig" aria-pressed="false">원문</button>
+          ${p.gen_prompt?'<button type="button" class="ltab" data-l="gen" aria-pressed="false">재현</button>':''}
+          ${p.gen_edit_prompt?'<button type="button" class="ltab" data-l="edit" aria-pressed="false">후속 수정</button>':''}
         </div>
         <div class="pactions">
           <button class="btn b-toggle">전체보기</button>
@@ -291,6 +293,7 @@ function card(p){
       <div class="prompt" id="pr-${p.id}">${esc(p.prompt_ko||p.prompt)}</div>
       <div class="foot">
         <a href="${esc(p.source)}" target="_blank" rel="noopener">${esc(p.author)} ↗</a>
+        ${p.generation_input?`<a href="${esc(p.generation_input)}" target="_blank" rel="noopener">재현 입력 이미지 ↗</a>`:''}
         <span class="seed">${p.seed?('seed '+p.seed):''}</span>
       </div>
     </div>`;
@@ -316,14 +319,21 @@ function card(p){
   });
   // lang tabs + toggle
   const pr=el.querySelector('.prompt'), tg=el.querySelector('.b-toggle');
+  const cp=el.querySelector('.b-copy');
+  let copyText=p.prompt, copyLabel='원문 복사', copyTimer;
+  const asText=value=>Array.isArray(value)?value.join('\n\n'):value;
+  const promptText={ko:p.prompt_ko||p.prompt, orig:p.prompt, gen:asText(p.gen_prompt), edit:asText(p.gen_edit_prompt)};
   el.querySelectorAll('.ltab').forEach(t=>t.onclick=()=>{
-    el.querySelectorAll('.ltab').forEach(x=>x.classList.remove('on')); t.classList.add('on');
-    pr.textContent = t.dataset.l==='ko' ? (p.prompt_ko||p.prompt) : p.prompt;
+    el.querySelectorAll('.ltab').forEach(x=>{x.classList.toggle('on',x===t); x.setAttribute('aria-pressed',String(x===t));});
+    const language=t.dataset.l;
+    pr.textContent=promptText[language];
+    copyText=language==='gen'||language==='edit'?promptText[language]:p.prompt;
+    copyLabel=language==='gen'?'재현 복사':language==='edit'?'수정 복사':'원문 복사';
+    clearTimeout(copyTimer); cp.textContent=copyLabel; cp.classList.remove('copied');
   });
   tg.onclick=()=>{pr.classList.toggle('open'); tg.textContent=pr.classList.contains('open')?'접기':'전체보기';};
   // copy
-  const cp=el.querySelector('.b-copy');
-  cp.onclick=async()=>{try{await navigator.clipboard.writeText(p.prompt); cp.textContent='✓ 복사됨'; cp.classList.add('copied'); setTimeout(()=>{cp.textContent='원문 복사'; cp.classList.remove('copied');},1500);}catch(e){cp.textContent='복사 실패';}};
+  cp.onclick=async()=>{try{await navigator.clipboard.writeText(copyText); cp.textContent='✓ 복사됨'; cp.classList.add('copied'); clearTimeout(copyTimer); copyTimer=setTimeout(()=>{cp.textContent=copyLabel; cp.classList.remove('copied');},1500);}catch(e){cp.textContent='복사 실패';}};
   return el;
 }
 
