@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
-<title>Prompt Library — x.com 트렌드 프롬프트 × Krea2 재현</title>
+<title>Prompt Library — X 이미지 프롬프트와 재현 결과</title>
 <style>
   :root{
     --bg:#0a0b0f; --bg2:#111319; --card:#16181f; --card2:#1d2029;
@@ -177,9 +177,9 @@
 <body>
 <header>
   <div class="wrap">
-    <div class="kicker">x.com trend prompts × Krea2</div>
+    <div class="kicker">X image prompts · curated & reproduced</div>
     <h1>Prompt Library</h1>
-    <p class="lede">x.com에서 화제가 된 GPT-image2 프롬프트를 추적·수집하고, 우리 Krea2 Turbo로 재현 테스트한 결과를 한곳에 모았습니다. 원본과 재현본을 나란히 비교하고, 프롬프트를 바로 복사해 쓰세요.</p>
+    <p class="lede">X에 공개된 이미지 프롬프트를 선별하고 직접 재현한 결과를 모았습니다. 원본 게시 이미지와 생성본을 비교하고, 출처와 프롬프트를 확인해 보세요. 생성 도구는 각 이미지 탭에 표시합니다.</p>
     <div class="stats">
       <div class="stat"><div class="n" id="s-count">0</div><div class="l">PROMPTS</div></div>
       <div class="stat"><div class="n" id="s-src">0</div><div class="l">SOURCES</div></div>
@@ -207,7 +207,7 @@
 <main class="wrap"><div class="grid" id="grid"></div></main>
 
 <footer><div class="wrap">
-  📌 본 라이브러리의 프롬프트는 각 원작자가 <strong>x.com 공개 게시물</strong>에 게시한 것으로, 작성자·원본 링크를 모두 표기합니다. 이미지는 <strong>Krea2 재현 테스트</strong> 결과이며 내부 참고용입니다. 권리자 요청 시 해당 항목을 즉시 내립니다. · 데이터: <span id="f-upd"></span>
+  📌 본 라이브러리의 프롬프트는 각 원작자가 <strong>x.com 공개 게시물</strong>에 게시한 것으로, 작성자·원본 링크를 모두 표기합니다. <strong>원본 게시 이미지와 직접 생성한 재현 결과</strong>를 구분해 제공합니다. 권리자 요청 시 해당 항목을 즉시 내립니다. · 데이터: <span id="f-upd"></span>
 </div></footer>
 
 <div class="lb" id="lb"><img id="lb-img" src=""><div class="cap" id="lb-cap"></div></div>
@@ -257,8 +257,9 @@ function card(p){
   const hasRef = !!p.ref_image, hasRes = !!p.result;
   const engine = String(p.result_engine||'krea2').toLowerCase();
   const isGptImage2 = engine.includes('gpt') && engine.includes('image');
-  const resultLabel = isGptImage2 ? 'GPT Image 2 \uC0DD\uC131\uBCF8' : 'Krea2 \uC7AC\uD604';
-  const refLabel = isGptImage2 ? '\uC6D0\uBCF8 \uAC8C\uC2DC \uC774\uBBF8\uC9C0' : '\uC6D0\uBCF8 GPT-image2';
+  const isBuiltInImage = engine === 'openai image_gen (built-in)';
+  const resultLabel = isBuiltInImage ? 'OpenAI 이미지 생성본' : isGptImage2 ? 'GPT Image 2 \uC0DD\uC131\uBCF8' : 'Krea2 \uC7AC\uD604';
+  const refLabel = (isGptImage2 || isBuiltInImage) ? '\uC6D0\uBCF8 \uAC8C\uC2DC \uC774\uBBF8\uC9C0' : '\uC6D0\uBCF8 GPT-image2';
   const el = document.createElement('div'); el.className='card';
   el.innerHTML = `
     <div class="imgwrap">
