@@ -1,5 +1,5 @@
 window.PROMPT_DATA={
-  "updated": "2026-09-17",
+  "updated": "2026-09-27",
   "note": "x.com에서 수집한 GPT-image2 트렌드 프롬프트 라이브러리. Krea2로 재현 테스트. 새 링크는 prompts 배열에 append 후 generate_all.py 실행 → index.html 자동 반영.",
   "prompts": [
     {
@@ -39937,6 +39937,86 @@ window.PROMPT_DATA={
       "result_sha256": "5919d3eaa7df2911c4c05433efbf43161f7488f100dd0f13bbe94552f0817ac3",
       "prompt_reply_ids": [],
       "review_batch": "20260916-200"
+    },
+    {
+      "id": "krypt-embossed-landmark",
+      "source": "https://x.com/0x00_Krypt/status/2073026725601222773",
+      "author": "@0x00_Krypt",
+      "date": "2026-07-05",
+      "lang": "ko",
+      "target_model": "GPT Image 2",
+      "category": "여행 포스터",
+      "title": "엠보싱 릴리프 랜드마크 포스터 — [CITY] 만능 템플릿 (골드 히어로 빌딩+이중언어 타이포)",
+      "prompt": "인쇄 압인 요철 입체화 스타일 프롬프트\n\n엠보싱 릴리프 스타일의 건축 포스터, 중국 인장 압인 / 종이 디보싱 미학 (印压凹凸立体画风), {CITY}의 가장 상징적인 역사적 또는 문화적 랜드마크를 조감한 파노라마 버드아이 뷰.\n\n[OVERALL TECHNIQUE]\n전체 이미지는 두꺼운 아이보리-화이트 종이나 석고에 눌러 찍히거나 엠보싱된 것처럼 렌더링됩니다 — 모든 형태는 평평한 색상이나 선화가 아닌 미묘한 릴리프, 그림자, 그리고 하이라이트를 통해 만들어집니다. 미니멀리스트 선각 기술(极简线描手法)이 건축적 가장자리를 정의합니다. 배경은 깨끗하고 끊김 없는 아이보리-화이트(乳白色)이며, 가시적인 수평선이나 하늘 세부 사항이 없습니다 — 멀어지는 부드러운 그라데이션 공허함만 있을 뿐입니다.\n\n[LANDMARK SUBJECT — AUTO-DERIVED FROM CITY]\n{CITY}와 연관된 단 하나의 가장 전 세계적으로 인식 가능한 건축적 또는 기념비적 랜드마크를 식별하세요 — 실루엣만으로도 즉시 {CITY}를 대표한다고 인식될 그 하나의 구조물입니다. 이 랜드마크와 그 즉각적인 건축적 주변 환경(안뜰, 광장, 정원, 열주, 문, 또는 접근 경로 — 해당 랜드마크의 실제 레이아웃에 충실한 것)을 대칭적이고 와이드 앵글 조감 뷰로 렌더링하세요. 전체 단지는 강한 중앙 축을 따라 멀어지며, 양쪽에 반복되는 대칭적 구조물이 감소하는 스케일로 양옆을 둘러싸, 강한 선형 원근법과 깊이를 만듭니다. 모든 구조물은 배경과 동일한 아이보리-화이트 엠보싱 재질을 공유하며, 릴리프 깊이, 그림자, 그리고 세밀한 선 작업으로만 구분됩니다.\n\n[GOLD ACCENT — HERO BUILDING]\n해당 랜드마크 단지 내 가장 상징적인 단일 구조물이 중간 지점에 위치하며, 중앙에 배치되어 매트 골드 텍스처(哑金光质感)로 그 구조적 세부 사항을 강조합니다 — 지붕선, 파사드 장식, 기둥, 문, 또는 첨탑, 그에 건축적으로 충실한 무엇이든. 이 건물의 가장자리는 내부 조명이나 부드러운 새벽 빛에 의해 비춰진 듯한 저강도 따뜻한 흰색 빛(低亮度白光)을 발산하며, 그렇지 않으면 모노크롬 아이보리 장면 속에서 명확한 초점으로 만듭니다.\n\n[TYPOGRAPHY]\n구성의 중앙에, 영웅 건물 앞이나 바로 위에 위치: 세리프 워드마크로 국가 또는 지역 이름을 영어로 읽으며, 세로 막대(|)를 따라, 랜드마크의 원어와 스크립트로 된 이름을 따릅니다 — 예: \"{COUNTRY} | {LANDMARK NATIVE NAME}\" 형식으로 — 우아하고 세련된 골드 세리프 타입으로. 텍스트 너비는 프레임 너비의 대략 절반을 차지 — 명령적이지 않으면서도 크지 않게.\n\n구성의 하단에: 왼쪽 하단 모서리, 매우 작은 텍스트: 오늘 날짜를 \"YYYY Mon.DD\" 형식으로. 둘 다 동일한 뮤트 골드 톤으로, 미니멀하고 눈에 띄지 않게.\n\n[COMPOSITION]\n와이드 대칭 구성, 카메라가 단지의 중앙 축을 내려다보는 높은 고도 각도에 위치. 네거티브 화이트 스페이스가 프레임의 약 60%를 차지 — 건축물 위와 주위의 넉넉한 공허함이 깊이, 스케일, 그리고 고요함을 강조합니다. 소실점은 프레임의 상단 중앙에 위치하며, 건축물이 부드러운 흰색 안개 속으로 멀어집니다.\n\n[STYLE REFERENCES]\n결합: 야마구치 아키라의 세밀한 건축적 디테일 작업, 안도 타다오의 미니멀리스트 대칭과 네거티브 스페이스 철학, 자오 우키의 추상적 공간 깊이 감각, 조지 세갈의 부드러운 조각적 릴리프 품질, 그리고 윔 벤더스의 고도 도시 프레이밍 감각. 엠보싱 텍스처는 자연스럽게 손으로 눌러 찍힌 느낌이어야 합니다 — 균일하고 깨끗한 선 작업으로 시각적 노이즈나 아티팩트가 없어야 합니다.\n\n[QUALITY & MOOD]\n8K 품질 렌더링, 전체에 풍부한 세밀한 디테일, 고요하고 빛나는 분위기를 불러일으킵니다(宁静辉光). 이미지는 {CITY}의 가장 상징적인 랜드마크의 재해석처럼 느껴져야 합니다 — 역사적 무게와 현대 미술이 교차하는 지점 — 시각적으로 고요하면서도 문화적으로 공명하는 서사를 전달합니다.",
+      "prompt_ko": "{CITY} 하나만 바꾸면 전세계 어떤 도시든 그 도시의 가장 상징적인 랜드마크를 엠보싱/디보싱 부조(浮彫) 스타일로 렌더링하는 초정교 템플릿. 전체가 두꺼운 아이보리화이트 종이/석고에 눌러찍은 듯한 릴리프+그림자+하이라이트만으로 형태 표현(색/선화 없음), 배경은 끊김없는 아이보리 공허. 랜드마크를 AI가 도시명으로부터 자동 추론, 대칭+조감뷰+강한 중앙축 원근으로 배치. 단지 내 가장 상징적인 단일 건물만 매트골드 텍스처+은은한 내부발광으로 하이라이트. 타이포: 중앙에 세리프 영문 국가/지역명 | 랜드마크 원어명 조합, 좌하단에 오늘날짜(YYYY Mon.DD) 작게, 둘다 뮤트골드톤. 60% 네거티브화이트스페이스, 상단중앙 소실점. 스타일레퍼런스: 야마구치 아키라+안도 타다오+자오우키+조지세갈+빔벤더스 조합 언급.",
+      "gen_prompt": "An embossed relief-style architectural poster, Chinese seal-stamp / paper debossing aesthetic, a panoramic bird's-eye view of the most iconic historical landmark of Paris, France. The entire image is rendered as if pressed or embossed into thick ivory-white paper or plaster — all forms are created through subtle relief, shadow, and highlight rather than flat color or line art. A minimalist line-engraving technique defines the architectural edges. The background is a clean, seamless ivory-white with no visible horizon or sky detail — only a soft gradient void receding into the distance. The single most globally recognizable landmark associated with Paris — the Eiffel Tower — is identified, rendered together with its immediate architectural surroundings (the Champ de Mars gardens and approach avenues, faithful to its real layout) in a symmetrical, wide-angle aerial view. The complex recedes along a strong central axis, with repeating symmetrical structures on either side at diminishing scale, creating strong linear perspective and depth. All structures share the same ivory-white embossed material as the background, differentiated only by relief depth, shadow, and fine linework. The Eiffel Tower itself, positioned centrally at the midpoint, is highlighted with a matte gold texture emphasizing its structural details — the lattice ironwork, arches, and antenna spire. Its edges emit a low-intensity warm white glow as if lit from within or by soft dawn light, making it the clear focal point within the monochrome ivory scene. At the center of the composition, positioned in front of or just above the hero structure: an elegant gold serif wordmark reading 'FRANCE | Tour Eiffel', the text spanning roughly half the frame width. At the bottom-left corner, very small text showing today's date in 'YYYY Mon.DD' format, both in the same muted gold tone, minimal and unobtrusive. Wide symmetrical composition, camera at a high elevation angle looking down the complex's central axis. Negative white space occupies about 60% of the frame — generous void above and around the architecture emphasizing depth, scale, and stillness. The vanishing point sits at the top-center of the frame, with the architecture receding into soft white mist. Style references combine Akira Yamaguchi's intricate architectural detailing, Tadao Ando's minimalist symmetry and negative-space philosophy, Zao Wou-Ki's abstract sense of spatial depth, George Segal's soft sculptural relief quality, and Wim Wenders' elevated urban framing sense. The embossing texture should feel naturally hand-pressed — uniform, clean linework with no visual noise or artifacts. 8K quality rendering, rich fine detail throughout, evoking a serene, glowing atmosphere. The image should feel like a reinterpretation of Paris's most iconic landmark — where historical weight meets contemporary art — conveying a visually serene yet culturally resonant narrative.",
+      "ref_image": null,
+      "result": "results/krypt-embossed-landmark.png",
+      "seed": null
+    },
+    {
+      "id": "larus-distorted-portrait",
+      "source": "https://x.com/mrlarus/status/2073769013323202833",
+      "author": "@MrLarus",
+      "date": "2026-07-05",
+      "lang": "en",
+      "target_model": "GPT Image 2",
+      "category": "아트 초상",
+      "title": "디스토티드 포트레이트 포스터 — 4방향(스캔왜곡/크로매틱글리치/그리드블러/스포트라이트) 실험적 초상",
+      "prompt": "AI Visual Systems Vol.10: Distorted Portrait Posters!\nMade with ChatGPT-Image2.\n\n4 directions:\n1. STATIC VEIL — scan distortion portrait\n2. SPECTRAL DRIFT — chromatic glitch motion\n3. SIGNAL FACE — grid blur portrait\n4. NARROW BEAM — spotlight shadow portrait\n\nPrompt:\n\nCreate a 9:16 high-end experimental portrait poster with a clean editorial layout.\nThe image should feel original, modern, visually striking, and design-driven.\nUse a single adult model as the main subject. Keep the face recognizable, while reshaping the portrait through controlled visual effects such as blur, scan distortion, subtle grid overlays, spotlight shadow, or chromatic glitch.\nTypography should feel custom, refined, and minimal, with an original title and a few short supporting phrases. Keep the layout clean, elevated, and poster-like.\n\n4 directions:\n\n1. STATIC VEIL\n   A monochrome black-and-gray portrait poster.\n   A young male model with a shaved head and bold geometric black sunglasses.\n   The head and glasses stay sharp, while the lower half of the portrait dissolves into horizontal scan distortion and stretched blur, as if the figure is being pulled into static.\n   Fine grain texture in the background.\n   Use a custom text system such as: \"STATIC VEIL\", \"visual noise\", \"shadow signal\", \"blurred matter\", \"a portrait reduced to rhythm\".\n   Cold, minimal, futuristic, powerful.\n\n2. SPECTRAL DRIFT\n   A white-background experimental beauty portrait poster.\n   A young female model in side or three-quarter profile, with one eye and facial structure remaining clear.\n   Controlled chromatic glitch trails in cyan, magenta, blue, and violet sweep horizontally across the face and body.\n   The effect should feel luminous and elegant.\n   Use a custom text system such as: \"SPECTRAL DRIFT\", \"motion layer\", \"color echo\", \"synthetic portrait\", \"light offset\", \"frame memory\".\n   Clean, futuristic, vivid, dreamlike.\n\n3. SIGNAL FACE\n   A white or light-gray portrait poster with a digital identity feeling.\n   A young East Asian male model wearing slim black sunglasses, centered in frame.\n   The middle of the face remains sharp, while the edges of the hair, shoulders, and outline have soft motion blur and slight RGB drift.\n   Overlay a subtle transparent grid across the composition.\n   Use small blue accent text sparingly.\n   Use a custom text system such as: \"SIGNAL FACE\", \"portrait sample\", \"digital identity\", \"soft focus study\", \"visual layer\", \"north field\".\n   Minimal, precise, polished.\n\n4. NARROW BEAM\n   A dark blue to black portrait poster with a moody experimental lighting setup.\n   A young male model facing forward, with a narrow beam of light cutting across the eyes and upper face, while the lower face and body fade into darkness.\n   Add faint grid texture or very thin technical lines in the background.\n   Use a custom text system such as: \"NARROW BEAM\", \"where shadow holds\", \"vision remains\", \"silence defines the frame\", \"a study of presence held in blue\".\n   Quiet, restrained, cinematic, intense.\n\nYou can swap the model, title, color logic, and effect treatment, while keeping the same overall quality: a clear focal point, original text, controlled distortion, and strong poster composition.",
+      "prompt_ko": "음악커버/아티스트비주얼/테크포스터용 실험적 초상 포스터 4방향 세트. 공통 규칙: 9:16, 얼굴은 인식 가능하게 유지하되 블러·스캔왜곡·그리드오버레이·스포트라이트섀도우·크로매틱글리치 중 하나로 부분 왜곡, 커스텀 미니멀 타이포(오리지널 타이틀+짧은 서브카피). ① STATIC VEIL: 삭발+기하학 선글라스 남성, 하반부가 수평 스캔왜곡으로 용해. ② SPECTRAL DRIFT: 화이트배경 뷰티초상, 시안/마젠타/블루/바이올렛 크로매틱글리치 트레일. ③ SIGNAL FACE: 동아시아 남성+슬림선글라스, 중앙 선명+가장자리 모션블러+RGB드리프트+투명그리드. ④ NARROW BEAM: 다크블루~블랙, 눈 부위만 좁은 빛줄기로 비추고 나머지는 어둠에 묻힘. 모델/타이틀/컬러/이펙트는 자유롭게 교체 가능한 시스템.",
+      "gen_prompt": "Create a 9:16 high-end experimental portrait poster with a clean editorial layout, STATIC VEIL direction. A monochrome black-and-gray portrait of a young male model with a shaved head and bold geometric black sunglasses. The head and glasses stay sharp, while the lower half of the portrait dissolves into horizontal scan distortion and stretched blur, as if the figure is being pulled into static. Fine grain texture in the background. Custom minimal typography reading 'STATIC VEIL' as the main title, with small supporting phrases 'visual noise', 'shadow signal', 'blurred matter', 'a portrait reduced to rhythm'. Cold, minimal, futuristic, powerful mood, clean poster composition, original text only.",
+      "ref_image": null,
+      "result": null,
+      "seed": null
+    },
+    {
+      "id": "missdelulu-doodle-hug",
+      "source": "https://x.com/missdelulu9/status/2073741927665815772",
+      "author": "@missdelulu9",
+      "date": "2026-07-05",
+      "lang": "ko",
+      "target_model": "GPT Image 2",
+      "category": "아트 초상",
+      "title": "두들 캐릭터 포옹 미니멀 포트레이트 — 실사 인물+손그림 캐릭터 합성",
+      "prompt": "@openart_ai 에서 GPT 이미지 2로 생성됨\n\n프롬프트:\n깔끔한 스튜디오 환경에서 연회색 배경 앞 바닥에 캐주얼하게 앉아 있는 젊은 여성의 귀여운 미니멀 포트레이트. 그녀는 오버사이즈 다크 차콜 후디, 크림색 스트레이트 레그 팬츠, 흰색 양말, 그리고 두꺼운 흰색 스니커즈를 착용하고 있다. 다리를 꼬고 편안하게 앉은 포즈로, 장난기 어린 윙크로 한쪽 눈을 살짝 감고 부드러운 미소를 짓고 있다. 그녀 뒤에는 큰 흑백 두들 캐릭터가 뒤에서 그녀를 안고 있으며, 만화 같은 팔로 그녀의 어깨를 감싸고 뺨을 부드럽게 쥐고 있다. 두들 피규어는 단순한 둥근 머리, 작은 눈, 그리고 손으로 그린 스케치 스타일을 가지고 있다. 부드러운 스튜디오 조명, 모던한 미학, 장난스럽고 따뜻한 분위기, 미니멀한 구도, 고품질 패션 포트레이트, 사실적인 사진 촬영, 미묘한 그림자, 초고해상도 세부 묘사, 깔끔한 배경, 솔직한 표정.",
+      "prompt_ko": "연회색 스튜디오 배경 바닥에 편하게 앉은 젊은 여성(오버사이즈 차콜 후디+크림 스트레이트팬츠+흰양말+흰스니커즈), 다리 꼬고 앉아 윙크+미소. 뒤에서 커다란 흑백 손그림 두들 캐릭터(단순한 둥근 머리·작은 눈·스케치풍)가 만화같은 팔로 어깨를 감싸고 뺨을 쥐며 안아줌. 부드러운 스튜디오 조명, 장난스럽고 따뜻한 무드, 미니멀 구도, 실사+낙서 캐릭터 합성 대비가 포인트.",
+      "gen_prompt": "A cute minimalist portrait of a young woman sitting casually on the floor against a light-gray background in a clean studio setting. She wears an oversized dark charcoal hoodie, cream straight-leg pants, white socks, and thick white sneakers. She sits with her legs crossed in a relaxed pose, one eye playfully closed in a wink with a soft smile. Behind her, a large black-and-white doodle character hugs her from behind, its cartoon-like arms wrapped around her shoulders and one hand gently cupping her cheek. The doodle figure has a simple round head, small eyes, and a hand-drawn sketch style. Soft studio lighting, modern aesthetic, playful and warm atmosphere, minimalist composition, high-quality fashion portrait, realistic photography, subtle shadows, ultra-high-resolution detail, clean background, candid expression.",
+      "ref_image": null,
+      "result": null,
+      "seed": null
+    },
+    {
+      "id": "dairy-4",
+      "source": "https://x.com/kingofdairyque/status/2073762094856688014",
+      "author": "@kingofdairyque",
+      "date": "2026-07-05",
+      "lang": "en",
+      "target_model": "GPT Image 2",
+      "category": "캐릭터 시트",
+      "title": "사이버 사무라이 애니메이션 캐릭터 디자인 시트 — 고딕+피처럴 아머 스트리트패션",
+      "prompt": "GPT IMAGE 2 on CHATGPT\n\nmasterpiece, best quality, ultra detailed, anime girl, short black bob haircut with straight bangs, pale skin, sharp gray eyes, red eyeliner, serious expression, full body, dynamic pose, holding a katana, modern samurai, black oversized hoodie with luxurious gold embroidered armor, black pleated skirt, glossy black thigh-high stockings, high platform gothic boots, intricate armor details, futuristic street fashion mixed with feudal Japanese armor, cinematic lighting, soft shadows, highly detailed fabric folds, reflective metal, clean gray background, large faded portrait of the same character in the background, character design sheet composition, sharp focus, 8k, concept art, highly detailed illustration.",
+      "prompt_ko": "애니메이션 소녀, 짧은 검은 단발+일자 앞머리, 창백한 피부, 날카로운 회색 눈, 레드 아이라이너, 진지한 표정. 전신 다이내믹 포즈로 카타나를 든 모던 사무라이. 블랙 오버사이즈 후디+화려한 골드 자수 갑옷, 블랙 플리츠 스커트, 광택 블랙 허벅지스타킹, 하이플랫폼 고딕 부츠. 정교한 갑옷 디테일, 미래풍 스트리트패션과 봉건시대 일본 갑주의 결합. 시네마틱 라이팅, 부드러운 그림자, 세밀한 천주름, 반사되는 금속. 깔끔한 회색 배경에 같은 캐릭터의 크고 흐릿한 초상이 배경으로 깔림 — 캐릭터 디자인시트 구도. 8K, 컨셉아트.",
+      "gen_prompt": "Masterpiece, best quality, ultra detailed, anime girl, short black bob haircut with straight bangs, pale skin, sharp gray eyes, red eyeliner, serious expression, full body, dynamic pose, holding a katana, modern samurai, black oversized hoodie with luxurious gold embroidered armor, black pleated skirt, glossy black thigh-high stockings, high platform gothic boots, intricate armor details, futuristic street fashion mixed with feudal Japanese armor, cinematic lighting, soft shadows, highly detailed fabric folds, reflective metal, clean gray background, large faded portrait of the same character in the background, character design sheet composition, sharp focus, 8k, concept art, highly detailed illustration.",
+      "ref_image": null,
+      "result": null,
+      "seed": null
+    },
+    {
+      "id": "zephyra-5",
+      "source": "https://x.com/zephyraleigh/status/2073756817642185130",
+      "author": "@ZephyraLeigh",
+      "date": "2026-07-05",
+      "lang": "en",
+      "target_model": "GPT Image 2",
+      "category": "유화 초상",
+      "title": "리노컷 판화 스타일 — 만능 [subject]/[color] 2색 템플릿",
+      "prompt": "Where craftsmanship is etched into every line.\n\nPrompt:\n\nA handcrafted linocut print of a [subject], featuring bold carved textures, rough ink patterns, and earthy [color1] and [color2] tones on aged paper. Rustic artisan aesthetic, vintage printmaking style, tactile handcrafted appearance.",
+      "prompt_ko": "[subject]/[color1]/[color2] 3개 변수만 바꾸면 어떤 대상이든 손으로 조각한 리노컷(리놀륨 판화) 스타일로 만드는 템플릿. 굵은 조각 텍스처, 거친 잉크 패턴, 흙빛 2색 톤, 낡은 종이 질감. 러스틱 장인 미학, 빈티지 판화 스타일, 손으로 만든 듯한 촉각적 질감.",
+      "gen_prompt": "A handcrafted linocut print of a fox in a winter forest, featuring bold carved textures, rough ink patterns, and earthy rust-orange and deep indigo tones on aged paper. Rustic artisan aesthetic, vintage printmaking style, tactile handcrafted appearance.",
+      "ref_image": null,
+      "result": null,
+      "seed": null
     }
   ]
 };
