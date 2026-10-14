@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
-<title>Prompt Library — x.com 트렌드 프롬프트 × Krea2 재현</title>
+<title>Prompt Library — x.com 프롬프트 생성·비교</title>
 <style>
   :root{
     --bg:#0a0b0f; --bg2:#111319; --card:#16181f; --card2:#1d2029;
@@ -177,9 +177,9 @@
 <body>
 <header>
   <div class="wrap">
-    <div class="kicker">x.com trend prompts × Krea2</div>
+    <div class="kicker">x.com prompts × image experiments</div>
     <h1>Prompt Library</h1>
-    <p class="lede">x.com에서 화제가 된 GPT-image2 프롬프트를 추적·수집하고, 우리 Krea2 Turbo로 재현 테스트한 결과를 한곳에 모았습니다. 원본과 재현본을 나란히 비교하고, 프롬프트를 바로 복사해 쓰세요.</p>
+    <p class="lede">x.com의 이미지 프롬프트를 선별하고 실제 생성 결과를 모았습니다. 카드에 표시된 생성 모델을 확인하고, 원본 게시 이미지와 결과를 비교하며 프롬프트를 활용하세요.</p>
     <div class="stats">
       <div class="stat"><div class="n" id="s-count">0</div><div class="l">PROMPTS</div></div>
       <div class="stat"><div class="n" id="s-src">0</div><div class="l">SOURCES</div></div>
@@ -207,7 +207,7 @@
 <main class="wrap"><div class="grid" id="grid"></div></main>
 
 <footer><div class="wrap">
-  📌 본 라이브러리의 프롬프트는 각 원작자가 <strong>x.com 공개 게시물</strong>에 게시한 것으로, 작성자·원본 링크를 모두 표기합니다. 이미지는 <strong>Krea2 재현 테스트</strong> 결과이며 내부 참고용입니다. 권리자 요청 시 해당 항목을 즉시 내립니다. · 데이터: <span id="f-upd"></span>
+  📌 프롬프트의 작성자와 <strong>원본 게시물</strong> 링크를 표기합니다. 생성 모델과 원본과의 차이는 각 카드에서 확인할 수 있습니다. 권리자 요청 시 해당 항목을 즉시 내립니다. · 데이터: <span id="f-upd"></span>
 </div></footer>
 
 <div class="lb" id="lb"><img id="lb-img" src=""><div class="cap" id="lb-cap"></div></div>
@@ -256,17 +256,17 @@ const esc = s => (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;
 function card(p){
   const hasRef = !!p.ref_image, hasRes = !!p.result;
   const engine = String(p.result_engine||'krea2').toLowerCase();
-  const isGptImage2 = engine.includes('gpt') && engine.includes('image');
-  const resultLabel = isGptImage2 ? 'GPT Image 2 \uC0DD\uC131\uBCF8' : 'Krea2 \uC7AC\uD604';
-  const refLabel = isGptImage2 ? '\uC6D0\uBCF8 \uAC8C\uC2DC \uC774\uBBF8\uC9C0' : '\uC6D0\uBCF8 GPT-image2';
+  const isGptImage = engine.includes('gpt') && engine.includes('image');
+  const resultLabel = isGptImage ? (engine === 'gpt-image-2' ? 'GPT Image 2 생성본' : 'GPT Image 생성본') : 'Krea2 재현';
+  const refLabel = '원본 게시 이미지';
   const el = document.createElement('div'); el.className='card';
   el.innerHTML = `
     <div class="imgwrap">
       <div class="imgtabs">
-        <span class="imgtab res on" data-k="res">Krea2 재현</span>
-        ${hasRef?'<span class="imgtab ref" data-k="ref">원본 GPT-image2</span>':''}
+        <span class="imgtab res on" data-k="res">${esc(resultLabel)}</span>
+        ${hasRef?`<span class="imgtab ref" data-k="ref">${refLabel}</span>`:''}
       </div>
-      ${hasRes?`<img class="i-res" src="${esc(p.result)}" alt="Krea2">`:'<div class="badge-missing">Krea2 결과 없음</div>'}
+      ${hasRes?`<img class="i-res" src="${esc(p.result)}" alt="${esc(resultLabel)}">`:'<div class="badge-missing">생성 결과 없음</div>'}
       ${hasRef?`<img class="i-ref hide" src="${esc(p.ref_image)}" alt="원본" referrerpolicy="no-referrer">`:''}
     </div>
     <div class="body">
